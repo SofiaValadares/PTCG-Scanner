@@ -5,27 +5,31 @@ __pycache__/
 .ipynb_checkpoints/
 .python-version
 
-# Dataset Roboflow (imagens + labels; baixar localmente)
+# Roboflow datasets (download locally)
 dataset/
-OBB/dataset/
-OCR/data/train/
-OCR/data/valid/
-OCR/data/test/
+src/detection/dataset/
+src/ocr/data/train/
+src/ocr/data/valid/
+src/ocr/data/test/
 
-# Treino / pesos
+# Training / weights
 runs/
-OBB/runs/
-OCR/runs/
+src/detection/runs/
+src/ocr/runs/
+/weights/
 *.pt
 *.onnx
 *.engine
 wandb/
 
-# Recortes gerados pelo CROPPER
-CROPPER/output/
-CROPPER/weights/*.pt
+# Cropper dumps
+src/cropper/output/
+src/cropper/weights/*.pt
 
-# Sistema
+# Local dumps (evaluation PDFs in data/pdf/ are versioned)
+data/images/
+data/cards-data/
+
 Thumbs.db
 Desktop.ini
 .DS_Store
