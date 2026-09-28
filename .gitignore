@@ -29,3 +29,5 @@ CROPPER/weights/*.pt
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+data
