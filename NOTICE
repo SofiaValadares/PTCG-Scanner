@@ -1,0 +1,23 @@
+# Notices
+
+## Authorship
+
+PTCG Scanner — bachelor's thesis.
+Copyright (c) 2026 Sofia Valadares. License: [CC BY-NC 4.0](LICENSE).
+
+## Third-party trademarks
+
+This project is **not** affiliated with, associated with, authorized, or endorsed by Nintendo, The Pokémon Company, Creatures Inc., GAME FREAK, or any other owner of Pokémon / Pokémon Trading Card Game marks. Names, images, and card lists are used for academic research only. Rights remain with their owners.
+
+## Third-party software
+
+This repository uses libraries under their own licenses, including:
+
+- Ultralytics YOLO
+- EasyOCR
+- OpenCV
+- PyMuPDF
+- PyTorch
+- pandas, matplotlib, and the rest of `requirements.txt`
+
+Those packages are **not** relicensed as CC BY-NC 4.0. Check each license before redistributing a bundled environment.

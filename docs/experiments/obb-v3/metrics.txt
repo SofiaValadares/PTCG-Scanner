@@ -1,0 +1,19 @@
+Please extract and display the following YOLOv8 OBB (Ultralytics) metrics after validation/training:
+
+1. Global OBB metrics:
+   - metrics.obb.map: mAP@0.50:0.95
+   - metrics.obb.map50: mAP@0.50
+   - metrics.obb.map75: mAP@0.75
+   - metrics.obb.mp: mean precision
+   - metrics.obb.mr: mean recall
+
+2. Per-class metrics (if there is more than one card class):
+   - metrics.obb.p / r / ap50 / ap
+
+3. Validation losses:
+   - val/box_loss, val/cls_loss, val/dfl_loss, val/angle_loss
+
+4. Visual artifacts:
+   - confusion_matrix.png
+   - F1 / PR curves
+   - val_batch0_labels.jpg / val_batch0_pred.jpg

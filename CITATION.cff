@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this work in a paper, course, or thesis, please cite it."
+title: "PTCG Scanner"
+type: software
+abstract: >-
+  Academic pipeline for detection (YOLOv8 OBB), 63×88 mm cropping, and OCR
+  of Pokémon TCG cards, developed as a bachelor's thesis.
+authors:
+  - family-names: Valadares
+    given-names: Sofia
+    email: sofiav.cav@gmail.com
+license: CC-BY-NC-4.0
+keywords:
+  - pokemon
+  - tcg
+  - yolo
+  - obb
+  - ocr
+preferred-citation:
+  type: software
+  title: "PTCG Scanner"
+  authors:
+    - family-names: Valadares
+      given-names: Sofia
+  year: 2026
+  license: CC-BY-NC-4.0

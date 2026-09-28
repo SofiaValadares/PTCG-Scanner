@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ptcg-cropper"
+version = "0.1.0"
+description = "PTCG Scanner: detect and crop Pokémon cards (YOLOv8 OBB → 63×88 mm)."
+requires-python = ">=3.10"
+dependencies = [
+    "ultralytics",
+    "opencv-python",
+    "numpy",
+]
+
+[project.scripts]
+ptcg-crop = "crop_from_obb:main"
+ptcg-crop-export = "export:main"
+tcg-crop = "crop_from_obb:main"
+tcg-crop-export = "export:main"
+
+[tool.setuptools]
+py-modules = ["crop_from_obb", "rectify", "enhance", "export"]

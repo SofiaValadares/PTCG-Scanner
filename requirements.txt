@@ -1,5 +1,5 @@
-# Dependências do notebook (PyTorch CUDA é instalado à parte; ver comentário abaixo).
-# RTX 50-series (Blackwell / sm_120) precisa de wheel cu128+:
+# Notebook dependencies (install PyTorch CUDA separately; see below).
+# RTX 50-series (Blackwell / sm_120) needs a cu128+ wheel:
 #   .venv\Scripts\python.exe -m pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
 
 ultralytics
