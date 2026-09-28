@@ -13,3 +13,4 @@ onnxsim
 ipykernel
 jupyter
 easyocr
+pymupdf
