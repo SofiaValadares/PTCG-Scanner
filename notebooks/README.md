@@ -6,5 +6,6 @@ Run from the repo root or from this folder. Each notebook walks parent directori
 |---|---|
 | [pipeline.ipynb](pipeline.ipynb) | PDFs → detect → crop → OCR → catalog |
 | [train_detector.ipynb](train_detector.ipynb) | Train YOLOv8 OBB (`src/detection/`) |
+| [train_roi.ipynb](train_roi.ipynb) | Train text-band OBB (`src/roi/`) |
+| [train_ocr.ipynb](train_ocr.ipynb) | Read bands (`src/ocr/`) vs spreadsheet |
 | [crop_cards.ipynb](crop_cards.ipynb) | Preview 63×88 mm crops |
-| [train_ocr.ipynb](train_ocr.ipynb) | ROI detector + EasyOCR (`src/ocr/`) |

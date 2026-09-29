@@ -4,9 +4,10 @@ Written by [`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb). Use this f
 
 | Item | Contents |
 |---|---|
-| `pipeline_extract.csv` | OCR and catalog match |
-| `pipeline_eval.csv` | Check against the spreadsheet (PDF order) |
-| `pipeline_acertos.png` / `pipeline_acertos_etapas.png` / `pipeline_erros.png` | Plots |
+| `pipeline_extract.csv` | OCR and catalog match (includes `roi_*_src`) |
+| `pipeline_eval.csv` | Spreadsheet check: ROI source, OCR field flags, CER, catalog hit |
+| `pipeline_metrics.csv` | ROI / OCR / end-to-end rates |
+| `pipeline_acertos.png` / `pipeline_acertos_etapas.png` / `pipeline_erros.png` | Funnel, ROI coverage, OCR, catalog, errors |
 | `pdfs/<set>/00_original.pdf` | Copy of the input PDF |
 | `pdfs/<set>/01_pages.pdf` | Rasterized pages |
 | `pdfs/<set>/02_obb.pdf` | OBB detections |

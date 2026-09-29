@@ -1,6 +1,6 @@
 # Evaluation data
 
-Inputs for [`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb). This is not the YOLO training set (`detection/dataset/` and `ocr/data/`, gitignored).
+Inputs for [`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb). This is not the YOLO training set (`detection/dataset/` and `roi/data/`, gitignored).
 
 | Path | Contents |
 |---|---|

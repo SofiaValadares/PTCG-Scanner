@@ -22,4 +22,4 @@ package-dir = {"" = "src"}
 
 [tool.setuptools.packages.find]
 where = ["src"]
-include = ["cropper*", "ocr*"]
+include = ["cropper*", "ocr*", "roi*"]

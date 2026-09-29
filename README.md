@@ -53,12 +53,14 @@ PTCG Scanner/
 ├── notebooks/                 Jupyter (all experiments)
 │   ├── pipeline.ipynb         PDF → catalog (start here to reproduce results)
 │   ├── train_detector.ipynb   train the card OBB model
-│   ├── crop_cards.ipynb       inspect 63×88 mm crops
-│   └── train_ocr.ipynb        train text-band OBB + compare OCR engines
+│   ├── train_roi.ipynb        train the text-band OBB (name / number / set)
+│   ├── train_ocr.ipynb        compare EasyOCR / PaddleOCR / Tesseract
+│   └── crop_cards.ipynb       inspect 63×88 mm crops
 ├── src/
 │   ├── detection/             card detector dataset + Ultralytics runs
 │   ├── cropper/               warp / enhance / CLI
-│   └── ocr/                   read_card.py + ROI dataset + runs
+│   ├── roi/                   text-band detector dataset + runs
+│   └── ocr/                   read_card.py + OCR eval
 ├── data/                      evaluation catalog (versioned)
 │   ├── cards-list.csv         Name, Number, Rarity, setId
 │   ├── sets-id.csv            set id → display name
@@ -72,12 +74,13 @@ PTCG Scanner/
 | [`notebooks/pipeline.ipynb`](notebooks/pipeline.ipynb) | Run the full system on `data/pdf/` |
 | [`src/detection/`](src/detection/) | Roboflow export + `runs/obb/obb-v3` (or v4) weights |
 | [`src/cropper/`](src/cropper/) | `python -m cropper` after putting `src` on `PYTHONPATH` |
-| [`src/ocr/`](src/ocr/) | ROI weights `ocr-roi-v1.pt` and `read_card.py` |
+| [`src/roi/`](src/roi/) | Strip detector weights `ocr-roi-v1.pt` |
+| [`src/ocr/`](src/ocr/) | `read_card.py` and the OCR test spreadsheet |
 | [`data/`](data/README.md) | Catalog and the PDFs used to score the pipeline |
 | [`output/`](output/README.md) | Stage-by-stage PDFs to debug OBB vs crop vs OCR vs match |
 | [`docs/`](docs/README.md) | Detector metrics, cropper/OCR details, v1–v3 comparisons |
 
-Training images (`src/detection/dataset/`, `src/ocr/data/{train,valid,test}/`) and `.pt` weights are **not** in Git. Export them from Roboflow and train locally. Evaluation PDFs under `data/pdf/` *are* versioned.
+Training images (`src/detection/dataset/`, `src/roi/data/{train,valid,test}/`) and `.pt` weights are **not** in Git. Export them from Roboflow and train locally. Evaluation PDFs under `data/pdf/` *are* versioned.
 
 Notebooks work with the working directory at the **repo root** or inside **`notebooks/`**; they walk parents until they see `src/cropper/rectify.py`.
 
@@ -89,7 +92,7 @@ Notebooks work with the working directory at the **repo root** or inside **`note
 
 **Evaluation.** Each file in `data/pdf/` is a set checklist (or promo sheet). A CSV with the **same stem** is the ground truth (`Base.pdf` ↔ `Base.csv`). Cards are printed in the **same order** as the spreadsheet rows. The pipeline uses that order when it scores hits and errors (1st detection ↔ 1st row, and so on).
 
-**Training (local).** Card OBB: Roboflow project [Pokemon TCC](https://universe.roboflow.com/pokemon-tcc/pokemon-tcc) v8, YOLO OBB export into `src/detection/dataset/`. Text-band OBB: cropped B&W cards into `src/ocr/data/`. Details and split sizes: [`docs/detection.md`](docs/detection.md), [`docs/ocr.md`](docs/ocr.md).
+**Training (local).** Card OBB: Roboflow project [Pokemon TCC](https://universe.roboflow.com/pokemon-tcc/pokemon-tcc) v8, YOLO OBB export into `src/detection/dataset/`. Text-band OBB: cropped B&W cards into `src/roi/data/`. Details and split sizes: [`docs/detection.md`](docs/detection.md), [`docs/roi.md`](docs/roi.md).
 
 ---
 
@@ -114,7 +117,7 @@ GPU is strongly recommended (YOLO + EasyOCR).
 After training (or after copying runs onto this machine):
 
 - Card detector: `src/detection/runs/obb/obb-v3/weights/obb-v3.pt` (v4 if you trained it)
-- Text bands: `src/ocr/runs/ocr-roi-v1/weights/ocr-roi-v1.pt`
+- Text bands: `src/roi/runs/ocr-roi-v1/weights/ocr-roi-v1.pt`
 
 The cropper looks for v4, then v3, then `PTCG_CROPPER_WEIGHTS`.
 
@@ -133,10 +136,17 @@ It rasterizes every PDF in `data/pdf/`, writes **per-PDF** stage files when that
 | `04_ocr.pdf` | bands + raw OCR text |
 | `05_match.pdf` | OK / error vs the spreadsheet (after the eval cell) |
 | `output/pipeline_extract.csv` | OCR + catalog match |
-| `output/pipeline_eval.csv` | hit / miss per slot |
-| `output/pipeline_*.png` | summary plots |
+| `output/pipeline_eval.csv` | per-slot ROI source, OCR fields, catalog hit |
+| `output/pipeline_metrics.csv` | ROI / OCR / end-to-end summary |
+| `output/pipeline_*.png` | funnel, ROI coverage, OCR, catalog plots |
 
-A hit at a given slot is **name (PT or EN) or number** matching the spreadsheet row.
+The card detector already has YOLO mAP in [`docs/detection.md`](docs/detection.md). The pipeline notebook adds:
+
+1. **ROI** — strip detector mAP on `src/roi/data` (if the test split is present), plus how often each band came from YOLO vs the template on the evaluation PDFs.
+2. **OCR** — name / number / collection accuracy vs the spreadsheet, and mean character error rate (CER).
+3. **End-to-end** — catalog hit at that slot, and a funnel: detected → ROI box → OCR field → catalog.
+
+A catalog hit at a given slot is **name (PT or EN) or number** matching the spreadsheet row.
 
 ### 4. Crop photos only
 
@@ -157,8 +167,9 @@ python -m cropper export C:\other-project\ptcg_cropper
 
 1. Export YOLO OBB into `src/detection/dataset/`.
 2. [`notebooks/train_detector.ipynb`](notebooks/train_detector.ipynb) — current line of work is **obb-v4** fine-tuned from v3; reported metrics in the docs are **obb-v3** (val/test mAP@0.50:0.95 ≈ 0.994, test recall 1.0). Comparisons: [`docs/experiments/obb-v2-v3`](docs/experiments/obb-v2-v3/README.md).
-3. Export text-band OBB into `src/ocr/data/`.
-4. [`notebooks/train_ocr.ipynb`](notebooks/train_ocr.ipynb) — trains the three-class ROI detector and compares EasyOCR with PaddleOCR and Tesseract on the test sheet.
+3. Export text-band OBB into `src/roi/data/`.
+4. [`notebooks/train_roi.ipynb`](notebooks/train_roi.ipynb) — trains the three-class ROI detector (`ocr-roi-v1.pt`).
+5. [`notebooks/train_ocr.ipynb`](notebooks/train_ocr.ipynb) — does **not** train a recognizer; it loads those boxes and compares EasyOCR, PaddleOCR, and Tesseract on the test sheet.
 
 Label **printed card edges**, not binder plastic, or the crop (and then OCR) will include the sleeve.
 
@@ -172,7 +183,7 @@ Label **printed card edges**, not binder plastic, or the crop (and then OCR) wil
 - **Catalog restricted to the PDF’s `setId`**, then number, then name — PDFs in this repo are single-set checklists.
 - **Order-based evaluation**, not greedy matching, because the PDF follows the CSV.
 
-Longer write-ups: [`docs/detection.md`](docs/detection.md), [`docs/cropper.md`](docs/cropper.md), [`docs/ocr.md`](docs/ocr.md).
+Longer write-ups: [`docs/detection.md`](docs/detection.md), [`docs/cropper.md`](docs/cropper.md), [`docs/roi.md`](docs/roi.md), [`docs/ocr.md`](docs/ocr.md).
 
 ---
 

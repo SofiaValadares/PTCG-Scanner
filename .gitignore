@@ -8,6 +8,9 @@ __pycache__/
 # Roboflow datasets (download locally)
 dataset/
 src/detection/dataset/
+src/roi/data/train/
+src/roi/data/valid/
+src/roi/data/test/
 src/ocr/data/train/
 src/ocr/data/valid/
 src/ocr/data/test/
@@ -15,6 +18,7 @@ src/ocr/data/test/
 # Training / weights
 runs/
 src/detection/runs/
+src/roi/runs/
 src/ocr/runs/
 /weights/
 *.pt
