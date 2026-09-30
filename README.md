@@ -75,7 +75,7 @@ PTCG Scanner/
 | [`notebooks/pipeline.ipynb`](notebooks/pipeline.ipynb) | Run the full system on `data/input/` |
 | [`src/detection/`](src/detection/) | Card detector weights `runs/obb/obb-v5` |
 | [`src/cropper/`](src/cropper/) | `python -m cropper` after putting `src` on `PYTHONPATH` |
-| [`src/roi/`](src/roi/) | Strip detector weights `ocr-roi-v1.pt` |
+| [`src/roi/`](src/roi/) | Strip detector weights `ocr-roi-v2.pt` (fallback v1) |
 | [`src/ocr/`](src/ocr/) | `read_card.py` and the OCR test spreadsheet |
 | [`data/`](data/README.md) | Catalog, training datasets, and pipeline photos |
 | [`output/`](output/README.md) | Stage-by-stage PDFs to debug OBB vs crop vs OCR vs match |
@@ -118,7 +118,7 @@ GPU is strongly recommended (YOLO + EasyOCR).
 After training (or after copying runs onto this machine):
 
 - Card detector: `src/detection/runs/obb/obb-v5/weights/obb-v5.pt` (cropper also copies this to `src/cropper/weights/`)
-- Text bands: `src/roi/runs/ocr-roi-v1/weights/ocr-roi-v1.pt`
+- Text bands: `src/roi/runs/ocr-roi-v2/weights/ocr-roi-v2.pt` (fallback `ocr-roi-v1.pt`)
 
 The cropper looks for **v5**, then v4, then v3, then `PTCG_CROPPER_WEIGHTS`. Inference size is **960** for v5/v4 and **800** for v3.
 
@@ -168,7 +168,7 @@ python -m cropper export C:\other-project\ptcg_cropper
 
 1. Unzip the Roboflow YOLOv8 OBB zips into `data/detection/` and `data/roi/`.
 2. [`notebooks/train_detector.ipynb`](notebooks/train_detector.ipynb) — production checkpoint is **obb-v5** (fine-tune from v3, color/geometry augmentation, `imgsz=960`). Val/test mAP@0.50 = 0.995; val mAP@0.50:0.95 = 0.993. Comparisons: [`docs/experiments/obb-v3-v5`](docs/experiments/obb-v3-v5/README.md) (current) · [`docs/experiments/obb-v2-v3`](docs/experiments/obb-v2-v3/README.md) (historical).
-3. [`notebooks/train_roi.ipynb`](notebooks/train_roi.ipynb) — trains the three-class ROI detector (`ocr-roi-v1.pt`).
+3. [`notebooks/train_roi.ipynb`](notebooks/train_roi.ipynb) — trains the three-class ROI detector (**ocr-roi-v2**, HSV like card v5, per-class mAP). Until you train v2, the pipeline still loads v1.
 4. [`notebooks/train_ocr.ipynb`](notebooks/train_ocr.ipynb) — does **not** train a recognizer; it loads those boxes and compares EasyOCR, PaddleOCR, and Tesseract on the test sheet.
 
 Label **printed card edges**, not binder plastic, or the crop (and then OCR) will include the sleeve.
