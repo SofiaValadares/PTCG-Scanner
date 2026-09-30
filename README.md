@@ -32,7 +32,7 @@ set PDF or photo
     → perspective warp 63×88 mm @ 300 DPI (744×1039 px)
     → YOLOv8 OBB on the crop (name / number / collection bands)
     → EasyOCR on those bands
-    → nearest row in cards-list.csv (filtered by the PDF’s setId)
+    → nearest row in cards-list.csv (name, then number, then collection)
     → compare to the CSV next to the PDF (same order as the page)
 ```
 
@@ -62,8 +62,9 @@ PTCG Scanner/
 │   ├── roi/                   text-band detector dataset + runs
 │   └── ocr/                   read_card.py + OCR eval
 ├── data/                      evaluation catalog (versioned)
-│   ├── cards-list.csv         Name, Number, Rarity, setId
-│   ├── sets-id.csv            set id → display name
+│   ├── cards-list.csv         English catalog (pipeline)
+│   ├── sets-id.csv            set id → English name
+│   ├── catalog/{lang}/        localized cards.csv + sets.csv
 │   └── pdf/                   one PDF + ground-truth CSV per set
 ├── output/                    pipeline dumps (CSV, plots, per-stage PDFs)
 └── docs/                      longer guides + training comparison figures
@@ -88,7 +89,7 @@ Notebooks work with the working directory at the **repo root** or inside **`note
 
 ## Data
 
-**Catalog.** `data/cards-list.csv` is a unified list of cards (`Name`, `Number`, `Rarity`, `setId`). Set codes follow [PkmnCards](https://pkmncards.com/sets/) (e.g. `BS`, `MEW`, `ASR`). `data/sets-id.csv` maps those ids to human-readable set names.
+**Catalog.** `data/cards-list.csv` is the English source list (`Name`, `Number`, `Rarity`, `setId`, [PkmnCards](https://pkmncards.com/sets/) codes). Localized copies live in `data/catalog/{lang}/` (`cards.csv` and `sets.csv`).
 
 **Evaluation.** Each file in `data/pdf/` is a set checklist (or promo sheet). A CSV with the **same stem** is the ground truth (`Base.pdf` ↔ `Base.csv`). Cards are printed in the **same order** as the spreadsheet rows. The pipeline uses that order when it scores hits and errors (1st detection ↔ 1st row, and so on).
 
