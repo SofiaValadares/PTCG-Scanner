@@ -80,8 +80,8 @@ Machop,78/130,Common,B2
 Magnemite,79/130,Common,B2
 Meowth,80/130,Common,B2
 Metapod,81/130,Common,B2
-Nidoran♀,82/130,Common,B2
-Nidoran♂,83/130,Common,B2
+Nidoran ♀,82/130,Common,B2
+Nidoran ♂,83/130,Common,B2
 Onix,84/130,Common,B2
 Paras,85/130,Common,B2
 Pidgey,86/130,Common,B2
@@ -100,7 +100,7 @@ Voltorb,98/130,Common,B2
 Vulpix,99/130,Common,B2
 Weedle,100/130,Common,B2
 Computer Search,101/130,Rare,B2
-Impostor Professor Oak,102/130,Rare,B2
+Imposter Professor Oak,102/130,Rare,B2
 Item Finder,103/130,Rare,B2
 Lass,104/130,Rare,B2
 Pokémon Breeder,105/130,Rare,B2
@@ -183,7 +183,7 @@ Koffing,51/102,Common,BS
 Machop,52/102,Common,BS
 Magnemite,53/102,Common,BS
 Metapod,54/102,Common,BS
-Nidoran♂,55/102,Common,BS
+Nidoran ♂,55/102,Common,BS
 Onix,56/102,Common,BS
 Pidgey,57/102,Common,BS
 Pikachu,58/102,Common,BS
@@ -349,7 +349,7 @@ Goldeen,53/64,Common,JU
 Jigglypuff,54/64,Common,JU
 Mankey,55/64,Common,JU
 Meowth,56/64,Common,JU
-Nidoran♀,57/64,Common,JU
+Nidoran ♀,57/64,Common,JU
 Oddish,58/64,Common,JU
 Paras,59/64,Common,JU
 Pikachu,60/64,Common,JU
@@ -463,7 +463,7 @@ Psyduck,20/53,Promo,WBP
 Moltres,21/53,Promo,WBP
 Articuno,22/53,Promo,WBP
 Zapdos,23/53,Promo,WBP
-___________'s Pikachu,24/53,Promo,WBP
+_____'s Pikachu,24/53,Promo,WBP
 Flying Pikachu,25/53,Promo,WBP
 Pikachu,26/53,Promo,WBP
 Pikachu,27/53,Promo,WBP
@@ -714,7 +714,7 @@ White Kyurem-EX,103/149,Rare Holo EX,BCR
 Rattata,104/149,Common,BCR
 Raticate,105/149,Uncommon,BCR
 Meowth,106/149,Common,BCR
-Farfetch’d,107/149,Uncommon,BCR
+Farfetch'd,107/149,Uncommon,BCR
 Ditto,108/149,Rare Holo,BCR
 Snorlax,109/149,Uncommon,BCR
 Togepi,110/149,Common,BCR
@@ -1110,8 +1110,8 @@ Devolution Spray,113/124,Uncommon,DRX
 Giant Cape,114/124,Uncommon,DRX
 Rescue Scarf,115/124,Uncommon,DRX
 Tool Scrapper,116/124,Uncommon,DRX
-Blend Energy Grass Fire Psychic Darkness,117/124,Uncommon,DRX
-Blend Energy Water Lightning Fighting Metal,118/124,Uncommon,DRX
+Blend Energy GrassFirePsychicDarkness,117/124,Uncommon,DRX
+Blend Energy WaterLightningFightingMetal,118/124,Uncommon,DRX
 Ho-Oh-EX,119/124,Rare Ultra,DRX
 Mew-EX,120/124,Rare Ultra,DRX
 Terrakion-EX,121/124,Rare Ultra,DRX
@@ -1709,10 +1709,10 @@ Lanturn,36/116,Uncommon,PLF
 Pachirisu,37/116,Common,PLF
 Thundurus-EX,38/116,Rare Holo EX,PLF
 Zekrom,39/116,Rare Holo,PLF
-Nidoran♀,40/116,Common,PLF
+Nidoran ♀,40/116,Common,PLF
 Nidorina,41/116,Uncommon,PLF
 Nidoqueen,42/116,Rare,PLF
-Nidoran♂,43/116,Common,PLF
+Nidoran ♂,43/116,Common,PLF
 Nidorino,44/116,Uncommon,PLF
 Grimer,45/116,Common,PLF
 Muk,46/116,Rare,PLF
@@ -1994,10 +1994,10 @@ Riolu,61/130,Uncommon,DP
 Seaking,62/130,Uncommon,DP
 Silcoon,63/130,Uncommon,DP
 Staravia,64/130,Uncommon,DP
-Unown A,65/130,Uncommon,DP
-Unown B,66/130,Uncommon,DP
-Unown C,67/130,Uncommon,DP
-Unown D,68/130,Uncommon,DP
+Unown [A],65/130,Uncommon,DP
+Unown [B],66/130,Uncommon,DP
+Unown [C],67/130,Uncommon,DP
+Unown [D],68/130,Uncommon,DP
 Azurill,69/130,Common,DP
 Bidoof,70/130,Common,DP
 Bonsly,71/130,Common,DP
@@ -2049,9 +2049,9 @@ Warp Point,116/130,Uncommon,DP
 Energy Search,117/130,Common,DP
 Potion,118/130,Common,DP
 Switch,119/130,Common,DP
-Empoleon,120/130,Rare Holo LV.X,DP
-Infernape,121/130,Rare Holo LV.X,DP
-Torterra,122/130,Rare Holo LV.X,DP
+Empoleon LV.X,120/130,Rare Holo LV.X,DP
+Infernape LV.X,121/130,Rare Holo LV.X,DP
+Torterra LV.X,122/130,Rare Holo LV.X,DP
 Grass Energy,123/130,Common,DP
 Fire Energy,124/130,Common,DP
 Water Energy,125/130,Common,DP
@@ -2068,17 +2068,17 @@ Tropical Wind,DP05/56,Promo,DPP
 Buneary,DP06/56,Promo,DPP
 Cranidos,DP07/56,Promo,DPP
 Shieldon,DP08/56,Promo,DPP
-Torterra,DP09/56,Promo,DPP
-Infernape,DP10/56,Promo,DPP
-Empoleon,DP11/56,Promo,DPP
-Lucario,DP12/56,Promo,DPP
+Torterra LV.X,DP09/56,Promo,DPP
+Infernape LV.X,DP10/56,Promo,DPP
+Empoleon LV.X,DP11/56,Promo,DPP
+Lucario LV.X,DP12/56,Promo,DPP
 Buizel,DP13/56,Promo,DPP
 Chatot,DP14/56,Promo,DPP
 Shinx,DP15/56,Promo,DPP
 Pikachu,DP16/56,Promo,DPP
-Dialga,DP17/56,Promo,DPP
-Palkia,DP18/56,Promo,DPP
-Darkrai,DP19/56,Promo,DPP
+Dialga LV.X,DP17/56,Promo,DPP
+Palkia LV.X,DP18/56,Promo,DPP
+Darkrai LV.X,DP19/56,Promo,DPP
 Magmortar,DP20/56,Promo,DPP
 Raichu,DP21/56,Promo,DPP
 Mime Jr.,DP22/56,Promo,DPP
@@ -2087,35 +2087,35 @@ Darkrai,DP24/56,Promo,DPP
 Tropical Wind,DP25/56,Promo,DPP
 Dialga,DP26/56,Promo,DPP
 Palkia,DP27/56,Promo,DPP
-Mewtwo,DP28/56,Promo,DPP
-Rhyperior,DP29/56,Promo,DPP
-Regigigas,DP30/56,Promo,DPP
-Heatran,DP31/56,Promo,DPP
+Mewtwo LV.X,DP28/56,Promo,DPP
+Rhyperior LV.X,DP29/56,Promo,DPP
+Regigigas LV.X,DP30/56,Promo,DPP
+Heatran LV.X,DP31/56,Promo,DPP
 Magnezone,DP32/56,Promo,DPP
 Dusknoir,DP33/56,Promo,DPP
 Drifblim,DP34/56,Promo,DPP
 Porygon-Z,DP35/56,Promo,DPP
 Gliscor,DP36/56,Promo,DPP
-Dialga,DP37/56,Promo,DPP
-Giratina,DP38/56,Promo,DPP
-Shaymin,DP39/56,Promo,DPP
+Dialga LV.X,DP37/56,Promo,DPP
+Giratina LV.X,DP38/56,Promo,DPP
+Shaymin LV.X,DP39/56,Promo,DPP
 Regigigas,DP40/56,Promo,DPP
 Toxicroak G,DP41/56,Promo,DPP
 Carnivine G,DP42/56,Promo,DPP
 Probopass G,DP43/56,Promo,DPP
 Magnezone,DP44/56,Promo,DPP
-Charizard G,DP45/56,Promo,DPP
-Garchomp C,DP46/56,Promo,DPP
-Rayquaza C,DP47/56,Promo,DPP
+Charizard G LV.X,DP45/56,Promo,DPP
+Garchomp C LV.X,DP46/56,Promo,DPP
+Rayquaza C LV.X,DP47/56,Promo,DPP
 Tropical Wind,DP48/56,Promo,DPP
 Dialga,DP49/56,Promo,DPP
 Arceus,DP50/56,Promo,DPP
 Cresselia,DP51/56,Promo,DPP
 Darkrai,DP52/56,Promo,DPP
-Arceus,DP53/56,Promo,DPP
+Arceus LV.X,DP53/56,Promo,DPP
 Beginning Door,DP54/56,Promo,DPP
 Ultimate Zone,DP55/56,Promo,DPP
-Arceus,DP56/56,Promo,DPP
+Arceus LV.X,DP56/56,Promo,DPP
 Blaziken,1/106,Rare Holo,GE
 Cresselia,2/106,Rare Holo,GE
 Darkrai,3/106,Rare Holo,GE
@@ -2144,7 +2144,7 @@ Milotic,25/106,Rare,GE
 Palkia,26/106,Rare,GE
 Primeape,27/106,Rare,GE
 Slowking,28/106,Rare,GE
-Unown H,29/106,Rare,GE
+Unown [H],29/106,Rare,GE
 Wailord,30/106,Rare,GE
 Weezing,31/106,Rare,GE
 Wigglytuff,32/106,Rare,GE
@@ -2171,8 +2171,8 @@ Seviper,52/106,Uncommon,GE
 Skarmory,53/106,Uncommon,GE
 Slowbro,54/106,Uncommon,GE
 Togetic,55/106,Uncommon,GE
-Unown F,56/106,Uncommon,GE
-Unown G,57/106,Uncommon,GE
+Unown [F],56/106,Uncommon,GE
+Unown [G],57/106,Uncommon,GE
 Wailmer,58/106,Uncommon,GE
 Zangoose,59/106,Uncommon,GE
 Baltoy,60/106,Common,GE
@@ -2206,7 +2206,7 @@ Tangela,87/106,Common,GE
 Togepi,88/106,Common,GE
 Torchic,89/106,Common,GE
 Treecko,90/106,Common,GE
-Unown L,91/106,Common,GE
+Unown [L],91/106,Common,GE
 Volbeat,92/106,Common,GE
 Weedle,93/106,Common,GE
 Whismur,94/106,Common,GE
@@ -2218,10 +2218,10 @@ Leftovers,99/106,Uncommon,GE
 Moonlight Stadium,100/106,Uncommon,GE
 Premier Ball,101/106,Uncommon,GE
 Rare Candy,102/106,Uncommon,GE
-Cresselia,103/106,Rare Holo LV.X,GE
-Darkrai,104/106,Rare Holo LV.X,GE
-Dialga,105/106,Rare Holo LV.X,GE
-Palkia,106/106,Rare Holo LV.X,GE
+Cresselia LV.X,103/106,Rare Holo LV.X,GE
+Darkrai LV.X,104/106,Rare Holo LV.X,GE
+Dialga LV.X,105/106,Rare Holo LV.X,GE
+Palkia LV.X,106/106,Rare Holo LV.X,GE
 Deoxys Normal Forme,1/146,Rare Holo,LA
 Dragonite,2/146,Rare Holo,LA
 Froslass,3/146,Rare Holo,LA
@@ -2263,7 +2263,7 @@ Regirock,38/146,Rare,LA
 Registeel,39/146,Rare,LA
 Shedinja,40/146,Rare,LA
 Torkoal,41/146,Rare,LA
-Unown !,42/146,Rare,LA
+Unown [!],42/146,Rare,LA
 Uxie,43/146,Rare,LA
 Victreebel,44/146,Rare,LA
 Vileplume,45/146,Rare,LA
@@ -2271,7 +2271,7 @@ Anorith,46/146,Uncommon,LA
 Camerupt,47/146,Uncommon,LA
 Castform,48/146,Uncommon,LA
 Castform Rain Form,49/146,Uncommon,LA
-Castform Snow-cloud Form,50/146,Uncommon,LA
+Castform Snow-Cloud Form,50/146,Uncommon,LA
 Castform Sunny Form,51/146,Uncommon,LA
 Dragonair,52/146,Uncommon,LA
 Drifblim,53/146,Uncommon,LA
@@ -2297,13 +2297,13 @@ Swalot,72/146,Uncommon,LA
 Swellow,73/146,Uncommon,LA
 Tauros,74/146,Uncommon,LA
 Tentacruel,75/146,Uncommon,LA
-Unown J,76/146,Uncommon,LA
-Unown R,77/146,Uncommon,LA
-Unown U,78/146,Uncommon,LA
-Unown V,79/146,Uncommon,LA
-Unown W,80/146,Uncommon,LA
-Unown Y,81/146,Uncommon,LA
-Unown ?,82/146,Uncommon,LA
+Unown [J],76/146,Uncommon,LA
+Unown [R],77/146,Uncommon,LA
+Unown [U],78/146,Uncommon,LA
+Unown [V],79/146,Uncommon,LA
+Unown [W],80/146,Uncommon,LA
+Unown [Y],81/146,Uncommon,LA
+Unown [?],82/146,Uncommon,LA
 Beldum,83/146,Common,LA
 Beldum,84/146,Common,LA
 Bellsprout,85/146,Common,LA
@@ -2361,13 +2361,13 @@ Technical Machine TS-1,136/146,Uncommon,LA
 Technical Machine TS-2,137/146,Uncommon,LA
 Claw Fossil,138/146,Common,LA
 Root Fossil,139/146,Common,LA
-Azelf,140/146,Rare Holo LV.X,LA
-Gliscor,141/146,Rare Holo LV.X,LA
-Magnezone,142/146,Rare Holo LV.X,LA
-Mesprit,143/146,Rare Holo LV.X,LA
-Mewtwo,144/146,Rare Holo LV.X,LA
-Rhyperior,145/146,Rare Holo LV.X,LA
-Uxie,146/146,Rare Holo LV.X,LA
+Azelf LV.X,140/146,Rare Holo LV.X,LA
+Gliscor LV.X,141/146,Rare Holo LV.X,LA
+Magnezone LV.X,142/146,Rare Holo LV.X,LA
+Mesprit LV.X,143/146,Rare Holo LV.X,LA
+Mewtwo LV.X,144/146,Rare Holo LV.X,LA
+Rhyperior LV.X,145/146,Rare Holo LV.X,LA
+Uxie LV.X,146/146,Rare Holo LV.X,LA
 Articuno,1/100,Rare Holo,MD
 Cresselia,2/100,Rare Holo,MD
 Darkrai,3/100,Rare Holo,MD
@@ -2400,7 +2400,7 @@ Scizor,29/100,Rare,MD
 Torterra,30/100,Rare,MD
 Toxicroak,31/100,Rare,MD
 Umbreon,32/100,Rare,MD
-Unown P,33/100,Rare,MD
+Unown [P],33/100,Rare,MD
 Vaporeon,34/100,Rare,MD
 Ambipom,35/100,Uncommon,MD
 Fearow,36/100,Uncommon,MD
@@ -2416,7 +2416,7 @@ Raichu,45/100,Uncommon,MD
 Scyther,46/100,Uncommon,MD
 Staravia,47/100,Uncommon,MD
 Sudowoodo,48/100,Uncommon,MD
-Unown Q,49/100,Uncommon,MD
+Unown [Q],49/100,Uncommon,MD
 Aipom,50/100,Common,MD
 Aipom,51/100,Common,MD
 Bronzor,52/100,Common,MD
@@ -2464,10 +2464,10 @@ Darkness Energy,93/100,Uncommon,MD
 Health Energy,94/100,Uncommon,MD
 Metal Energy,95/100,Uncommon,MD
 Recover Energy,96/100,Uncommon,MD
-Garchomp,97/100,Rare Holo LV.X,MD
-Glaceon,98/100,Rare Holo LV.X,MD
-Leafeon,99/100,Rare Holo LV.X,MD
-Porygon-Z,100/100,Rare Holo LV.X,MD
+Garchomp LV.X,97/100,Rare Holo LV.X,MD
+Glaceon LV.X,98/100,Rare Holo LV.X,MD
+Leafeon LV.X,99/100,Rare Holo LV.X,MD
+Porygon-Z LV.X,100/100,Rare Holo LV.X,MD
 Aggron,1/123,Rare Holo,MT
 Alakazam,2/123,Rare Holo,MT
 Ambipom,3/123,Rare Holo,MT
@@ -2504,7 +2504,7 @@ Rampardos,33/123,Rare,MT
 Slaking,34/123,Rare,MT
 Sudowoodo,35/123,Rare,MT
 Toxicroak,36/123,Rare,MT
-Unown I,37/123,Rare,MT
+Unown [I],37/123,Rare,MT
 Ursaring,38/123,Rare,MT
 Walrein,39/123,Rare,MT
 Whiscash,40/123,Rare,MT
@@ -2532,9 +2532,9 @@ Sandslash,61/123,Uncommon,MT
 Sealeo,62/123,Uncommon,MT
 Shieldon,63/123,Uncommon,MT
 Tropius,64/123,Uncommon,MT
-Unown E,65/123,Uncommon,MT
-Unown M,66/123,Uncommon,MT
-Unown T,67/123,Uncommon,MT
+Unown [E],65/123,Uncommon,MT
+Unown [M],66/123,Uncommon,MT
+Unown [T],67/123,Uncommon,MT
 Vigoroth,68/123,Uncommon,MT
 Abra,69/123,Common,MT
 Aipom,70/123,Common,MT
@@ -2558,7 +2558,7 @@ Larvitar,87/123,Common,MT
 Magby,88/123,Common,MT
 Magikarp,89/123,Common,MT
 Murkrow,90/123,Common,MT
-Nidoran♀,91/123,Common,MT
+Nidoran ♀,91/123,Common,MT
 Paras,92/123,Common,MT
 Pichu,93/123,Common,MT
 Pikachu,94/123,Common,MT
@@ -2588,9 +2588,9 @@ Skull Fossil,117/123,Common,MT
 Multi Energy,118/123,Rare,MT
 Darkness Energy,119/123,Uncommon,MT
 Metal Energy,120/123,Uncommon,MT
-Electivire,121/123,Rare Holo LV.X,MT
-Lucario,122/123,Rare Holo LV.X,MT
-Magmortar,123/123,Rare Holo LV.X,MT
+Electivire LV.X,121/123,Rare Holo LV.X,MT
+Lucario LV.X,122/123,Rare Holo LV.X,MT
+Magmortar LV.X,123/123,Rare Holo LV.X,MT
 Time-Space Distortion,124/123,Rare Secret,MT
 Ampharos,1/132,Rare Holo,SW
 Blastoise,2/132,Rare Holo,SW
@@ -2630,7 +2630,7 @@ Pidgeot,35/132,Rare,SW
 Plusle,36/132,Rare,SW
 Sharpedo,37/132,Rare,SW
 Sunflora,38/132,Rare,SW
-Unown S,39/132,Rare,SW
+Unown [S],39/132,Rare,SW
 Weavile,40/132,Rare,SW
 Wormadam Plant Cloak,41/132,Rare,SW
 Wormadam Sandy Cloak,42/132,Rare,SW
@@ -2659,11 +2659,11 @@ Shelgon,64/132,Uncommon,SW
 Skiploom,65/132,Uncommon,SW
 Smeargle,66/132,Uncommon,SW
 Smoochum,67/132,Uncommon,SW
-Unown K,68/132,Uncommon,SW
-Unown N,69/132,Uncommon,SW
-Unown O,70/132,Uncommon,SW
-Unown X,71/132,Uncommon,SW
-Unown Z,72/132,Uncommon,SW
+Unown [K],68/132,Uncommon,SW
+Unown [N],69/132,Uncommon,SW
+Unown [O],70/132,Uncommon,SW
+Unown [X],71/132,Uncommon,SW
+Unown [Z],72/132,Uncommon,SW
 Venomoth,73/132,Uncommon,SW
 Vibrava,74/132,Uncommon,SW
 Wartortle,75/132,Uncommon,SW
@@ -2688,7 +2688,7 @@ Magmar,93/132,Common,SW
 Mareep,94/132,Common,SW
 Murkrow,95/132,Common,SW
 Natu,96/132,Common,SW
-Nidoran♂,97/132,Common,SW
+Nidoran ♂,97/132,Common,SW
 Phanpy,98/132,Common,SW
 Pidgey,99/132,Common,SW
 Psyduck,100/132,Common,SW
@@ -2722,8 +2722,8 @@ Potion,127/132,Common,SW
 Switch,128/132,Common,SW
 Darkness Energy,129/132,Uncommon,SW
 Metal Energy,130/132,Uncommon,SW
-Gardevoir,131/132,Rare Holo LV.X,SW
-Honchkrow,132/132,Rare Holo LV.X,SW
+Gardevoir LV.X,131/132,Rare Holo LV.X,SW
+Honchkrow LV.X,132/132,Rare Holo LV.X,SW
 Dusknoir,1/100,Rare Holo,SF
 Empoleon,2/100,Rare Holo,SF
 Infernape,3/100,Rare Holo,SF
@@ -2819,11 +2819,11 @@ Potion,92/100,Common,SF
 Switch,93/100,Common,SF
 Cyclone Energy,94/100,Uncommon,SF
 Warp Energy,95/100,Uncommon,SF
-Dusknoir,96/100,Rare Holo LV.X,SF
-Heatran,97/100,Rare Holo LV.X,SF
-Machamp,98/100,Rare Holo LV.X,SF
-Raichu,99/100,Rare Holo LV.X,SF
-Regigigas,100/100,Rare Holo LV.X,SF
+Dusknoir LV.X,96/100,Rare Holo LV.X,SF
+Heatran LV.X,97/100,Rare Holo LV.X,SF
+Machamp LV.X,98/100,Rare Holo LV.X,SF
+Raichu LV.X,99/100,Rare Holo LV.X,SF
+Regigigas LV.X,100/100,Rare Holo LV.X,SF
 Charmander,101/100,Rare Secret,SF
 Charmeleon,102/100,Rare Secret,SF
 Charizard,103/100,Rare Secret,SF
@@ -3457,8 +3457,8 @@ Kyogre ex,95/100,Rare Holo EX,CG
 Sceptile ex δ,96/100,Rare Holo EX,CG
 Shiftry ex,97/100,Rare Holo EX,CG
 Swampert ex,98/100,Rare Holo EX,CG
-Alakazam ☆,99/100,Rare Holo Star,CG
-Celebi ☆,100/100,Rare Holo Star,CG
+Alakazam ★,99/100,Rare Holo Star,CG
+Celebi ★,100/100,Rare Holo Star,CG
 Beedrill δ,1/113,Rare Holo,DS
 Crobat δ,2/113,Rare Holo,DS
 Dragonite δ,3/113,Rare Holo,DS
@@ -3569,9 +3569,9 @@ Metal Energy,107/113,Rare,DS
 Flareon ex,108/113,Rare Holo EX,DS
 Jolteon ex,109/113,Rare Holo EX,DS
 Vaporeon ex,110/113,Rare Holo EX,DS
-Groudon Star,111/113,Rare Holo Star,DS
-Kyogre Star,112/113,Rare Holo Star,DS
-Metagross Star,113/113,Rare Holo Star,DS
+Groudon ★,111/113,Rare Holo Star,DS
+Kyogre ★,112/113,Rare Holo Star,DS
+Metagross ★,113/113,Rare Holo Star,DS
 Azumarill,114/113,Rare Secret,DS
 Altaria,1/107,Rare Holo,DX
 Beautifly,2/107,Rare Holo,DX
@@ -3677,9 +3677,9 @@ Manectric ex,101/107,Rare Holo EX,DX
 Rayquaza ex,102/107,Rare Holo EX,DX
 Salamence ex,103/107,Rare Holo EX,DX
 Sharpedo ex,104/107,Rare Holo EX,DX
-Latias ☆,105/107,Rare Holo Star,DX
-Latios ☆,106/107,Rare Holo Star,DX
-Rayquaza ☆,107/107,Rare Holo Star,DX
+Latias ★,105/107,Rare Holo Star,DX
+Latios ★,106/107,Rare Holo Star,DX
+Rayquaza ★,107/107,Rare Holo Star,DX
 Rocket's Raikou ex,108/107,Rare Secret,DX
 Ampharos δ,1/101,Rare Holo,DF
 Feraligatr δ,2/101,Rare Holo,DF
@@ -3736,8 +3736,8 @@ Larvitar δ,52/101,Common,DF
 Ledyba δ,53/101,Common,DF
 Mareep δ,54/101,Common,DF
 Natu δ,55/101,Common,DF
-Nidoran♀ δ,56/101,Common,DF
-Nidoran♂ δ,57/101,Common,DF
+Nidoran ♀ δ,56/101,Common,DF
+Nidoran ♂ δ,57/101,Common,DF
 Pupitar,58/101,Common,DF
 Pupitar δ,59/101,Common,DF
 Ralts,60/101,Common,DF
@@ -3780,8 +3780,8 @@ Latios ex δ,96/101,Rare Holo EX,DF
 Rayquaza ex δ,97/101,Rare Holo EX,DF
 Salamence ex δ,98/101,Rare Holo EX,DF
 Tyranitar ex δ,99/101,Rare Holo EX,DF
-Charizard ☆ δ,100/101,Rare Holo Star,DF
-Mew ☆ δ,101/101,Rare Holo Star,DF
+Charizard ★ δ,100/101,Rare Holo Star,DF
+Mew ★ δ,101/101,Rare Holo Star,DF
 Absol,1/97,Rare Holo,DR
 Altaria,2/97,Rare Holo,DR
 Crawdaunt,3/97,Rare Holo,DR
@@ -4102,8 +4102,8 @@ Krabby,66/112,Common,RG
 Magikarp,67/112,Common,RG
 Magnemite,68/112,Common,RG
 Meowth,69/112,Common,RG
-Nidoran♀,70/112,Common,RG
-Nidoran♂,71/112,Common,RG
+Nidoran ♀,70/112,Common,RG
+Nidoran ♂,71/112,Common,RG
 Paras,72/112,Common,RG
 Pidgey,73/112,Common,RG
 Pikachu,74/112,Common,RG
@@ -4123,12 +4123,12 @@ Bill's Maintenance,87/112,Uncommon,RG
 Celio's Network,88/112,Uncommon,RG
 Energy Removal 2,89/112,Uncommon,RG
 Energy Switch,90/112,Uncommon,RG
-EXP. ALL,91/112,Uncommon,RG
+EXP.ALL,91/112,Uncommon,RG
 Great Ball,92/112,Uncommon,RG
 Life Herb,93/112,Uncommon,RG
 Mt. Moon,94/112,Uncommon,RG
 Poké Ball,95/112,Uncommon,RG
-PokéDex (HANDY909),96/112,Uncommon,RG
+PokéDex HANDY909,96/112,Uncommon,RG
 Pokémon Reversal,97/112,Uncommon,RG
 Prof. Oak's Research,98/112,Uncommon,RG
 Super Scoop Up,99/112,Uncommon,RG
@@ -4352,9 +4352,9 @@ Dark Metal Energy,97/110,Uncommon,HP
 Crawdaunt ex,99/110,Rare Holo EX,HP
 Mew ex,100/110,Rare Holo EX,HP
 Mightyena ex,101/110,Rare Holo EX,HP
-Gyarados ☆ δ,102/110,Rare Holo Star,HP
-Mewtwo Star,103/110,Rare Holo Star,HP
-Pikachu Star,104/110,Rare Holo Star,HP
+Gyarados ★ δ,102/110,Rare Holo Star,HP
+Mewtwo ★,103/110,Rare Holo Star,HP
+Pikachu ★,104/110,Rare Holo Star,HP
 Grass Energy,105/110,Rare Holo,HP
 Fire Energy,106/110,Rare Holo,HP
 Water Energy,107/110,Rare Holo,HP
@@ -4451,9 +4451,9 @@ Dustox ex,86/92,Rare Holo EX,LM
 Flygon ex,87/92,Rare Holo EX,LM
 Mew ex,88/92,Rare Holo EX,LM
 Walrein ex,89/92,Rare Holo EX,LM
-Regice ☆,90/92,Rare Holo Star,LM
-Regirock ☆,91/92,Rare Holo Star,LM
-Registeel ☆,92/92,Rare Holo Star,LM
+Regice ★,90/92,Rare Holo Star,LM
+Regirock ★,91/92,Rare Holo Star,LM
+Registeel ★,92/92,Rare Holo Star,LM
 Pikachu δ,93/92,Rare Secret,LM
 Aggron,1/108,Rare Holo,PK
 Altaria,2/108,Rare Holo,PK
@@ -4554,9 +4554,9 @@ Salamence ex,96/108,Rare Holo EX,PK
 Shiftry ex,97/108,Rare Holo EX,PK
 Skarmory ex,98/108,Rare Holo EX,PK
 Walrein ex,99/108,Rare Holo EX,PK
-Flareon ☆,100/108,Rare Holo Star,PK
-Jolteon ☆,101/108,Rare Holo Star,PK
-Vaporeon ☆,102/108,Rare Holo Star,PK
+Flareon ★,100/108,Rare Holo Star,PK
+Jolteon ★,101/108,Rare Holo Star,PK
+Vaporeon ★,102/108,Rare Holo Star,PK
 Grass Energy,103/108,Rare Holo,PK
 Fire Energy,104/108,Rare Holo,PK
 Water Energy,105/108,Rare Holo,PK
@@ -4975,9 +4975,9 @@ Rocket's Sneasel ex,103/109,Rare Holo EX,TR
 Rocket's Snorlax ex,104/109,Rare Holo EX,TR
 Rocket's Suicune ex,105/109,Rare Holo EX,TR
 Rocket's Zapdos ex,106/109,Rare Holo EX,TR
-Mudkip ☆,107/109,Rare Holo Star,TR
-Torchic ☆,108/109,Rare Holo Star,TR
-Treecko ☆,109/109,Rare Holo Star,TR
+Mudkip ★,107/109,Rare Holo Star,TR
+Torchic ★,108/109,Rare Holo Star,TR
+Treecko ★,109/109,Rare Holo Star,TR
 Charmeleon,110/109,Rare Secret,TR
 Here Comes Team Rocket!,111/109,Rare Secret,TR
 Ampharos,1/115,Rare Holo,UF
@@ -5092,9 +5092,9 @@ Steelix ex,109/115,Rare Holo EX,UF
 Typhlosion ex,110/115,Rare Holo EX,UF
 Tyranitar ex,111/115,Rare Holo EX,UF
 Umbreon ex,112/115,Rare Holo EX,UF
-Entei ☆,113/115,Rare Holo Star,UF
-Raikou ☆,114/115,Rare Holo Star,UF
-Suicune ☆,115/115,Rare Holo Star,UF
+Entei ★,113/115,Rare Holo Star,UF
+Raikou ★,114/115,Rare Holo Star,UF
+Suicune ★,115/115,Rare Holo Star,UF
 Rocket's Persian ex,116/115,Rare Secret,UF
 Celebi ex,117/115,Rare Secret,UF
 Unown,A/115,Rare,UF
@@ -6766,7 +6766,7 @@ Broken Ground Gym,92/105,Rare,N4
 EXP.ALL,93/105,Rare,N4
 Impostor Professor Oak's Invention,94/105,Rare,N4
 Radio Tower,95/105,Rare,N4
-Thought Wave Machine (Rocket's Secret Machine),96/105,Rare,N4
+Thought Wave Machine,96/105,Rare,N4
 Counterattack Claws,97/105,Uncommon,N4
 Energy Amplifier,98/105,Uncommon,N4
 Energy Stadium,99/105,Uncommon,N4
@@ -7079,12 +7079,12 @@ Mew,40/40,Promo,NP
 Electabuzz,1/9,Promo,BOG
 Hitmonchan,2/9,Promo,BOG
 Professor Elm,3/9,Promo,BOG
-Rocket’s Scizor,4/9,Promo,BOG
-Rocket’s Sneasel,5/9,Promo,BOG
+Rocket's Scizor,4/9,Promo,BOG
+Rocket's Sneasel,5/9,Promo,BOG
 Dark Ivysaur,6/9,Promo,BOG
 Dark Venusaur,7/9,Promo,BOG
-Rocket’s Mewtwo,8/9,Promo,BOG
-Rocket’s Hitmonchan,9/9,Promo,BOG
+Rocket's Mewtwo,8/9,Promo,BOG
+Rocket's Hitmonchan,9/9,Promo,BOG
 Pikachu on the Ball,1/5,,FUT20
 Eevee on the Ball,2/5,,FUT20
 Grookey on the Ball,3/5,,FUT20
@@ -8016,7 +8016,7 @@ Carnivine,7/17,Uncommon,P8
 Luxio,8/17,Uncommon,P8
 Night Maintenance,9/17,Uncommon,P8
 Rare Candy,10/17,Uncommon,P8
-Roseanne’s Research,11/17,Uncommon,P8
+Roseanne's Research,11/17,Uncommon,P8
 Chimchar,12/17,Common,P8
 Croagunk,13/17,Common,P8
 Happiny,14/17,Common,P8
@@ -8068,10 +8068,10 @@ Pikachu,25/165,Common,MEW
 Raichu,26/165,Rare,MEW
 Sandshrew,27/165,Common,MEW
 Sandslash,28/165,Uncommon,MEW
-Nidoran♀,29/165,Common,MEW
+Nidoran ♀,29/165,Common,MEW
 Nidorina,30/165,Uncommon,MEW
 Nidoqueen,31/165,Uncommon,MEW
-Nidoran♂,32/165,Common,MEW
+Nidoran ♂,32/165,Common,MEW
 Nidorino,33/165,Uncommon,MEW
 Nidoking,34/165,Rare,MEW
 Clefairy,35/165,Common,MEW
@@ -8326,7 +8326,7 @@ Cinccino,76/86,Uncommon,BLK
 Rufflet,77/86,Common,BLK
 Braviary,78/86,Uncommon,BLK
 Air Balloon,79/86,Uncommon,BLK
-Escavalier,60/86,Common,BLK
+Antique Cover Fossil,60/86,Common,BLK
 Energy Coin,81/86,Uncommon,BLK
 Fennel,82/86,Uncommon,BLK
 N's Plan,83/86,Uncommon,BLK
@@ -9254,7 +9254,7 @@ Maushold,168/193,Uncommon,PAL
 Squawkabilly ex,169/193,Double Rare,PAL
 Flamigo,170/193,Uncommon,PAL
 Artazon,171/193,Uncommon,PAL
-Boss's Orders,172/193,Rare,PAL
+Boss's Orders (Ghetsis),172/193,Rare,PAL
 Bravery Charm,173/193,Uncommon,PAL
 Calamitous Snowy Mountain,174/193,Uncommon,PAL
 Calamitous Wasteland,175/193,Uncommon,PAL
@@ -9330,7 +9330,7 @@ Paldean Clodsire ex,244/193,Ultra Rare,PAL
 Copperajah ex,245/193,Ultra Rare,PAL
 Noivern ex,246/193,Ultra Rare,PAL
 Squawkabilly ex,247/193,Ultra Rare,PAL
-Boss's Orders,248/193,Ultra Rare,PAL
+Boss's Orders (Ghetsis),248/193,Ultra Rare,PAL
 Clavell,249/193,Ultra Rare,PAL
 Dendra,250/193,Ultra Rare,PAL
 Falkner,251/193,Ultra Rare,PAL
@@ -9347,7 +9347,7 @@ Chien-Pao ex,261/193,Special Illustration Rare,PAL
 Tinkaton ex,262/193,Special Illustration Rare,PAL
 Ting-Lu ex,263/193,Special Illustration Rare,PAL
 Squawkabilly ex,264/193,Special Illustration Rare,PAL
-Boss's Orders,265/193,Special Illustration Rare,PAL
+Boss's Orders (Ghetsis),265/193,Special Illustration Rare,PAL
 Dendra,266/193,Special Illustration Rare,PAL
 Giacomo,267/193,Special Illustration Rare,PAL
 Grusha,268/193,Special Illustration Rare,PAL
@@ -10218,22 +10218,22 @@ Houndstone ex,162/102,Promo,SVP
 Cinderace ex,163/102,Promo,SVP
 Lapras ex,164/102,Promo,SVP
 Terapagos ex,165/102,Promo,SVP
-Grass Energy,1/8,Common,SVE
-Fire Energy,2/8,Common,SVE
-Water Energy,3/8,Common,SVE
-Lightning Energy,4/8,Common,SVE
-Psychic Energy,5/8,Common,SVE
-Fighting Energy,6/8,Common,SVE
-Darkness Energy,7/8,Common,SVE
-Metal Energy,8/8,Common,SVE
-Grass Energy,9/8,Common,SVE
-Fire Energy,10/8,Common,SVE
-Water Energy,11/8,Common,SVE
-Lightning Energy,12/8,Common,SVE
-Psychic Energy,13/8,Common,SVE
-Fighting Energy,14/8,Common,SVE
-Darkness Energy,15/8,Common,SVE
-Metal Energy,16/8,Common,SVE
+Basic Grass Energy,1/8,Common,SVE
+Basic Fire Energy,2/8,Common,SVE
+Basic Water Energy,3/8,Common,SVE
+Basic Lightning Energy,4/8,Common,SVE
+Basic Psychic Energy,5/8,Common,SVE
+Basic Fighting Energy,6/8,Common,SVE
+Basic Darkness Energy,7/8,Common,SVE
+Basic Metal Energy,8/8,Common,SVE
+Basic Grass Energy,9/8,Common,SVE
+Basic Fire Energy,10/8,Common,SVE
+Basic Water Energy,11/8,Common,SVE
+Basic Lightning Energy,12/8,Common,SVE
+Basic Psychic Energy,13/8,Common,SVE
+Basic Fighting Energy,14/8,Common,SVE
+Basic Darkness Energy,15/8,Common,SVE
+Basic Metal Energy,16/8,Common,SVE
 Pineco,1/198,Common,SVI
 Heracross,2/198,Uncommon,SVI
 Shroomish,3/198,Common,SVI
@@ -10422,8 +10422,8 @@ Poké Ball,185/198,Common,SVI
 Pokégear 3.0,186/198,Common,SVI
 Pokémon Catcher,187/198,Common,SVI
 Potion,188/198,Common,SVI
-Professor's Research,189/198,Rare,SVI
-Professor's Research,190/198,Rare,SVI
+Professor's Research (Professor Sada),189/198,Rare,SVI
+Professor's Research (Professor Turo),190/198,Rare,SVI
 Rare Candy,191/198,Common,SVI
 Rock Chestplate,192/198,Uncommon,SVI
 Rocky Helmet,193/198,Uncommon,SVI
@@ -10473,8 +10473,8 @@ Jacq,236/198,Ultra Rare,SVI
 Katy,237/198,Ultra Rare,SVI
 Miriam,238/198,Ultra Rare,SVI
 Penny,239/198,Ultra Rare,SVI
-Professor's Research,240/198,Ultra Rare,SVI
-Professor's Research,241/198,Ultra Rare,SVI
+Professor's Research (Professor Sada),240/198,Ultra Rare,SVI
+Professor's Research (Professor Turo),241/198,Ultra Rare,SVI
 Team Star Grunt,242/198,Ultra Rare,SVI
 Spidops ex,243/198,Special Illustration Rare,SVI
 Miraidon ex,244/198,Special Illustration Rare,SVI
@@ -11651,16 +11651,16 @@ Simisage,13/147,Uncommon,BUS
 Dewpider,14/147,Common,BUS
 Araquanid,15/147,Rare,BUS
 Wimpod,16/147,Common,BUS
-Golisopod GX,17/147,Rare Holo GX,BUS
+Golisopod-GX,17/147,Rare Holo GX,BUS
 Charmander,18/147,Common,BUS
 Charmander,18a/147,Common,BUS
 Charmeleon,19/147,Uncommon,BUS
-Charizard GX,20/147,Rare Holo GX,BUS
-Ho-Oh GX,21/147,Rare Holo GX,BUS
+Charizard-GX,20/147,Rare Holo GX,BUS
+Ho-Oh-GX,21/147,Rare Holo GX,BUS
 Pansear,22/147,Common,BUS
 Simisear,23/147,Uncommon,BUS
 Heatmor,24/147,Uncommon,BUS
-Salazzle GX,25/147,Rare Holo GX,BUS
+Salazzle-GX,25/147,Rare Holo GX,BUS
 Turtonator,26/147,Rare,BUS
 Alolan Vulpix,27/147,Common,BUS
 Alolan Ninetales,28/147,Rare,BUS
@@ -11674,7 +11674,7 @@ Azumarill,35/147,Rare,BUS
 Panpour,36/147,Common,BUS
 Simipour,37/147,Uncommon,BUS
 Bruxish,38/147,Rare,BUS
-Tapu Fini GX,39/147,Rare Holo GX,BUS
+Tapu Fini-GX,39/147,Rare Holo GX,BUS
 Tapu Fini-GX,39a/147,Rare Holo GX,BUS
 Pikachu,40/147,Common,BUS
 Raichu,41/147,Rare Holo,BUS
@@ -11699,8 +11699,8 @@ Espurr,59/147,Common,BUS
 Meowstic,60/147,Rare,BUS
 Sandygast,61/147,Common,BUS
 Palossand,62/147,Rare Holo,BUS
-Necrozma GX,63/147,Rare Holo GX,BUS
-Machamp GX,64/147,Rare Holo GX,BUS
+Necrozma-GX,63/147,Rare Holo GX,BUS
+Machamp-GX,64/147,Rare Holo GX,BUS
 Rhyhorn,65/147,Common,BUS
 Rhydon,66/147,Uncommon,BUS
 Rhyperior,67/147,Rare Holo,BUS
@@ -11716,28 +11716,28 @@ Lycanroc,76/147,Rare,BUS
 Mudbray,77/147,Common,BUS
 Mudsdale,78/147,Rare,BUS
 Passimian,79/147,Rare,BUS
-Marshadow GX,80/147,Rare Holo GX,BUS
+Marshadow-GX,80/147,Rare Holo GX,BUS
 Alolan Rattata,81/147,Common,BUS
 Alolan Raticate,82/147,Rare,BUS
 Alolan Grimer,83/147,Common,BUS
-Alolan Muk GX,84/147,Rare Holo GX,BUS
+Alolan Muk-GX,84/147,Rare Holo GX,BUS
 Sneasel,85/147,Common,BUS
 Weavile,86/147,Rare,BUS
 Darkrai,87/147,Rare Holo,BUS
-Darkrai GX,88/147,Rare Holo GX,BUS
+Darkrai-GX,88/147,Rare Holo GX,BUS
 Darkrai-GX,88a/147,Rare Holo GX,BUS
 Inkay,89/147,Common,BUS
 Malamar,90/147,Rare,BUS
 Ralts,91/147,Common,BUS
 Kirlia,92/147,Uncommon,BUS
 Kirlia,92a/147,Uncommon,BUS
-Gardevoir GX,93/147,Rare Holo GX,BUS
+Gardevoir-GX,93/147,Rare Holo GX,BUS
 Diancie,94/147,Rare Holo,BUS
 Cutiefly,95/147,Common,BUS
 Ribombee,96/147,Uncommon,BUS
 Morelull,97/147,Common,BUS
 Shiinotic,98/147,Rare,BUS
-Noivern GX,99/147,Rare Holo GX,BUS
+Noivern-GX,99/147,Rare Holo GX,BUS
 Zygarde,100/147,Rare Holo,BUS
 Meowth,101/147,Common,BUS
 Persian,102/147,Rare,BUS
@@ -11764,45 +11764,45 @@ Mount Lanakila,118/147,Uncommon,BUS
 Olivia,119/147,Uncommon,BUS
 Plumeria,120/147,Uncommon,BUS
 Po Town,121/147,Uncommon,BUS
-Rotom Dex—Poké Finder Mode,122/147,Uncommon,BUS
+Rotom Dex Poké Finder Mode,122/147,Uncommon,BUS
 Sophocles,123/147,Uncommon,BUS
 Super Scoop Up,124/147,Uncommon,BUS
 Tormenting Spray,125/147,Uncommon,BUS
 Weakness Policy,126/147,Uncommon,BUS
 Wicke,127/147,Uncommon,BUS
 Wishful Baton,128/147,Uncommon,BUS
-Golisopod GX,129/147,Rare Ultra,BUS
-Tapu Bulu GX,130/147,Rare Ultra,BUS
-Ho-Oh GX,131/147,Rare Ultra,BUS
-Salazzle GX,132/147,Rare Ultra,BUS
-Tapu Fini GX,133/147,Rare Ultra,BUS
-Necrozma GX,134/147,Rare Ultra,BUS
-Machamp GX,135/147,Rare Ultra,BUS
-Lycanroc GX,136/147,Rare Ultra,BUS
-Marshadow GX,137/147,Rare Ultra,BUS
-Alolan Muk GX,138/147,Rare Ultra,BUS
-Darkrai GX,139/147,Rare Ultra,BUS
-Gardevoir GX,140/147,Rare Ultra,BUS
-Noivern GX,141/147,Rare Ultra,BUS
+Golisopod-GX,129/147,Rare Ultra,BUS
+Tapu Bulu-GX,130/147,Rare Ultra,BUS
+Ho-Oh-GX,131/147,Rare Ultra,BUS
+Salazzle-GX,132/147,Rare Ultra,BUS
+Tapu Fini-GX,133/147,Rare Ultra,BUS
+Necrozma-GX,134/147,Rare Ultra,BUS
+Machamp-GX,135/147,Rare Ultra,BUS
+Lycanroc-GX,136/147,Rare Ultra,BUS
+Marshadow-GX,137/147,Rare Ultra,BUS
+Alolan Muk-GX,138/147,Rare Ultra,BUS
+Darkrai-GX,139/147,Rare Ultra,BUS
+Gardevoir-GX,140/147,Rare Ultra,BUS
+Noivern-GX,141/147,Rare Ultra,BUS
 Acerola,142/147,Rare Ultra,BUS
 Guzma,143/147,Rare Ultra,BUS
 Kiawe,144/147,Rare Ultra,BUS
 Plumeria,145/147,Rare Ultra,BUS
 Sophocles,146/147,Rare Ultra,BUS
 Wicke,147/147,Rare Ultra,BUS
-Golisopod GX,148/147,Rare Rainbow,BUS
-Tapu Bulu GX,149/147,Rare Rainbow,BUS
-Charizard GX,150/147,Rare Rainbow,BUS
-Salazzle GX,151/147,Rare Rainbow,BUS
-Tapu Fini GX,152/147,Rare Rainbow,BUS
-Necrozma GX,153/147,Rare Rainbow,BUS
-Machamp GX,154/147,Rare Rainbow,BUS
-Lycanroc GX,155/147,Rare Rainbow,BUS
-Marshadow GX,156/147,Rare Rainbow,BUS
-Alolan Muk GX,157/147,Rare Rainbow,BUS
-Darkrai GX,158/147,Rare Rainbow,BUS
-Gardevoir GX,159/147,Rare Rainbow,BUS
-Noivern GX,160/147,Rare Rainbow,BUS
+Golisopod-GX,148/147,Rare Rainbow,BUS
+Tapu Bulu-GX,149/147,Rare Rainbow,BUS
+Charizard-GX,150/147,Rare Rainbow,BUS
+Salazzle-GX,151/147,Rare Rainbow,BUS
+Tapu Fini-GX,152/147,Rare Rainbow,BUS
+Necrozma-GX,153/147,Rare Rainbow,BUS
+Machamp-GX,154/147,Rare Rainbow,BUS
+Lycanroc-GX,155/147,Rare Rainbow,BUS
+Marshadow-GX,156/147,Rare Rainbow,BUS
+Alolan Muk-GX,157/147,Rare Rainbow,BUS
+Darkrai-GX,158/147,Rare Rainbow,BUS
+Gardevoir-GX,159/147,Rare Rainbow,BUS
+Noivern-GX,160/147,Rare Rainbow,BUS
 Bodybuilding Dumbbells,161/147,Rare Secret,BUS
 Choice Band,162/147,Rare Secret,BUS
 Escape Rope,163/147,Rare Secret,BUS
@@ -11826,7 +11826,7 @@ Sceptile,10a/168,Rare Holo,CES
 Seedot,11/168,Common,CES
 Seedot,12/168,Common,CES
 Nuzleaf,13/168,Uncommon,CES
-Shiftry GX,14/168,Rare Holo GX,CES
+Shiftry-GX,14/168,Rare Holo GX,CES
 Surskit,15/168,Common,CES
 Masquerain,16/168,Uncommon,CES
 Volbeat,17/168,Uncommon,CES
@@ -11840,10 +11840,10 @@ Magcargo,24/168,Rare,CES
 Torchic,25/168,Common,CES
 Torchic,26/168,Common,CES
 Combusken,27/168,Uncommon,CES
-Blaziken GX,28/168,Rare Holo GX,CES
+Blaziken-GX,28/168,Rare Holo GX,CES
 Torkoal,29/168,Uncommon,CES
 Oricorio,30/168,Uncommon,CES
-Articuno GX,31/168,Rare Holo GX,CES
+Articuno-GX,31/168,Rare Holo GX,CES
 Mudkip,32/168,Common,CES
 Mudkip,33/168,Common,CES
 Marshtomp,34/168,Uncommon,CES
@@ -11860,7 +11860,7 @@ Luvdisc,44/168,Common,CES
 Regice,45/168,Rare,CES
 Kyogre,46/168,Rare Holo,CES
 Voltorb,47/168,Common,CES
-Electrode GX,48/168,Rare Holo GX,CES
+Electrode-GX,48/168,Rare Holo GX,CES
 Chinchou,49/168,Common,CES
 Lanturn,50/168,Uncommon,CES
 Electrike,51/168,Common,CES
@@ -11868,7 +11868,7 @@ Manectric,52/168,Rare,CES
 Plusle,53/168,Uncommon,CES
 Minun,54/168,Uncommon,CES
 Oricorio,55/168,Uncommon,CES
-Mr. Mime GX,56/168,Rare Holo GX,CES
+Mr. Mime-GX,56/168,Rare Holo GX,CES
 Gulpin,57/168,Common,CES
 Swalot,58/168,Uncommon,CES
 Spoink,59/168,Common,CES
@@ -11878,7 +11878,7 @@ Solrock,62/168,Uncommon,CES
 Shuppet,63/168,Common,CES
 Shuppet,64/168,Common,CES
 Banette,65/168,Rare,CES
-Banette GX,66/168,Rare Holo GX,CES
+Banette-GX,66/168,Rare Holo GX,CES
 Deoxys,67/168,Rare Holo,CES
 Deoxys,68/168,Rare,CES
 Deoxys,69/168,Rare,CES
@@ -11894,15 +11894,15 @@ Baltoy,78/168,Common,CES
 Claydol,79/168,Rare,CES
 Regirock,80/168,Rare,CES
 Groudon,81/168,Rare Holo,CES
-Palossand GX,82/168,Rare Holo GX,CES
+Palossand-GX,82/168,Rare Holo GX,CES
 Minior,83/168,Uncommon,CES
 Alolan Rattata,84/168,Common,CES
-Alolan Raticate GX,85/168,Rare Holo GX,CES
+Alolan Raticate-GX,85/168,Rare Holo GX,CES
 Sneasel,86/168,Common,CES
 Tyranitar,87/168,Rare Holo,CES
 Sableye,88/168,Uncommon,CES
 Steelix,89/168,Rare Holo,CES
-Scizor GX,90/168,Rare Holo GX,CES
+Scizor-GX,90/168,Rare Holo GX,CES
 Mawile,91/168,Uncommon,CES
 Beldum,92/168,Common,CES
 Beldum,93/168,Common,CES
@@ -11914,14 +11914,14 @@ Heatran,98/168,Rare Holo,CES
 Solgaleo,99/168,Rare Holo,CES
 Celesteela,100/168,Rare Holo,CES
 Kartana,101/168,Rare,CES
-Stakataka GX,102/168,Rare Holo GX,CES
+Stakataka-GX,102/168,Rare Holo GX,CES
 Bagon,103/168,Common,CES
 Bagon,104/168,Common,CES
 Shelgon,105/168,Uncommon,CES
 Salamence,106/168,Rare Holo,CES
 Latias ◇,107/168,Rare Prism Star,CES
 Latios ◇,108/168,Rare Prism Star,CES
-Rayquaza GX,109/168,Rare Holo GX,CES
+Rayquaza-GX,109/168,Rare Holo GX,CES
 Dunsparce,110/168,Uncommon,CES
 Wingull,111/168,Common,CES
 Pelipper,112/168,Uncommon,CES
@@ -11939,7 +11939,7 @@ Acro Bike,123/168,Uncommon,CES
 Acro Bike,123a/168,Uncommon,CES
 Apricorn Maker,124/168,Uncommon,CES
 Beast Ball,125/168,Uncommon,CES
-Bill’s Maintenance,126/168,Uncommon,CES
+Bill's Maintenance,126/168,Uncommon,CES
 Copycat,127/168,Uncommon,CES
 Energy Recycle System,128/168,Uncommon,CES
 Energy Switch,129/168,Uncommon,CES
@@ -11958,7 +11958,7 @@ Rainbow Brush,141/168,Uncommon,CES
 Rare Candy,142/168,Uncommon,CES
 Shrine of Punishment,143/168,Uncommon,CES
 Sky Pillar,144/168,Uncommon,CES
-Steven’s Resolve,145/168,Rare Holo,CES
+Steven's Resolve,145/168,Rare Holo,CES
 Super Scoop Up,146/168,Uncommon,CES
 Switch,147/168,Uncommon,CES
 Tate & Liza,148/168,Uncommon,CES
@@ -11966,32 +11966,32 @@ Tate & Liza,148a/168,Uncommon,CES
 TV Reporter,149/168,Uncommon,CES
 Underground Expedition,150/168,Uncommon,CES
 Rainbow Energy,151/168,Uncommon,CES
-Shiftry GX,152/168,Rare Ultra,CES
-Blaziken GX,153/168,Rare Ultra,CES
-Articuno GX,154/168,Rare Ultra,CES
-Electrode GX,155/168,Rare Ultra,CES
-Mr. Mime GX,156/168,Rare Ultra,CES
-Banette GX,157/168,Rare Ultra,CES
-Scizor GX,158/168,Rare Ultra,CES
-Stakataka GX,159/168,Rare Ultra,CES
-Rayquaza GX,160/168,Rare Ultra,CES
+Shiftry-GX,152/168,Rare Ultra,CES
+Blaziken-GX,153/168,Rare Ultra,CES
+Articuno-GX,154/168,Rare Ultra,CES
+Electrode-GX,155/168,Rare Ultra,CES
+Mr. Mime-GX,156/168,Rare Ultra,CES
+Banette-GX,157/168,Rare Ultra,CES
+Scizor-GX,158/168,Rare Ultra,CES
+Stakataka-GX,159/168,Rare Ultra,CES
+Rayquaza-GX,160/168,Rare Ultra,CES
 Apricorn Maker,161/168,Rare Ultra,CES
-Bill’s Maintenance,162/168,Rare Ultra,CES
+Bill's Maintenance,162/168,Rare Ultra,CES
 Copycat,163/168,Rare Ultra,CES
 Lisia,164/168,Rare Ultra,CES
-Steven’s Resolve,165/168,Rare Ultra,CES
+Steven's Resolve,165/168,Rare Ultra,CES
 Tate & Liza,166/168,Rare Ultra,CES
 TV Reporter,167/168,Rare Ultra,CES
 Underground Expedition,168/168,Rare Ultra,CES
-Shiftry GX,169/168,Rare Rainbow,CES
-Blaziken GX,170/168,Rare Rainbow,CES
-Articuno GX,171/168,Rare Rainbow,CES
-Electrode GX,172/168,Rare Rainbow,CES
-Mr. Mime GX,173/168,Rare Rainbow,CES
-Banette GX,174/168,Rare Rainbow,CES
-Scizor GX,175/168,Rare Rainbow,CES
-Stakataka GX,176/168,Rare Rainbow,CES
-Rayquaza GX,177/168,Rare Rainbow,CES
+Shiftry-GX,169/168,Rare Rainbow,CES
+Blaziken-GX,170/168,Rare Rainbow,CES
+Articuno-GX,171/168,Rare Rainbow,CES
+Electrode-GX,172/168,Rare Rainbow,CES
+Mr. Mime-GX,173/168,Rare Rainbow,CES
+Banette-GX,174/168,Rare Rainbow,CES
+Scizor-GX,175/168,Rare Rainbow,CES
+Stakataka-GX,176/168,Rare Rainbow,CES
+Rayquaza-GX,177/168,Rare Rainbow,CES
 Rayquaza-GX,177a/168,Rare Ultra,CES
 Acro Bike,178/168,Rare Secret,CES
 Hustle Belt,179/168,Rare Secret,CES
@@ -11999,10 +11999,10 @@ Life Herb,180/168,Rare Secret,CES
 PokéNav,181/168,Rare Secret,CES
 Rainbow Brush,182/168,Rare Secret,CES
 Rainbow Energy,183/168,Rare Secret,CES
-Venusaur & Snivy GX,1/236,Rare Holo GX,CEC
+Venusaur & Snivy-GX,1/236,Rare Holo GX,CEC
 Oddish,2/236,Common,CEC
 Gloom,3/236,Uncommon,CEC
-Vileplume GX,4/236,Rare Holo GX,CEC
+Vileplume-GX,4/236,Rare Holo GX,CEC
 Tangela,5/236,Common,CEC
 Tangrowth,6/236,Uncommon,CEC
 Sunkern,7/236,Common,CEC
@@ -12020,7 +12020,7 @@ Rowlet,18/236,Common,CEC
 Dartrix,19/236,Uncommon,CEC
 Decidueye,20/236,Rare Holo,CEC
 Buzzwole,21/236,Rare Holo,CEC
-Charizard & Braixen GX,22/236,Rare Holo GX,CEC
+Charizard & Braixen-GX,22/236,Rare Holo GX,CEC
 Ponyta,23/236,Common,CEC
 Rapidash,24/236,Uncommon,CEC
 Flareon,25/236,Uncommon,CEC
@@ -12033,10 +12033,10 @@ Tepig,31/236,Common,CEC
 Pignite,32/236,Uncommon,CEC
 Emboar,33/236,Rare,CEC
 Larvesta,34/236,Uncommon,CEC
-Volcarona GX,35/236,Rare Holo GX,CEC
+Volcarona-GX,35/236,Rare Holo GX,CEC
 Litleo,36/236,Common,CEC
 Pyroar,37/236,Uncommon,CEC
-Blastoise & Piplup GX,38/236,Rare Holo GX,CEC
+Blastoise & Piplup-GX,38/236,Rare Holo GX,CEC
 Alolan Vulpix,39/236,Common,CEC
 Psyduck,40/236,Common,CEC
 Golduck,41/236,Uncommon,CEC
@@ -12061,7 +12061,7 @@ Ducklett,59/236,Common,CEC
 Swanna,60/236,Rare,CEC
 Black Kyurem,61/236,Rare Holo,CEC
 Wishiwashi,62/236,Rare Holo,CEC
-Wishiwashi GX,63/236,Rare Holo GX,CEC
+Wishiwashi-GX,63/236,Rare Holo GX,CEC
 Dewpider,64/236,Common,CEC
 Araquanid,65/236,Uncommon,CEC
 Pikachu,66/236,Common,CEC
@@ -12073,7 +12073,7 @@ Chinchou,71/236,Common,CEC
 Lanturn,72/236,Rare,CEC
 Togedemaru,73/236,Uncommon,CEC
 Togedemaru,74/236,Common,CEC
-Solgaleo & Lunala GX,75/236,Rare Holo GX,CEC
+Solgaleo & Lunala-GX,75/236,Rare Holo GX,CEC
 Koffing,76/236,Common,CEC
 Weezing,77/236,Rare,CEC
 Natu,78/236,Common,CEC
@@ -12093,7 +12093,7 @@ Skrelp,91/236,Common,CEC
 Dragalge,92/236,Rare,CEC
 Phantump,93/236,Common,CEC
 Trevenant,94/236,Rare,CEC
-Oricorio GX,95/236,Rare Holo GX,CEC
+Oricorio-GX,95/236,Rare Holo GX,CEC
 Mimikyu,96/236,Uncommon,CEC
 Mimikyu,97/236,Rare,CEC
 Dhelmise,98/236,Uncommon,CEC
@@ -12108,7 +12108,7 @@ Nosepass,106/236,Common,CEC
 Trapinch,107/236,Common,CEC
 Trapinch,108/236,Common,CEC
 Vibrava,109/236,Uncommon,CEC
-Flygon GX,110/236,Rare Holo GX,CEC
+Flygon-GX,110/236,Rare Holo GX,CEC
 Anorith,111/236,Uncommon,CEC
 Armaldo,112/236,Rare,CEC
 Groudon,113/236,Rare,CEC
@@ -12127,7 +12127,7 @@ Passimian,125/236,Common,CEC
 Sandygast,126/236,Common,CEC
 Palossand,127/236,Rare,CEC
 Alolan Meowth,128/236,Common,CEC
-Alolan Persian GX,129/236,Rare Holo GX,CEC
+Alolan Persian-GX,129/236,Rare Holo GX,CEC
 Alolan Grimer,130/236,Common,CEC
 Alolan Muk,131/236,Rare,CEC
 Carvanha,132/236,Common,CEC
@@ -12141,8 +12141,8 @@ Steelix,139/236,Rare Holo,CEC
 Mawile,140/236,Uncommon,CEC
 Probopass,141/236,Uncommon,CEC
 Solgaleo,142/236,Rare Holo,CEC
-Togepi & Cleffa & Igglybuff GX,143/236,Rare Holo GX,CEC
-Togepi & Cleffa & Igglybuff GX,143a/236,Rare Ultra,CEC
+Togepi & Cleffa & Igglybuff-GX,143/236,Rare Holo GX,CEC
+Togepi & Cleffa & Igglybuff-GX,143a/236,Rare Ultra,CEC
 Clefairy,144/236,Uncommon,CEC
 Alolan Ninetales,145/236,Rare Holo,CEC
 Azurill,146/236,Common,CEC
@@ -12155,16 +12155,16 @@ Florges,152/236,Rare Holo,CEC
 Swirlix,153/236,Common,CEC
 Slurpuff,154/236,Rare,CEC
 Sylveon,155/236,Rare,CEC
-Arceus & Dialga & Palkia GX,156/236,Rare Holo GX,CEC
-Reshiram & Zekrom GX,157/236,Rare Holo GX,CEC
-Naganadel & Guzzlord GX,158/236,Rare Holo GX,CEC
+Arceus & Dialga & Palkia-GX,156/236,Rare Holo GX,CEC
+Reshiram & Zekrom-GX,157/236,Rare Holo GX,CEC
+Naganadel & Guzzlord-GX,158/236,Rare Holo GX,CEC
 Drampa,159/236,Rare,CEC
 Jangmo-o,160/236,Common,CEC
 Jangmo-o,161/236,Common,CEC
 Hakamo-o,162/236,Uncommon,CEC
 Kommo-o,163/236,Rare Holo,CEC
 Ultra Necrozma,164/236,Rare Holo,CEC
-Mega Lopunny & Jigglypuff GX,165/236,Rare Holo GX,CEC
+Mega Lopunny & Jigglypuff-GX,165/236,Rare Holo GX,CEC
 Eevee,166/236,Common,CEC
 Eevee,167/236,Common,CEC
 Igglybuff,168/236,Uncommon,CEC
@@ -12183,7 +12183,7 @@ Heliolisk,180/236,Rare,CEC
 Stufful,181/236,Common,CEC
 Bewear,182/236,Rare,CEC
 Type: Null,183/236,Uncommon,CEC
-Silvally GX,184/236,Rare Holo GX,CEC
+Silvally-GX,184/236,Rare Holo GX,CEC
 Beastite,185/236,Uncommon,CEC
 Bellelba & Brycen-Man,186/236,Uncommon,CEC
 Chaotic Swell,187/236,Uncommon,CEC
@@ -12194,13 +12194,13 @@ Erika,191/236,Uncommon,CEC
 Great Catcher,192/236,Uncommon,CEC
 Guzma & Hala,193/236,Uncommon,CEC
 Island Challenge Amulet,194/236,Uncommon,CEC
-Lana’s Fishing Rod,195/236,Uncommon,CEC
-Lillie’s Full Force,196/236,Uncommon,CEC
-Lillie’s Poké Doll,197/236,Uncommon,CEC
+Lana's Fishing Rod,195/236,Uncommon,CEC
+Lillie's Full Force,196/236,Uncommon,CEC
+Lillie's Poké Doll,197/236,Uncommon,CEC
 Mallow & Lana,198/236,Uncommon,CEC
 Misty & Lorelei,199/236,Uncommon,CEC
-N’s Resolve,200/236,Uncommon,CEC
-Professor Oak’s Setup,201/236,Uncommon,CEC
+N's Resolve,200/236,Uncommon,CEC
+Professor Oak's Setup,201/236,Uncommon,CEC
 Red & Blue,202/236,Uncommon,CEC
 Roller Skater,203/236,Uncommon,CEC
 Rosa,204/236,Rare Holo,CEC
@@ -12209,30 +12209,30 @@ Tag Call,206/236,Uncommon,CEC
 Unidentified Fossil,207/236,Uncommon,CEC
 Will,208/236,Uncommon,CEC
 Draw Energy,209/236,Uncommon,CEC
-Venusaur & Snivy GX,210/236,Rare Ultra,CEC
-Vileplume GX,211/236,Rare Ultra,CEC
-Charizard & Braixen GX,212/236,Rare Ultra,CEC
-Volcarona GX,213/236,Rare Ultra,CEC
-Blastoise & Piplup GX,214/236,Rare Ultra,CEC
-Blastoise & Piplup GX,215/236,Rare Ultra,CEC
-Solgaleo & Lunala GX,216/236,Rare Ultra,CEC
-Oricorio GX,217/236,Rare Ultra,CEC
-Flygon GX,218/236,Rare Ultra,CEC
-Alolan Persian GX,219/236,Rare Ultra,CEC
-Arceus & Dialga & Palkia GX,220/236,Rare Ultra,CEC
-Arceus & Dialga & Palkia GX,221/236,Rare Ultra,CEC
-Reshiram & Zekrom GX,222/236,Rare Ultra,CEC
-Naganadel & Guzzlord GX,223/236,Rare Ultra,CEC
-Naganadel & Guzzlord GX,224/236,Rare Ultra,CEC
-Mega Lopunny & Jigglypuff GX,225/236,Rare Ultra,CEC
-Mega Lopunny & Jigglypuff GX,226/236,Rare Ultra,CEC
-Silvally GX,227/236,Rare Ultra,CEC
+Venusaur & Snivy-GX,210/236,Rare Ultra,CEC
+Vileplume-GX,211/236,Rare Ultra,CEC
+Charizard & Braixen-GX,212/236,Rare Ultra,CEC
+Volcarona-GX,213/236,Rare Ultra,CEC
+Blastoise & Piplup-GX,214/236,Rare Ultra,CEC
+Blastoise & Piplup-GX,215/236,Rare Ultra,CEC
+Solgaleo & Lunala-GX,216/236,Rare Ultra,CEC
+Oricorio-GX,217/236,Rare Ultra,CEC
+Flygon-GX,218/236,Rare Ultra,CEC
+Alolan Persian-GX,219/236,Rare Ultra,CEC
+Arceus & Dialga & Palkia-GX,220/236,Rare Ultra,CEC
+Arceus & Dialga & Palkia-GX,221/236,Rare Ultra,CEC
+Reshiram & Zekrom-GX,222/236,Rare Ultra,CEC
+Naganadel & Guzzlord-GX,223/236,Rare Ultra,CEC
+Naganadel & Guzzlord-GX,224/236,Rare Ultra,CEC
+Mega Lopunny & Jigglypuff-GX,225/236,Rare Ultra,CEC
+Mega Lopunny & Jigglypuff-GX,226/236,Rare Ultra,CEC
+Silvally-GX,227/236,Rare Ultra,CEC
 Cynthia & Caitlin,228/236,Rare Ultra,CEC
 Guzma & Hala,229/236,Rare Ultra,CEC
-Lillie’s Full Force,230/236,Rare Ultra,CEC
+Lillie's Full Force,230/236,Rare Ultra,CEC
 Mallow & Lana,231/236,Rare Ultra,CEC
-N’s Resolve,232/236,Rare Ultra,CEC
-Professor Oak’s Setup,233/236,Rare Ultra,CEC
+N's Resolve,232/236,Rare Ultra,CEC
+Professor Oak's Setup,233/236,Rare Ultra,CEC
 Red & Blue,234/236,Rare Ultra,CEC
 Roller Skater,235/236,Rare Ultra,CEC
 Rosa,236/236,Rare Ultra,CEC
@@ -12248,25 +12248,25 @@ Mimikyu,245/236,Rare Secret,CEC
 Excadrill,246/236,Rare Secret,CEC
 Steelix,247/236,Rare Secret,CEC
 Stoutland,248/236,Rare Secret,CEC
-Venusaur & Snivy GX,249/236,Rare Rainbow,CEC
-Vileplume GX,250/236,Rare Rainbow,CEC
-Charizard & Braixen GX,251/236,Rare Rainbow,CEC
-Volcarona GX,252/236,Rare Rainbow,CEC
-Blastoise & Piplup GX,253/236,Rare Rainbow,CEC
-Solgaleo & Lunala GX,254/236,Rare Rainbow,CEC
-Oricorio GX,255/236,Rare Rainbow,CEC
-Flygon GX,256/236,Rare Rainbow,CEC
-Alolan Persian GX,257/236,Rare Rainbow,CEC
-Arceus & Dialga & Palkia GX,258/236,Rare Rainbow,CEC
-Reshiram & Zekrom GX,259/236,Rare Rainbow,CEC
-Naganadel & Guzzlord GX,260/236,Rare Rainbow,CEC
-Mega Lopunny & Jigglypuff GX,261/236,Rare Rainbow,CEC
-Silvally GX,262/236,Rare Rainbow,CEC
+Venusaur & Snivy-GX,249/236,Rare Rainbow,CEC
+Vileplume-GX,250/236,Rare Rainbow,CEC
+Charizard & Braixen-GX,251/236,Rare Rainbow,CEC
+Volcarona-GX,252/236,Rare Rainbow,CEC
+Blastoise & Piplup-GX,253/236,Rare Rainbow,CEC
+Solgaleo & Lunala-GX,254/236,Rare Rainbow,CEC
+Oricorio-GX,255/236,Rare Rainbow,CEC
+Flygon-GX,256/236,Rare Rainbow,CEC
+Alolan Persian-GX,257/236,Rare Rainbow,CEC
+Arceus & Dialga & Palkia-GX,258/236,Rare Rainbow,CEC
+Reshiram & Zekrom-GX,259/236,Rare Rainbow,CEC
+Naganadel & Guzzlord-GX,260/236,Rare Rainbow,CEC
+Mega Lopunny & Jigglypuff-GX,261/236,Rare Rainbow,CEC
+Silvally-GX,262/236,Rare Rainbow,CEC
 Giant Hearth,263/236,Rare Secret,CEC
 Great Catcher,264/236,Rare Secret,CEC
 Island Challenge Amulet,265/236,Rare Secret,CEC
-Lana’s Fishing Rod,266/236,Rare Secret,CEC
-Lillie’s Poké Doll,267/236,Rare Secret,CEC
+Lana's Fishing Rod,266/236,Rare Secret,CEC
+Lillie's Poké Doll,267/236,Rare Secret,CEC
 Martial Arts Dojo,268/236,Rare Secret,CEC
 Power Plant,269/236,Rare Secret,CEC
 Tag Call,270/236,Rare Secret,CEC
@@ -12288,7 +12288,7 @@ Camerupt,14/111,Rare,CIN
 Staryu,15/111,Common,CIN
 Starmie,16/111,Rare,CIN
 Magikarp,17/111,Common,CIN
-Gyarados GX,18/111,Rare Holo GX,CIN
+Gyarados-GX,18/111,Rare Holo GX,CIN
 Swinub,19/111,Common,CIN
 Piloswine,20/111,Uncommon,CIN
 Mamoswine,21/111,Rare,CIN
@@ -12304,7 +12304,7 @@ Pikachu,30/111,Common,CIN
 Alolan Raichu,31/111,Rare Holo,CIN
 Alolan Geodude,32/111,Common,CIN
 Alolan Graveler,33/111,Uncommon,CIN
-Alolan Golem GX,34/111,Rare Holo GX,CIN
+Alolan Golem-GX,34/111,Rare Holo GX,CIN
 Emolga,35/111,Uncommon,CIN
 Gastly,36/111,Common,CIN
 Haunter,37/111,Uncommon,CIN
@@ -12319,7 +12319,7 @@ Gourgeist,45/111,Rare,CIN
 Salandit,46/111,Common,CIN
 Salazzle,47/111,Rare Holo,CIN
 Oranguru,48/111,Rare,CIN
-Nihilego GX,49/111,Rare Holo GX,CIN
+Nihilego-GX,49/111,Rare Holo GX,CIN
 Mankey,50/111,Common,CIN
 Primeape,51/111,Rare,CIN
 Cubone,52/111,Common,CIN
@@ -12327,13 +12327,13 @@ Regirock,53/111,Rare,CIN
 Gastrodon,54/111,Uncommon,CIN
 Stufful,55/111,Common,CIN
 Bewear,56/111,Rare Holo,CIN
-Buzzwole GX,57/111,Rare Holo GX,CIN
+Buzzwole-GX,57/111,Rare Holo GX,CIN
 Houndour,58/111,Common,CIN
 Houndoom,59/111,Rare,CIN
 Deino,60/111,Common,CIN
 Zweilous,61/111,Uncommon,CIN
 Hydreigon,62/111,Rare,CIN
-Guzzlord GX,63/111,Rare Holo GX,CIN
+Guzzlord-GX,63/111,Rare Holo GX,CIN
 Guzzlord-GX,63a/111,Rare Holo GX,CIN
 Mawile,64/111,Uncommon,CIN
 Aron,65/111,Common,CIN
@@ -12341,11 +12341,11 @@ Lairon,66/111,Uncommon,CIN
 Aggron,67/111,Rare Holo,CIN
 Registeel,68/111,Rare,CIN
 Escavalier,69/111,Rare,CIN
-Kartana GX,70/111,Rare Holo GX,CIN
+Kartana-GX,70/111,Rare Holo GX,CIN
 Jigglypuff,71/111,Common,CIN
 Wigglytuff,72/111,Rare,CIN
 Xerneas,73/111,Rare Holo,CIN
-Alolan Exeggutor GX,74/111,Rare Holo GX,CIN
+Alolan Exeggutor-GX,74/111,Rare Holo GX,CIN
 Jangmo-o,75/111,Common,CIN
 Hakamo-o,76/111,Uncommon,CIN
 Kommo-o,77/111,Rare,CIN
@@ -12362,7 +12362,7 @@ Cinccino,86/111,Uncommon,CIN
 Bunnelby,87/111,Common,CIN
 Diggersby,88/111,Uncommon,CIN
 Type: Null,89/111,Rare Holo,CIN
-Silvally GX,90/111,Rare Holo GX,CIN
+Silvally-GX,90/111,Rare Holo GX,CIN
 Counter Catcher,91/111,Uncommon,CIN
 Dashing Pouch,92/111,Uncommon,CIN
 Devoured Field,93/111,Uncommon,CIN
@@ -12373,25 +12373,25 @@ Peeking Red Card,97/111,Uncommon,CIN
 Psychic Memory,98/111,Uncommon,CIN
 Sea of Nothingness,99/111,Uncommon,CIN
 Counter Energy,100/111,Uncommon,CIN
-Gyarados GX,101/111,Rare Ultra,CIN
-Alolan Golem GX,102/111,Rare Ultra,CIN
-Nihilego GX,103/111,Rare Ultra,CIN
-Buzzwole GX,104/111,Rare Ultra,CIN
-Guzzlord GX,105/111,Rare Ultra,CIN
-Kartana GX,106/111,Rare Ultra,CIN
-Alolan Exeggutor GX,107/111,Rare Ultra,CIN
-Silvally GX,108/111,Rare Ultra,CIN
+Gyarados-GX,101/111,Rare Ultra,CIN
+Alolan Golem-GX,102/111,Rare Ultra,CIN
+Nihilego-GX,103/111,Rare Ultra,CIN
+Buzzwole-GX,104/111,Rare Ultra,CIN
+Guzzlord-GX,105/111,Rare Ultra,CIN
+Kartana-GX,106/111,Rare Ultra,CIN
+Alolan Exeggutor-GX,107/111,Rare Ultra,CIN
+Silvally-GX,108/111,Rare Ultra,CIN
 Gladion,109/111,Rare Ultra,CIN
 Lusamine,110/111,Rare Ultra,CIN
 Olivia,111/111,Rare Ultra,CIN
-Gyarados GX,112/111,Rare Rainbow,CIN
-Alolan Golem GX,113/111,Rare Rainbow,CIN
-Nihilego GX,114/111,Rare Rainbow,CIN
-Buzzwole GX,115/111,Rare Rainbow,CIN
-Guzzlord GX,116/111,Rare Rainbow,CIN
-Kartana GX,117/111,Rare Rainbow,CIN
-Alolan Exeggutor GX,118/111,Rare Rainbow,CIN
-Silvally GX,119/111,Rare Rainbow,CIN
+Gyarados-GX,112/111,Rare Rainbow,CIN
+Alolan Golem-GX,113/111,Rare Rainbow,CIN
+Nihilego-GX,114/111,Rare Rainbow,CIN
+Buzzwole-GX,115/111,Rare Rainbow,CIN
+Guzzlord-GX,116/111,Rare Rainbow,CIN
+Kartana-GX,117/111,Rare Rainbow,CIN
+Alolan Exeggutor-GX,118/111,Rare Rainbow,CIN
+Silvally-GX,119/111,Rare Rainbow,CIN
 Counter Catcher,120/111,Rare Secret,CIN
 Wishful Baton,121/111,Rare Secret,CIN
 Counter Energy,122/111,Rare Secret,CIN
@@ -12425,14 +12425,14 @@ Victini ◇,7/70,Rare Prism Star,DRM
 Darumaka,8/70,Common,DRM
 Darmanitan,9/70,Uncommon,DRM
 Heatmor,10/70,Uncommon,DRM
-Reshiram GX,11/70,Rare Holo GX,DRM
+Reshiram-GX,11/70,Rare Holo GX,DRM
 Litten,12/70,Common,DRM
 Salandit,13/70,Common,DRM
 Salazzle,14/70,Uncommon,DRM
 Horsea,15/70,Common,DRM
 Horsea,16/70,Common,DRM
 Seadra,17/70,Uncommon,DRM
-Kingdra GX,18/70,Rare Holo GX,DRM
+Kingdra-GX,18/70,Rare Holo GX,DRM
 Magikarp,19/70,Common,DRM
 Gyarados,20/70,Rare Holo,DRM
 Lapras,21/70,Uncommon,DRM
@@ -12451,19 +12451,19 @@ Hydreigon,33/70,Rare Holo,DRM
 Dratini,34/70,Common,DRM
 Dratini,35/70,Common,DRM
 Dragonair,36/70,Uncommon,DRM
-Dragonite GX,37/70,Rare Holo GX,DRM
+Dragonite-GX,37/70,Rare Holo GX,DRM
 Vibrava,38/70,Common,DRM
 Flygon,39/70,Uncommon,DRM
 Altaria,40/70,Rare Holo,DRM
 Altaria,40a/70,Rare Holo,DRM
-Altaria GX,41/70,Rare Holo GX,DRM
+Altaria-GX,41/70,Rare Holo GX,DRM
 Bagon,42/70,Common,DRM
 Shelgon,43/70,Uncommon,DRM
-Salamence GX,44/70,Rare Holo GX,DRM
+Salamence-GX,44/70,Rare Holo GX,DRM
 Druddigon,45/70,Uncommon,DRM
 Zekrom,46/70,Rare Holo,DRM
 Kyurem,47/70,Rare Holo,DRM
-White Kyurem GX,48/70,Rare Holo GX,DRM
+White Kyurem-GX,48/70,Rare Holo GX,DRM
 Zygarde,49/70,Uncommon,DRM
 Turtonator,50/70,Uncommon,DRM
 Drampa,51/70,Uncommon,DRM
@@ -12473,7 +12473,7 @@ Kommo-o,54/70,Rare Holo,DRM
 Kangaskhan,55/70,Common,DRM
 Swablu,56/70,Common,DRM
 Swablu,57/70,Common,DRM
-Blaine’s Last Stand,58/70,Rare Holo,DRM
+Blaine's Last Stand,58/70,Rare Holo,DRM
 Dragon Talon,59/70,Uncommon,DRM
 Fiery Flint,60/70,Uncommon,DRM
 Fiery Flint,60a/70,Uncommon,DRM
@@ -12481,20 +12481,20 @@ Lance ◇,61/70,Rare Prism Star,DRM
 Switch Raft,62/70,Uncommon,DRM
 Wela Volcano Park,63/70,Uncommon,DRM
 Zinnia,64/70,Uncommon,DRM
-Reshiram GX,65/70,Rare Ultra,DRM
-Kingdra GX,66/70,Rare Ultra,DRM
-Dragonite GX,67/70,Rare Ultra,DRM
-Altaria GX,68/70,Rare Ultra,DRM
-Blaine’s Last Stand,69/70,Rare Ultra,DRM
+Reshiram-GX,65/70,Rare Ultra,DRM
+Kingdra-GX,66/70,Rare Ultra,DRM
+Dragonite-GX,67/70,Rare Ultra,DRM
+Altaria-GX,68/70,Rare Ultra,DRM
+Blaine's Last Stand,69/70,Rare Ultra,DRM
 Zinnia,70/70,Rare Ultra,DRM
-Reshiram GX,71/70,Rare Rainbow,DRM
-Altaria GX,72/70,Rare Rainbow,DRM
-Salamence GX,73/70,Rare Rainbow,DRM
-White Kyurem GX,74/70,Rare Rainbow,DRM
+Reshiram-GX,71/70,Rare Rainbow,DRM
+Altaria-GX,72/70,Rare Rainbow,DRM
+Salamence-GX,73/70,Rare Rainbow,DRM
+White Kyurem-GX,74/70,Rare Rainbow,DRM
 Dragon Talon,75/70,Rare Secret,DRM
 Fiery Flint,76/70,Rare Secret,DRM
 Switch Raft,77/70,Rare Secret,DRM
-Ultra Necrozma GX,78/70,Rare Secret,DRM
+Ultra Necrozma-GX,78/70,Rare Secret,DRM
 Exeggcute,1/131,Common,FLI
 Alolan Exeggutor,2/131,Rare,FLI
 Alolan Exeggutor,2a/131,Rare,FLI
@@ -12515,11 +12515,11 @@ Braixen,16/131,Uncommon,FLI
 Delphox,17/131,Rare Holo,FLI
 Litleo,18/131,Common,FLI
 Pyroar,19/131,Rare Holo,FLI
-Palkia GX,20/131,Rare Holo GX,FLI
+Palkia-GX,20/131,Rare Holo GX,FLI
 Froakie,21/131,Common,FLI
 Froakie,22/131,Common,FLI
 Frogadier,23/131,Uncommon,FLI
-Greninja GX,24/131,Rare Holo GX,FLI
+Greninja-GX,24/131,Rare Holo GX,FLI
 Clauncher,25/131,Common,FLI
 Clawitzer,26/131,Rare,FLI
 Amaura,27/131,Uncommon,FLI
@@ -12551,7 +12551,7 @@ Skrelp,52/131,Common,FLI
 Dragalge,53/131,Rare,FLI
 Hoopa,54/131,Uncommon,FLI
 Poipole,55/131,Uncommon,FLI
-Naganadel GX,56/131,Rare Holo GX,FLI
+Naganadel-GX,56/131,Rare Holo GX,FLI
 Cubone,57/131,Common,FLI
 Torterra,58/131,Rare,FLI
 Infernape,59/131,Rare Holo,FLI
@@ -12568,16 +12568,16 @@ Tyrantrum,69/131,Rare Holo,FLI
 Hawlucha,70/131,Uncommon,FLI
 Zygarde,71/131,Uncommon,FLI
 Zygarde,72/131,Rare,FLI
-Zygarde GX,73/131,Rare Holo GX,FLI
+Zygarde-GX,73/131,Rare Holo GX,FLI
 Diancie ◇,74/131,Rare Prism Star,FLI
 Rockruff,75/131,Common,FLI
 Lycanroc,76/131,Rare,FLI
 Buzzwole,77/131,Rare,FLI
 Pangoro,78/131,Rare,FLI
-Yveltal GX,79/131,Rare Holo GX,FLI
+Yveltal-GX,79/131,Rare Holo GX,FLI
 Guzzlord,80/131,Rare Holo,FLI
 Empoleon,81/131,Rare Holo,FLI
-Dialga GX,82/131,Rare Holo GX,FLI
+Dialga-GX,82/131,Rare Holo GX,FLI
 Flabébé,83/131,Common,FLI
 Flabébé,84/131,Common,FLI
 Floette,85/131,Uncommon,FLI
@@ -12585,12 +12585,12 @@ Florges,86/131,Rare,FLI
 Sylveon,87/131,Rare,FLI
 Dedenne,88/131,Uncommon,FLI
 Klefki,89/131,Uncommon,FLI
-Xerneas GX,90/131,Rare Holo GX,FLI
+Xerneas-GX,90/131,Rare Holo GX,FLI
 Goomy,91/131,Common,FLI
 Goomy,92/131,Common,FLI
 Sliggoo,93/131,Uncommon,FLI
 Goodra,94/131,Rare Holo,FLI
-Ultra Necrozma GX,95/131,Rare Holo GX,FLI
+Ultra Necrozma-GX,95/131,Rare Holo GX,FLI
 Arceus ◇,96/131,Rare Prism Star,FLI
 Bunnelby,97/131,Common,FLI
 Diggersby,98/131,Uncommon,FLI
@@ -12617,28 +12617,28 @@ Ultra Space,115/131,Uncommon,FLI
 Unidentified Fossil,116/131,Uncommon,FLI
 Beast Energy ◇,117/131,Rare Prism Star,FLI
 Unit Energy FightingDarknessFairy,118/131,Uncommon,FLI
-Palkia GX,119/131,Rare Ultra,FLI
-Greninja GX,120/131,Rare Ultra,FLI
-Naganadel GX,121/131,Rare Ultra,FLI
-Lucario GX,122/131,Rare Ultra,FLI
-Zygarde GX,123/131,Rare Ultra,FLI
-Yveltal GX,124/131,Rare Ultra,FLI
-Dialga GX,125/131,Rare Ultra,FLI
-Xerneas GX,126/131,Rare Ultra,FLI
-Ultra Necrozma GX,127/131,Rare Ultra,FLI
+Palkia-GX,119/131,Rare Ultra,FLI
+Greninja-GX,120/131,Rare Ultra,FLI
+Naganadel-GX,121/131,Rare Ultra,FLI
+Lucario-GX,122/131,Rare Ultra,FLI
+Zygarde-GX,123/131,Rare Ultra,FLI
+Yveltal-GX,124/131,Rare Ultra,FLI
+Dialga-GX,125/131,Rare Ultra,FLI
+Xerneas-GX,126/131,Rare Ultra,FLI
+Ultra Necrozma-GX,127/131,Rare Ultra,FLI
 Bonnie,128/131,Rare Ultra,FLI
 Crasher Wake,129/131,Rare Ultra,FLI
 Diantha,130/131,Rare Ultra,FLI
 Ultra Recon Squad,131/131,Rare Ultra,FLI
-Palkia GX,132/131,Rare Rainbow,FLI
-Greninja GX,133/131,Rare Rainbow,FLI
-Naganadel GX,134/131,Rare Rainbow,FLI
-Lucario GX,135/131,Rare Rainbow,FLI
-Zygarde GX,136/131,Rare Rainbow,FLI
-Yveltal GX,137/131,Rare Rainbow,FLI
-Dialga GX,138/131,Rare Rainbow,FLI
-Xerneas GX,139/131,Rare Rainbow,FLI
-Ultra Necrozma GX,140/131,Rare Rainbow,FLI
+Palkia-GX,132/131,Rare Rainbow,FLI
+Greninja-GX,133/131,Rare Rainbow,FLI
+Naganadel-GX,134/131,Rare Rainbow,FLI
+Lucario-GX,135/131,Rare Rainbow,FLI
+Zygarde-GX,136/131,Rare Rainbow,FLI
+Yveltal-GX,137/131,Rare Rainbow,FLI
+Dialga-GX,138/131,Rare Rainbow,FLI
+Xerneas-GX,139/131,Rare Rainbow,FLI
+Ultra Necrozma-GX,140/131,Rare Rainbow,FLI
 Beast Ring,141/131,Rare Secret,FLI
 Eneporter,142/131,Rare Secret,FLI
 Energy Recycler,143/131,Rare Secret,FLI
@@ -12662,13 +12662,13 @@ Oricorio,14/145,Rare,GRI
 Salandit,15/145,Common,GRI
 Salazzle,16/145,Rare,GRI
 Turtonator,17/145,Rare,GRI
-Turtonator GX,18/145,Rare Holo GX,GRI
+Turtonator-GX,18/145,Rare Holo GX,GRI
 Alolan Sandshrew,19/145,Common,GRI
 Alolan Sandshrew,19a/145,Common,GRI
 Alolan Sandslash,20/145,Rare,GRI
 Alolan Vulpix,21/145,Common,GRI
 Alolan Vulpix,21a/145,Common,GRI
-Alolan Ninetales GX,22/145,Rare Holo GX,GRI
+Alolan Ninetales-GX,22/145,Rare Holo GX,GRI
 Tentacool,23/145,Common,GRI
 Tentacruel,24/145,Uncommon,GRI
 Politoed,25/145,Rare Holo,GRI
@@ -12684,16 +12684,16 @@ Vanillish,34/145,Uncommon,GRI
 Vanilluxe,35/145,Rare,GRI
 Alomomola,36/145,Uncommon,GRI
 Wishiwashi,37/145,Common,GRI
-Wishiwashi GX,38/145,Rare Holo GX,GRI
+Wishiwashi-GX,38/145,Rare Holo GX,GRI
 Mareanie,39/145,Uncommon,GRI
 Alolan Geodude,40/145,Common,GRI
 Alolan Graveler,41/145,Uncommon,GRI
 Alolan Golem,42/145,Rare Holo,GRI
 Helioptile,43/145,Common,GRI
 Heliolisk,44/145,Rare,GRI
-Vikavolt GX,45/145,Rare Holo GX,GRI
+Vikavolt-GX,45/145,Rare Holo GX,GRI
 Oricorio,46/145,Rare,GRI
-Tapu Koko GX,47/145,Rare Holo GX,GRI
+Tapu Koko-GX,47/145,Rare Holo GX,GRI
 Slowpoke,48/145,Common,GRI
 Slowbro,49/145,Uncommon,GRI
 Trubbish,50/145,Common,GRI
@@ -12704,10 +12704,10 @@ Gothorita,53/145,Uncommon,GRI
 Gothitelle,54/145,Rare,GRI
 Oricorio,55/145,Rare,GRI
 Oricorio,56/145,Rare,GRI
-Toxapex GX,57/145,Rare Holo GX,GRI
+Toxapex-GX,57/145,Rare Holo GX,GRI
 Mimikyu,58/145,Rare Holo,GRI
 Dhelmise,59/145,Rare Holo,GRI
-Tapu Lele GX,60/145,Rare Holo GX,GRI
+Tapu Lele-GX,60/145,Rare Holo GX,GRI
 Tapu Lele-GX,60a/145,Rare Holo GX,GRI
 Lunala,61/145,Rare,GRI
 Machop,62/145,Common,GRI
@@ -12722,7 +12722,7 @@ Barboach,70/145,Common,GRI
 Whiscash,71/145,Rare,GRI
 Pancham,72/145,Common,GRI
 Rockruff,73/145,Common,GRI
-Lycanroc GX,74/145,Rare Holo GX,GRI
+Lycanroc-GX,74/145,Rare Holo GX,GRI
 Mudbray,75/145,Common,GRI
 Mudsdale,76/145,Rare Holo,GRI
 Minior,77/145,Rare Holo,GRI
@@ -12733,14 +12733,14 @@ Absol,81/145,Rare Holo,GRI
 Pangoro,82/145,Rare,GRI
 Beldum,83/145,Common,GRI
 Metang,84/145,Uncommon,GRI
-Metagross GX,85/145,Rare Holo GX,GRI
+Metagross-GX,85/145,Rare Holo GX,GRI
 Probopass,86/145,Rare,GRI
 Solgaleo,87/145,Rare,GRI
 Clefairy,88/145,Common,GRI
 Clefable,89/145,Uncommon,GRI
 Cottonee,90/145,Common,GRI
 Whimsicott,91/145,Uncommon,GRI
-Sylveon GX,92/145,Rare Holo GX,GRI
+Sylveon-GX,92/145,Rare Holo GX,GRI
 Sylveon-GX,92a/145,Rare Holo GX,GRI
 Comfey,93/145,Rare Holo,GRI
 Goomy,94/145,Common,GRI
@@ -12749,7 +12749,7 @@ Goodra,96/145,Rare Holo,GRI
 Drampa,97/145,Rare Holo,GRI
 Jangmo-o,98/145,Common,GRI
 Hakamo-o,99/145,Uncommon,GRI
-Kommo-o GX,100/145,Rare Holo GX,GRI
+Kommo-o-GX,100/145,Rare Holo GX,GRI
 Chansey,101/145,Common,GRI
 Blissey,102/145,Rare Holo,GRI
 Taillow,103/145,Common,GRI
@@ -12764,7 +12764,7 @@ Talonflame,111/145,Rare,GRI
 Stufful,112/145,Common,GRI
 Bewear,113/145,Uncommon,GRI
 Komala,114/145,Uncommon,GRI
-Drampa GX,115/145,Rare Holo GX,GRI
+Drampa-GX,115/145,Rare Holo GX,GRI
 Aether Paradise Conservation Area,116/145,Uncommon,GRI
 Altar of the Moone,117/145,Uncommon,GRI
 Altar of the Sunne,118/145,Uncommon,GRI
@@ -12785,37 +12785,37 @@ Max Potion,128a/145,Uncommon,GRI
 Multi Switch,129/145,Uncommon,GRI
 Rescue Stretcher,130/145,Uncommon,GRI
 Rescue Stretcher,130a/145,Uncommon,GRI
-Turtonator GX,131/145,Rare Ultra,GRI
-Alolan Ninetales GX,132/145,Rare Ultra,GRI
-Wishiwashi GX,133/145,Rare Ultra,GRI
-Vikavolt GX,134/145,Rare Ultra,GRI
-Tapu Koko GX,135/145,Rare Ultra,GRI
-Toxapex GX,136/145,Rare Ultra,GRI
-Tapu Lele GX,137/145,Rare Ultra,GRI
-Lycanroc GX,138/145,Rare Ultra,GRI
-Metagross GX,139/145,Rare Ultra,GRI
-Sylveon GX,140/145,Rare Ultra,GRI
-Kommo-o GX,141/145,Rare Ultra,GRI
-Drampa GX,142/145,Rare Ultra,GRI
+Turtonator-GX,131/145,Rare Ultra,GRI
+Alolan Ninetales-GX,132/145,Rare Ultra,GRI
+Wishiwashi-GX,133/145,Rare Ultra,GRI
+Vikavolt-GX,134/145,Rare Ultra,GRI
+Tapu Koko-GX,135/145,Rare Ultra,GRI
+Toxapex-GX,136/145,Rare Ultra,GRI
+Tapu Lele-GX,137/145,Rare Ultra,GRI
+Lycanroc-GX,138/145,Rare Ultra,GRI
+Metagross-GX,139/145,Rare Ultra,GRI
+Sylveon-GX,140/145,Rare Ultra,GRI
+Kommo-o-GX,141/145,Rare Ultra,GRI
+Drampa-GX,142/145,Rare Ultra,GRI
 Hala,143/145,Rare Ultra,GRI
 Hau,144/145,Rare Ultra,GRI
 Mallow,145/145,Rare Ultra,GRI
-Decidueye GX,146/145,Rare Rainbow,GRI
-Incineroar GX,147/145,Rare Rainbow,GRI
-Turtonator GX,148/145,Rare Rainbow,GRI
-Primarina GX,149/145,Rare Rainbow,GRI
-Alolan Ninetales GX,150/145,Rare Rainbow,GRI
-Wishiwashi GX,151/145,Rare Rainbow,GRI
-Vikavolt GX,152/145,Rare Rainbow,GRI
-Tapu Koko GX,153/145,Rare Rainbow,GRI
-Toxapex GX,154/145,Rare Rainbow,GRI
-Tapu Lele GX,155/145,Rare Rainbow,GRI
-Lycanroc GX,156/145,Rare Rainbow,GRI
-Metagross GX,157/145,Rare Rainbow,GRI
+Decidueye-GX,146/145,Rare Rainbow,GRI
+Incineroar-GX,147/145,Rare Rainbow,GRI
+Turtonator-GX,148/145,Rare Rainbow,GRI
+Primarina-GX,149/145,Rare Rainbow,GRI
+Alolan Ninetales-GX,150/145,Rare Rainbow,GRI
+Wishiwashi-GX,151/145,Rare Rainbow,GRI
+Vikavolt-GX,152/145,Rare Rainbow,GRI
+Tapu Koko-GX,153/145,Rare Rainbow,GRI
+Toxapex-GX,154/145,Rare Rainbow,GRI
+Tapu Lele-GX,155/145,Rare Rainbow,GRI
+Lycanroc-GX,156/145,Rare Rainbow,GRI
+Metagross-GX,157/145,Rare Rainbow,GRI
 Metagross-GX,157a/145,Rare Ultra,GRI
-Sylveon GX,158/145,Rare Rainbow,GRI
-Kommo-o GX,159/145,Rare Rainbow,GRI
-Drampa GX,160/145,Rare Rainbow,GRI
+Sylveon-GX,158/145,Rare Rainbow,GRI
+Kommo-o-GX,159/145,Rare Rainbow,GRI
+Drampa-GX,160/145,Rare Rainbow,GRI
 Aqua Patch,161/145,Rare Secret,GRI
 Enhanced Hammer,162/145,Rare Secret,GRI
 Field Blower,163/145,Rare Secret,GRI
@@ -12924,21 +12924,21 @@ Metapod,2/68,Uncommon,HIF
 Butterfree,3/68,Rare,HIF
 Paras,4/68,Common,HIF
 Scyther,5/68,Uncommon,HIF
-Pinsir GX,6/68,Rare Holo GX,HIF
+Pinsir-GX,6/68,Rare Holo GX,HIF
 Charmander,7/68,Common,HIF
 Charmeleon,8/68,Uncommon,HIF
-Charizard GX,9/68,Rare Holo GX,HIF
+Charizard-GX,9/68,Rare Holo GX,HIF
 Magmar,10/68,Uncommon,HIF
 Psyduck,11/68,Common,HIF
 Slowpoke,12/68,Common,HIF
 Staryu,13/68,Common,HIF
-Starmie GX,14/68,Rare Holo GX,HIF
+Starmie-GX,14/68,Rare Holo GX,HIF
 Magikarp,15/68,Common,HIF
-Gyarados GX,16/68,Rare Holo GX,HIF
+Gyarados-GX,16/68,Rare Holo GX,HIF
 Lapras,17/68,Rare,HIF
 Vaporeon,18/68,Rare Holo,HIF
 Pikachu,19/68,Common,HIF
-Raichu GX,20/68,Rare Holo GX,HIF
+Raichu-GX,20/68,Rare Holo GX,HIF
 Voltorb,21/68,Common,HIF
 Electrode,22/68,Rare,HIF
 Jolteon,23/68,Rare,HIF
@@ -12949,45 +12949,45 @@ Arbok,27/68,Rare,HIF
 Koffing,28/68,Common,HIF
 Weezing,29/68,Rare,HIF
 Jynx,30/68,Uncommon,HIF
-Mewtwo GX,31/68,Rare Holo GX,HIF
+Mewtwo-GX,31/68,Rare Holo GX,HIF
 Mew,32/68,Rare,HIF
 Geodude,33/68,Common,HIF
 Graveler,34/68,Uncommon,HIF
 Golem,35/68,Rare,HIF
-Onix GX,36/68,Rare Holo GX,HIF
+Onix-GX,36/68,Rare Holo GX,HIF
 Cubone,37/68,Common,HIF
 Clefairy,38/68,Common,HIF
 Clefairy,39/68,Common,HIF
 Clefable,40/68,Rare,HIF
 Jigglypuff,41/68,Common,HIF
-Wigglytuff GX,42/68,Rare Holo GX,HIF
+Wigglytuff-GX,42/68,Rare Holo GX,HIF
 Mr. Mime,43/68,Rare,HIF
-Moltres & Zapdos & Articuno GX,44/68,Rare Holo GX,HIF
-Farfetch’d,45/68,Uncommon,HIF
+Moltres & Zapdos & Articuno-GX,44/68,Rare Holo GX,HIF
+Farfetch'd,45/68,Uncommon,HIF
 Chansey,46/68,Uncommon,HIF
 Kangaskhan,47/68,Rare,HIF
 Eevee,48/68,Rare Holo,HIF
 Eevee,49/68,Common,HIF
 Snorlax,50/68,Rare,HIF
-Bill’s Analysis,51/68,Rare,HIF
-Blaine’s Last Stand,52/68,Rare,HIF
-Brock’s Grit,53/68,Uncommon,HIF
-Brock’s Pewter City Gym,54/68,Uncommon,HIF
-Brock’s Training,55/68,Rare Holo,HIF
-Erika’s Hospitality,56/68,Rare,HIF
-Giovanni’s Exile,57/68,Uncommon,HIF
+Bill's Analysis,51/68,Rare,HIF
+Blaine's Last Stand,52/68,Rare,HIF
+Brock's Grit,53/68,Uncommon,HIF
+Brock's Pewter City Gym,54/68,Uncommon,HIF
+Brock's Training,55/68,Rare Holo,HIF
+Erika's Hospitality,56/68,Rare,HIF
+Giovanni's Exile,57/68,Uncommon,HIF
 Jessie & James,58/68,Rare Holo,HIF
-Koga’s Trap,59/68,Uncommon,HIF
-Lt. Surge’s Strategy,60/68,Uncommon,HIF
-Misty’s Cerulean City Gym,61/68,Uncommon,HIF
-Misty’s Determination,62/68,Uncommon,HIF
-Misty’s Water Command,63/68,Rare Holo,HIF
+Koga's Trap,59/68,Uncommon,HIF
+Lt. Surge's Strategy,60/68,Uncommon,HIF
+Misty's Cerulean City Gym,61/68,Uncommon,HIF
+Misty's Determination,62/68,Uncommon,HIF
+Misty's Water Command,63/68,Rare Holo,HIF
 Pokémon Center Lady,64/68,Uncommon,HIF
-Sabrina’s Suggestion,65/68,Uncommon,HIF
-Moltres & Zapdos & Articuno GX,66/68,Rare Ultra,HIF
-Giovanni’s Exile,67/68,Rare Ultra,HIF
+Sabrina's Suggestion,65/68,Uncommon,HIF
+Moltres & Zapdos & Articuno-GX,66/68,Rare Ultra,HIF
+Giovanni's Exile,67/68,Rare Ultra,HIF
 Jessie & James,68/68,Rare Ultra,HIF
-Moltres & Zapdos & Articuno GX,69/68,Rare Rainbow,HIF
+Moltres & Zapdos & Articuno-GX,69/68,Rare Rainbow,HIF
 Tangela,1/214,Common,LOT
 Tangrowth,2/214,Rare,LOT
 Scyther,3/214,Common,LOT
@@ -13004,12 +13004,12 @@ Skiploom,13/214,Uncommon,LOT
 Jumpluff,14/214,Rare Holo,LOT
 Pineco,15/214,Common,LOT
 Shuckle,16/214,Uncommon,LOT
-Shuckle GX,17/214,Rare Holo GX,LOT
+Shuckle-GX,17/214,Rare Holo GX,LOT
 Heracross,18/214,Uncommon,LOT
 Celebi ◇,19/214,Rare Prism Star,LOT
 Treecko,20/214,Common,LOT
 Grovyle,21/214,Uncommon,LOT
-Sceptile GX,22/214,Rare Holo GX,LOT
+Sceptile-GX,22/214,Rare Holo GX,LOT
 Wurmple,23/214,Common,LOT
 Wurmple,24/214,Common,LOT
 Silcoon,25/214,Uncommon,LOT
@@ -13021,7 +13021,7 @@ Ninjask,30/214,Uncommon,LOT
 Combee,31/214,Common,LOT
 Vespiquen,32/214,Uncommon,LOT
 Shaymin,33/214,Rare Holo,LOT
-Virizion GX,34/214,Rare Holo GX,LOT
+Virizion-GX,34/214,Rare Holo GX,LOT
 Skiddo,35/214,Common,LOT
 Gogoat,36/214,Uncommon,LOT
 Tapu Bulu,37/214,Rare Holo,LOT
@@ -13031,7 +13031,7 @@ Cyndaquil,40/214,Common,LOT
 Quilava,41/214,Uncommon,LOT
 Typhlosion,42/214,Rare Holo,LOT
 Slugma,43/214,Common,LOT
-Magcargo GX,44/214,Rare Holo GX,LOT
+Magcargo-GX,44/214,Rare Holo GX,LOT
 Houndour,45/214,Common,LOT
 Houndoom,46/214,Rare,LOT
 Entei,47/214,Rare,LOT
@@ -13039,7 +13039,7 @@ Heatran,48/214,Rare Holo,LOT
 Victini,49/214,Rare,LOT
 Litleo,50/214,Common,LOT
 Pyroar,51/214,Rare,LOT
-Blacephalon GX,52/214,Rare Holo GX,LOT
+Blacephalon-GX,52/214,Rare Holo GX,LOT
 Alolan Vulpix,53/214,Common,LOT
 Slowpoke,54/214,Common,LOT
 Slowking,55/214,Rare,LOT
@@ -13047,7 +13047,7 @@ Lapras,56/214,Rare,LOT
 Delibird,57/214,Uncommon,LOT
 Mantine,58/214,Uncommon,LOT
 Suicune,59/214,Rare Holo,LOT
-Suicune GX,60/214,Rare Holo GX,LOT
+Suicune-GX,60/214,Rare Holo GX,LOT
 Cubchoo,61/214,Common,LOT
 Beartic,62/214,Rare,LOT
 White Kyurem,63/214,Rare Holo,LOT
@@ -13073,7 +13073,7 @@ Zebstrika,82/214,Rare,LOT
 Stunfisk,83/214,Common,LOT
 Dedenne,84/214,Common,LOT
 Tapu Koko,85/214,Rare Holo,LOT
-Zeraora GX,86/214,Rare Holo GX,LOT
+Zeraora-GX,86/214,Rare Holo GX,LOT
 Natu,87/214,Common,LOT
 Xatu,88/214,Uncommon,LOT
 Espeon,89/214,Rare,LOT
@@ -13085,7 +13085,7 @@ Girafarig,94/214,Uncommon,LOT
 Shedinja,95/214,Rare,LOT
 Sableye,96/214,Uncommon,LOT
 Giratina,97/214,Rare Holo,LOT
-Sigilyph GX,98/214,Rare Holo GX,LOT
+Sigilyph-GX,98/214,Rare Holo GX,LOT
 Yamask,99/214,Common,LOT
 Cofagrigus,100/214,Rare,LOT
 Litwick,101/214,Common,LOT
@@ -13108,7 +13108,7 @@ Carbink,117/214,Common,LOT
 Alolan Meowth,118/214,Common,LOT
 Alolan Persian,119/214,Rare,LOT
 Umbreon,120/214,Rare,LOT
-Tyranitar GX,121/214,Rare Holo GX,LOT
+Tyranitar-GX,121/214,Rare Holo GX,LOT
 Alolan Diglett,122/214,Common,LOT
 Alolan Dugtrio,123/214,Uncommon,LOT
 Forretress,124/214,Rare,LOT
@@ -13117,9 +13117,9 @@ Scizor,126/214,Rare Holo,LOT
 Dialga,127/214,Rare Holo,LOT
 Durant,128/214,Common,LOT
 Cobalion,129/214,Rare Holo,LOT
-Genesect GX,130/214,Rare Holo GX,LOT
+Genesect-GX,130/214,Rare Holo GX,LOT
 Magearna,131/214,Uncommon,LOT
-Alolan Ninetales GX,132/214,Rare Holo GX,LOT
+Alolan Ninetales-GX,132/214,Rare Holo GX,LOT
 Jigglypuff,133/214,Common,LOT
 Wigglytuff,134/214,Rare,LOT
 Marill,135/214,Common,LOT
@@ -13136,7 +13136,7 @@ Cutiefly,145/214,Common,LOT
 Ribombee,146/214,Rare,LOT
 Morelull,147/214,Common,LOT
 Shiinotic,148/214,Uncommon,LOT
-Mimikyu GX,149/214,Rare Holo GX,LOT
+Mimikyu-GX,149/214,Rare Holo GX,LOT
 Tapu Lele,150/214,Rare Holo,LOT
 Tapu Fini,151/214,Rare Holo,LOT
 Chansey,152/214,Common,LOT
@@ -13146,7 +13146,7 @@ Eevee,155/214,Common,LOT
 Stantler,156/214,Uncommon,LOT
 Smeargle,157/214,Rare,LOT
 Miltank,158/214,Rare,LOT
-Lugia GX,159/214,Rare Holo GX,LOT
+Lugia-GX,159/214,Rare Holo GX,LOT
 Ho-Oh,160/214,Rare,LOT
 Kecleon,161/214,Uncommon,LOT
 Kecleon,162/214,Uncommon,LOT
@@ -13177,7 +13177,7 @@ Moomoo Milk,185/214,Uncommon,LOT
 Morty,186/214,Uncommon,LOT
 Net Ball,187/214,Uncommon,LOT
 Net Ball,187a/214,Uncommon,LOT
-Professor Elm’s Lecture,188/214,Uncommon,LOT
+Professor Elm's Lecture,188/214,Uncommon,LOT
 Professor Elm's Lecture,188a/214,Uncommon,LOT
 Sightseer,189/214,Uncommon,LOT
 Sightseer,189a/214,Uncommon,LOT
@@ -13186,39 +13186,39 @@ Thunder Mountain ◇,191/214,Rare Prism Star,LOT
 Wait and See Hammer,192/214,Uncommon,LOT
 Whitney,193/214,Uncommon,LOT
 Memory Energy,194/214,Uncommon,LOT
-Shuckle GX,195/214,Rare Ultra,LOT
-Sceptile GX,196/214,Rare Ultra,LOT
-Virizion GX,197/214,Rare Ultra,LOT
-Magcargo GX,198/214,Rare Ultra,LOT
-Blacephalon GX,199/214,Rare Ultra,LOT
-Suicune GX,200/214,Rare Ultra,LOT
-Zeraora GX,201/214,Rare Ultra,LOT
-Sigilyph GX,202/214,Rare Ultra,LOT
-Tyranitar GX,203/214,Rare Ultra,LOT
-Genesect GX,204/214,Rare Ultra,LOT
-Alolan Ninetales GX,205/214,Rare Ultra,LOT
-Mimikyu GX,206/214,Rare Ultra,LOT
-Lugia GX,207/214,Rare Ultra,LOT
+Shuckle-GX,195/214,Rare Ultra,LOT
+Sceptile-GX,196/214,Rare Ultra,LOT
+Virizion-GX,197/214,Rare Ultra,LOT
+Magcargo-GX,198/214,Rare Ultra,LOT
+Blacephalon-GX,199/214,Rare Ultra,LOT
+Suicune-GX,200/214,Rare Ultra,LOT
+Zeraora-GX,201/214,Rare Ultra,LOT
+Sigilyph-GX,202/214,Rare Ultra,LOT
+Tyranitar-GX,203/214,Rare Ultra,LOT
+Genesect-GX,204/214,Rare Ultra,LOT
+Alolan Ninetales-GX,205/214,Rare Ultra,LOT
+Mimikyu-GX,206/214,Rare Ultra,LOT
+Lugia-GX,207/214,Rare Ultra,LOT
 Faba,208/214,Rare Ultra,LOT
 Judge,209/214,Rare Ultra,LOT
 Kahili,210/214,Rare Ultra,LOT
 Mina,211/214,Rare Ultra,LOT
 Morty,212/214,Rare Ultra,LOT
-Professor Elm’s Lecture,213/214,Rare Ultra,LOT
+Professor Elm's Lecture,213/214,Rare Ultra,LOT
 Whitney,214/214,Rare Ultra,LOT
-Shuckle GX,215/214,Rare Rainbow,LOT
-Sceptile GX,216/214,Rare Rainbow,LOT
-Virizion GX,217/214,Rare Rainbow,LOT
-Magcargo GX,218/214,Rare Rainbow,LOT
-Blacephalon GX,219/214,Rare Rainbow,LOT
-Suicune GX,220/214,Rare Rainbow,LOT
-Zeraora GX,221/214,Rare Rainbow,LOT
-Sigilyph GX,222/214,Rare Rainbow,LOT
-Tyranitar GX,223/214,Rare Rainbow,LOT
-Genesect GX,224/214,Rare Rainbow,LOT
-Alolan Ninetales GX,225/214,Rare Rainbow,LOT
-Mimikyu GX,226/214,Rare Rainbow,LOT
-Lugia GX,227/214,Rare Rainbow,LOT
+Shuckle-GX,215/214,Rare Rainbow,LOT
+Sceptile-GX,216/214,Rare Rainbow,LOT
+Virizion-GX,217/214,Rare Rainbow,LOT
+Magcargo-GX,218/214,Rare Rainbow,LOT
+Blacephalon-GX,219/214,Rare Rainbow,LOT
+Suicune-GX,220/214,Rare Rainbow,LOT
+Zeraora-GX,221/214,Rare Rainbow,LOT
+Sigilyph-GX,222/214,Rare Rainbow,LOT
+Tyranitar-GX,223/214,Rare Rainbow,LOT
+Genesect-GX,224/214,Rare Rainbow,LOT
+Alolan Ninetales-GX,225/214,Rare Rainbow,LOT
+Mimikyu-GX,226/214,Rare Rainbow,LOT
+Lugia-GX,227/214,Rare Rainbow,LOT
 Adventure Bag,228/214,Rare Secret,LOT
 Choice Helmet,229/214,Rare Secret,LOT
 Counter Gain,230/214,Rare Secret,LOT
@@ -13237,7 +13237,7 @@ Carnivine,6/73,Uncommon,SLG
 Shaymin,7/73,Rare Holo,SLG
 Virizion,8/73,Rare Holo,SLG
 Shining Genesect,9/73,Rare Shining,SLG
-Entei GX,10/73,Rare Holo GX,SLG
+Entei-GX,10/73,Rare Holo GX,SLG
 Entei-GX,10a/73,Rare Holo GX,SLG
 Torkoal,11/73,Common,SLG
 Larvesta,12/73,Common,SLG
@@ -13257,7 +13257,7 @@ Manaphy,25/73,Rare Holo,SLG
 Keldeo,26/73,Rare Holo,SLG
 Shining Volcanion,27/73,Rare Shining,SLG
 Pikachu,28/73,Common,SLG
-Raichu GX,29/73,Rare Holo GX,SLG
+Raichu-GX,29/73,Rare Holo GX,SLG
 Voltorb,30/73,Common,SLG
 Electrode,31/73,Uncommon,SLG
 Raikou,32/73,Rare Holo,SLG
@@ -13267,7 +13267,7 @@ Zekrom,35/73,Rare Holo,SLG
 Ekans,36/73,Common,SLG
 Arbok,37/73,Uncommon,SLG
 Jynx,38/73,Common,SLG
-Mewtwo GX,39/73,Rare Holo GX,SLG
+Mewtwo-GX,39/73,Rare Holo GX,SLG
 Shining Mew,40/73,Rare Shining,SLG
 Latios,41/73,Rare Holo,SLG
 Shining Jirachi,42/73,Rare Shining,SLG
@@ -13281,7 +13281,7 @@ Liepard,49/73,Uncommon,SLG
 Scraggy,50/73,Common,SLG
 Scrafty,51/73,Uncommon,SLG
 Zorua,52/73,Common,SLG
-Zoroark GX,53/73,Rare Holo GX,SLG
+Zoroark-GX,53/73,Rare Holo GX,SLG
 Yveltal,54/73,Rare Holo,SLG
 Hoopa,55/73,Rare Holo,SLG
 Shining Rayquaza,56/73,Rare Shining,SLG
@@ -13300,20 +13300,20 @@ Ultra Ball,68/73,Uncommon,SLG
 Ultra Ball,68a/73,Uncommon,SLG
 Double Colorless Energy,69/73,Uncommon,SLG
 Warp Energy,70/73,Uncommon,SLG
-Entei GX,71/73,Rare Ultra,SLG
-Mewtwo GX,72/73,Rare Ultra,SLG
+Entei-GX,71/73,Rare Ultra,SLG
+Mewtwo-GX,72/73,Rare Ultra,SLG
 Pokémon Breeder,73/73,Rare Ultra,SLG
-Entei GX,74/73,Rare Rainbow,SLG
-Raichu GX,75/73,Rare Rainbow,SLG
-Mewtwo GX,76/73,Rare Rainbow,SLG
-Zoroark GX,77/73,Rare Rainbow,SLG
+Entei-GX,74/73,Rare Rainbow,SLG
+Raichu-GX,75/73,Rare Rainbow,SLG
+Mewtwo-GX,76/73,Rare Rainbow,SLG
+Zoroark-GX,77/73,Rare Rainbow,SLG
 Zoroark-GX,77a/73,Rare Ultra,SLG
-Mewtwo GX,78/73,Rare Secret,SLG
+Mewtwo-GX,78/73,Rare Secret,SLG
 Rowlet,SM01/248,Promo,SMP
 Litten,SM02/248,Promo,SMP
 Popplio,SM03/248,Promo,SMP
 Pikachu,SM04/248,Promo,SMP
-Snorlax GX,SM05/248,Promo,SMP
+Snorlax-GX,SM05/248,Promo,SMP
 Rockruff,SM06/248,Promo,SMP
 Pikipek,SM07/248,Promo,SMP
 Litten,SM08/248,Promo,SMP
@@ -13322,10 +13322,10 @@ Shiinotic,SM10/248,Promo,SMP
 Bruxish,SM11/248,Promo,SMP
 Passimian,SM12/248,Promo,SMP
 Oranguru,SM13/248,Promo,SMP
-Lycanroc GX,SM14/248,Promo,SMP
+Lycanroc-GX,SM14/248,Promo,SMP
 Zygarde,SM15/248,Promo,SMP
-Solgaleo GX,SM16/248,Promo,SMP
-Lunala GX,SM17/248,Promo,SMP
+Solgaleo-GX,SM16/248,Promo,SMP
+Lunala-GX,SM17/248,Promo,SMP
 Alolan Sandslash,SM18/248,Promo,SMP
 Oricorio,SM19/248,Promo,SMP
 Mudsdale,SM20/248,Promo,SMP
@@ -13341,14 +13341,14 @@ Mimikyu,SM29/248,Promo,SMP
 Tapu Koko,SM30/248,Promo,SMP
 Tapu Koko,SM30a/248,Promo,SMP
 Tapu Koko,SM31/248,Promo,SMP
-Tapu Bulu GX,SM32/248,Promo,SMP
-Tapu Koko GX,SM33/248,Promo,SMP
-Bewear GX,SM34/248,Promo,SMP
-Espeon GX,SM35/248,Promo,SMP
-Umbreon GX,SM36/248,Promo,SMP
-Decidueye GX,SM37/248,Promo,SMP
-Incineroar GX,SM38/248,Promo,SMP
-Primarina GX,SM39/248,Promo,SMP
+Tapu Bulu-GX,SM32/248,Promo,SMP
+Tapu Koko-GX,SM33/248,Promo,SMP
+Bewear-GX,SM34/248,Promo,SMP
+Espeon-GX,SM35/248,Promo,SMP
+Umbreon-GX,SM36/248,Promo,SMP
+Decidueye-GX,SM37/248,Promo,SMP
+Incineroar-GX,SM38/248,Promo,SMP
+Primarina-GX,SM39/248,Promo,SMP
 Jangmo-o,SM40/248,Promo,SMP
 Komala,SM41/248,Promo,SMP
 Cosmog,SM42/248,Promo,SMP
@@ -13359,28 +13359,28 @@ Seviper,SM46/248,Promo,SMP
 Crabominable,SM47/248,Promo,SMP
 Zygarde,SM48/248,Promo,SMP
 Bewear,SM49/248,Promo,SMP
-Tapu Koko GX,SM50/248,Promo,SMP
+Tapu Koko-GX,SM50/248,Promo,SMP
 Alolan Meowth,SM51/248,Promo,SMP
 Golisopod,SM52/248,Promo,SMP
 Dhelmise,SM53/248,Promo,SMP
 Lucario,SM54/248,Promo,SMP
 Decidueye,SM55/248,Promo,SMP
-Tsareena GX,SM56/248,Promo,SMP
-Ho-Oh GX,SM57/248,Promo,SMP
-Necrozma GX,SM58/248,Promo,SMP
-Marshadow GX,SM59/248,Promo,SMP
-Charizard GX,SM60/248,Promo,SMP
+Tsareena-GX,SM56/248,Promo,SMP
+Ho-Oh-GX,SM57/248,Promo,SMP
+Necrozma-GX,SM58/248,Promo,SMP
+Marshadow-GX,SM59/248,Promo,SMP
+Charizard-GX,SM60/248,Promo,SMP
 Tapu Bulu,SM61/248,Promo,SMP
-Golisopod GX,SM62/248,Promo,SMP
-Salazzle GX,SM63/248,Promo,SMP
+Golisopod-GX,SM62/248,Promo,SMP
+Salazzle-GX,SM63/248,Promo,SMP
 Silvally,SM64/248,Promo,SMP
 Alolan Raichu,SM65/248,Promo,SMP
-Pheromosa GX,SM66/248,Promo,SMP
-Celesteela GX,SM67/248,Promo,SMP
-Xurkitree GX,SM68/248,Promo,SMP
-Buzzwole GX,SM69/248,Promo,SMP
+Pheromosa-GX,SM66/248,Promo,SMP
+Celesteela-GX,SM67/248,Promo,SMP
+Xurkitree-GX,SM68/248,Promo,SMP
+Buzzwole-GX,SM69/248,Promo,SMP
 Shining Ho-Oh,SM70/248,Promo,SMP
-Kommo-o GX,SM71/248,Promo,SMP
+Kommo-o-GX,SM71/248,Promo,SMP
 Alolan Raichu,SM72/248,Promo,SMP
 Salazzle,SM73/248,Promo,SMP
 Regirock,SM74/248,Promo,SMP
@@ -13389,18 +13389,18 @@ Pikachu,SM76/248,Promo,SMP
 Mewtwo,SM77/248,Promo,SMP
 Champions Festival,SM78/248,Promo,SMP
 Shining Celebi,SM79/248,Promo,SMP
-Ho-Oh GX,SM80/248,Promo,SMP
+Ho-Oh-GX,SM80/248,Promo,SMP
 Pikachu,SM81/248,Promo,SMP
 Shining Lugia,SM82/248,Promo,SMP
 Zorua,SM83/248,Promo,SMP
-Zoroark GX,SM84/248,Promo,SMP
+Zoroark-GX,SM84/248,Promo,SMP
 Marshadow,SM85/248,Promo,SMP
 Pikachu,SM86/248,Promo,SMP
 Latias,SM87/248,Promo,SMP
 Latios,SM88/248,Promo,SMP
 Zoroark,SM89/248,Promo,SMP
-Raichu GX,SM90/248,Promo,SMP
-Silvally GX,SM91/248,Promo,SMP
+Raichu-GX,SM90/248,Promo,SMP
+Silvally-GX,SM91/248,Promo,SMP
 Tapu Fini,SM92/248,Promo,SMP
 Marshadow,SM93/248,Promo,SMP
 Wash Rotom,SM94/248,Promo,SMP
@@ -13409,12 +13409,12 @@ Heatran,SM96/248,Promo,SMP
 Gumshoos,SM97/248,Promo,SMP
 Pikachu,SM98/248,Promo,SMP
 Mimikyu,SM99/248,Promo,SMP
-Lucario GX,SM100/248,Promo,SMP
-Dawn Wings Necrozma GX,SM101/248,Promo,SMP
-Dusk Mane Necrozma GX,SM102/248,Promo,SMP
-Lunala GX,SM103/248,Promo,SMP
+Lucario-GX,SM100/248,Promo,SMP
+Dawn Wings Necrozma-GX,SM101/248,Promo,SMP
+Dusk Mane Necrozma-GX,SM102/248,Promo,SMP
+Lunala-GX,SM103/248,Promo,SMP
 Lunala-GX,SM103a/248,Promo,SMP
-Solgaleo GX,SM104/248,Promo,SMP
+Solgaleo-GX,SM104/248,Promo,SMP
 Solgaleo-GX,SM104a/248,Promo,SMP
 Lycanroc,SM105/248,Promo,SMP
 Dawn Wings Necrozma,SM106/248,Promo,SMP
@@ -13432,33 +13432,33 @@ Malamar,SM117/248,Promo,SMP
 Lycanroc,SM118/248,Promo,SMP
 Exeggcute,SM119/248,Promo,SMP
 Rockruff,SM120/248,Promo,SMP
-Raikou GX,SM121/248,Promo,SMP
-Zygarde GX,SM122/248,Promo,SMP
+Raikou-GX,SM121/248,Promo,SMP
+Zygarde-GX,SM122/248,Promo,SMP
 Dawn Wings Necrozma,SM123/248,Promo,SMP
 Dusk Mane Necrozma,SM124/248,Promo,SMP
-Naganadel GX,SM125/248,Promo,SMP
-Ultra Necrozma GX,SM126/248,Promo,SMP
+Naganadel-GX,SM125/248,Promo,SMP
+Ultra Necrozma-GX,SM126/248,Promo,SMP
 Alolan Sandslash,SM127/248,Promo,SMP
 Alolan Ninetales,SM128/248,Promo,SMP
 Kyogre,SM129/248,Promo,SMP
 Manectric,SM130/248,Promo,SMP
 Celesteela,SM131/248,Promo,SMP
 Delcatty,SM132/248,Promo,SMP
-Thundurus GX,SM133/248,Promo,SMP
-Tornadus GX,SM134/248,Promo,SMP
+Thundurus-GX,SM133/248,Promo,SMP
+Tornadus-GX,SM134/248,Promo,SMP
 Latias,SM135/248,Promo,SMP
 Latios,SM136/248,Promo,SMP
-Reshiram GX,SM137/248,Promo,SMP
-Zekrom GX,SM138/248,Promo,SMP
-Salamence GX,SM139/248,Promo,SMP
+Reshiram-GX,SM137/248,Promo,SMP
+Zekrom-GX,SM138/248,Promo,SMP
+Salamence-GX,SM139/248,Promo,SMP
 Salamence,SM140/248,Promo,SMP
-White Kyurem GX,SM141/248,Promo,SMP
+White Kyurem-GX,SM141/248,Promo,SMP
 Kyurem,SM142/248,Promo,SMP
 Moltres,SM143/248,Promo,SMP
 Articuno,SM144/248,Promo,SMP
 Zapdos,SM145/248,Promo,SMP
-Leafeon GX,SM146/248,Promo,SMP
-Glaceon GX,SM147/248,Promo,SMP
+Leafeon-GX,SM146/248,Promo,SMP
+Glaceon-GX,SM147/248,Promo,SMP
 Champions Festival,SM148/248,Promo,SMP
 Suicune,SM149/248,Promo,SMP
 Raikou,SM150/248,Promo,SMP
@@ -13466,8 +13466,8 @@ Giratina,SM151/248,Promo,SMP
 Tapu Lele,SM152/248,Promo,SMP
 Rowlet,SM153/248,Promo,SMP
 Salandit,SM154/248,Promo,SMP
-Kingdra GX,SM155/248,Promo,SMP
-Dragonite GX,SM156/248,Promo,SMP
+Kingdra-GX,SM155/248,Promo,SMP
+Dragonite-GX,SM156/248,Promo,SMP
 Pikachu,SM157/248,Promo,SMP
 Charizard,SM158/248,Promo,SMP
 Zapdos,SM159/248,Promo,SMP
@@ -13477,19 +13477,19 @@ Pikachu,SM162/248,Promo,SMP
 Mimikyu,SM163/248,Promo,SMP
 Deoxys,SM164/248,Promo,SMP
 Ultra Necrozma,SM165/248,Promo,SMP
-Magikarp & Wailord GX,SM166/248,Promo,SMP
-Celebi & Venusaur GX,SM167/248,Promo,SMP
-Pikachu & Zekrom GX,SM168/248,Promo,SMP
-Eevee & Snorlax GX,SM169/248,Promo,SMP
+Magikarp & Wailord-GX,SM166/248,Promo,SMP
+Celebi & Venusaur-GX,SM167/248,Promo,SMP
+Pikachu & Zekrom-GX,SM168/248,Promo,SMP
+Eevee & Snorlax-GX,SM169/248,Promo,SMP
 Detective Pikachu,SM170/248,Promo,SMP
-Flareon GX,SM171/248,Promo,SMP
-Vaporeon GX,SM172/248,Promo,SMP
-Jolteon GX,SM173/248,Promo,SMP
-Eevee GX,SM174/248,Promo,SMP
-Eevee GX,SM175/248,Promo,SMP
-Eevee GX,SM176/248,Promo,SMP
+Flareon-GX,SM171/248,Promo,SMP
+Vaporeon-GX,SM172/248,Promo,SMP
+Jolteon-GX,SM173/248,Promo,SMP
+Eevee-GX,SM174/248,Promo,SMP
+Eevee-GX,SM175/248,Promo,SMP
+Eevee-GX,SM176/248,Promo,SMP
 Meltan,SM177/248,Promo,SMP
-Melmetal GX,SM178/248,Promo,SMP
+Melmetal-GX,SM178/248,Promo,SMP
 Volcanion,SM179/248,Promo,SMP
 Stakataka,SM180/248,Promo,SMP
 Melmetal,SM181/248,Promo,SMP
@@ -13498,21 +13498,21 @@ Pikachu,SM183/248,Promo,SMP
 Eevee,SM184/248,Promo,SMP
 Typhlosion,SM185/248,Promo,SMP
 Flareon,SM186/248,Promo,SMP
-Alolan Marowak GX,SM187/248,Promo,SMP
-Kangaskhan GX,SM188/248,Promo,SMP
-Blastoise GX,SM189/248,Promo,SMP
+Alolan Marowak-GX,SM187/248,Promo,SMP
+Kangaskhan-GX,SM188/248,Promo,SMP
+Blastoise-GX,SM189/248,Promo,SMP
 Detective Pikachu,SM190/248,Promo,SMP
-Mewtwo & Mew GX,SM191/248,Promo,SMP
-Lucario & Melmetal GX,SM192/248,Promo,SMP
-Garchomp & Giratina GX,SM193/248,Promo,SMP
+Mewtwo & Mew-GX,SM191/248,Promo,SMP
+Lucario & Melmetal-GX,SM192/248,Promo,SMP
+Garchomp & Giratina-GX,SM193/248,Promo,SMP
 Detective Pikachu,SM194/248,Promo,SMP
-Charizard GX,SM195/248,Promo,SMP
-Mewtwo GX,SM196/248,Promo,SMP
-Greninja GX,SM197/248,Promo,SMP
+Charizard-GX,SM195/248,Promo,SMP
+Mewtwo-GX,SM196/248,Promo,SMP
+Greninja-GX,SM197/248,Promo,SMP
 Bulbasaur,SM198/248,Promo,SMP
 Psyduck,SM199/248,Promo,SMP
 Snubbull,SM200/248,Promo,SMP
-Reshiram & Charizard GX,SM201/248,Promo,SMP
+Reshiram & Charizard-GX,SM201/248,Promo,SMP
 Amoonguss,SM202/248,Promo,SMP
 Tapu Fini,SM203/248,Promo,SMP
 Necrozma,SM204/248,Promo,SMP
@@ -13521,14 +13521,14 @@ Pikachu,SM206/248,Promo,SMP
 Sudowoodo,SM207/248,Promo,SMP
 Vikavolt,SM208/248,Promo,SMP
 Stakataka,SM209/248,Promo,SMP
-Moltres & Zapdos & Articuno GX,SM210/248,Promo,SMP
-Charizard GX,SM211/248,Promo,SMP
-Gyarados GX,SM212/248,Promo,SMP
-Raichu GX,SM213/248,Promo,SMP
+Moltres & Zapdos & Articuno-GX,SM210/248,Promo,SMP
+Charizard-GX,SM211/248,Promo,SMP
+Gyarados-GX,SM212/248,Promo,SMP
+Raichu-GX,SM213/248,Promo,SMP
 Mewtwo,SM214/248,Promo,SMP
 Mew,SM215/248,Promo,SMP
-Porygon-Z GX,SM216/248,Promo,SMP
-Trevenant & Dusknoir GX,SM217/248,Promo,SMP
+Porygon-Z-GX,SM216/248,Promo,SMP
+Trevenant & Dusknoir-GX,SM217/248,Promo,SMP
 Buzzwole,SM218/248,Promo,SMP
 Entei,SM219/248,Promo,SMP
 Phione,SM220/248,Promo,SMP
@@ -13540,26 +13540,26 @@ Victini,SM225/248,Promo,SMP
 Charizard,SM226/248,Promo,SMP
 Pikachu,SM227/248,Promo,SMP
 Armored Mewtwo,SM228/248,Promo,SMP
-Venusaur & Snivy GX,SM229/248,Promo,SMP
-Charizard & Braixen GX,SM230/248,Promo,SMP
+Venusaur & Snivy-GX,SM229/248,Promo,SMP
+Charizard & Braixen-GX,SM230/248,Promo,SMP
 Champions Festival,SM231/248,Promo,SMP
-Pikachu GX,SM232/248,Promo,SMP
-Eevee GX,SM233/248,Promo,SMP
+Pikachu-GX,SM232/248,Promo,SMP
+Eevee-GX,SM233/248,Promo,SMP
 Pikachu,SM234/248,Promo,SMP
 Eevee,SM235/248,Promo,SMP
-Alolan Sandslash GX,SM236/248,Promo,SMP
+Alolan Sandslash-GX,SM236/248,Promo,SMP
 Leafeon,SM237/248,Promo,SMP
 Glaceon,SM238/248,Promo,SMP
-Carracosta GX,SM239/248,Promo,SMP
-Espeon & Deoxys GX,SM240/248,Promo,SMP
-Umbreon & Darkrai GX,SM241/248,Promo,SMP
-Eevee GX,SM242/248,Promo,SMP
+Carracosta-GX,SM239/248,Promo,SMP
+Espeon & Deoxys-GX,SM240/248,Promo,SMP
+Umbreon & Darkrai-GX,SM241/248,Promo,SMP
+Eevee-GX,SM242/248,Promo,SMP
 Regigigas,SM243/248,Promo,SMP
 Aipom,SM244/248,Promo,SMP
 Mismagius,SM245/248,Promo,SMP
 Sabrina & Brycen,SM246/248,Promo,SMP
-Reshiram & Charizard GX,SM247/248,Promo,SMP
-Pikachu & Zekrom GX,SM248/248,Promo,SMP
+Reshiram & Charizard-GX,SM247/248,Promo,SMP
+Pikachu & Zekrom-GX,SM248/248,Promo,SMP
 Caterpie,1/149,Common,SUM
 Metapod,2/149,Uncommon,SUM
 Butterfree,3/149,Rare,SUM
@@ -13571,10 +13571,10 @@ Masquerain,8/149,Rare,SUM
 Rowlet,9/149,Common,SUM
 Dartrix,10/149,Uncommon,SUM
 Decidueye,11/149,Rare,SUM
-Decidueye GX,12/149,Rare Holo GX,SUM
+Decidueye-GX,12/149,Rare Holo GX,SUM
 Grubbin,13/149,Common,SUM
 Fomantis,14/149,Common,SUM
-Lurantis GX,15/149,Rare Holo GX,SUM
+Lurantis-GX,15/149,Rare Holo GX,SUM
 Morelull,16/149,Common,SUM
 Shiinotic,17/149,Rare Holo,SUM
 Bounsweet,18/149,Common,SUM
@@ -13586,7 +13586,7 @@ Torkoal,23/149,Common,SUM
 Litten,24/149,Common,SUM
 Torracat,25/149,Uncommon,SUM
 Incineroar,26/149,Rare,SUM
-Incineroar GX,27/149,Rare Holo GX,SUM
+Incineroar-GX,27/149,Rare Holo GX,SUM
 Psyduck,28/149,Common,SUM
 Golduck,29/149,Rare,SUM
 Poliwag,30/149,Common,SUM
@@ -13594,14 +13594,14 @@ Poliwhirl,31/149,Uncommon,SUM
 Poliwrath,32/149,Rare Holo,SUM
 Shellder,33/149,Common,SUM
 Cloyster,34/149,Rare,SUM
-Lapras GX,35/149,Rare Holo GX,SUM
+Lapras-GX,35/149,Rare Holo GX,SUM
 Corsola,36/149,Uncommon,SUM
 Wingull,37/149,Common,SUM
 Pelipper,38/149,Uncommon,SUM
 Popplio,39/149,Common,SUM
 Brionne,40/149,Uncommon,SUM
 Primarina,41/149,Rare,SUM
-Primarina GX,42/149,Rare Holo GX,SUM
+Primarina-GX,42/149,Rare Holo GX,SUM
 Crabominable,43/149,Rare,SUM
 Wishiwashi,44/149,Uncommon,SUM
 Dewpider,45/149,Common,SUM
@@ -13620,12 +13620,12 @@ Alolan Grimer,57/149,Common,SUM
 Alolan Muk,58/149,Rare Holo,SUM
 Drowzee,59/149,Common,SUM
 Hypno,60/149,Uncommon,SUM
-Espeon GX,61/149,Rare Holo GX,SUM
+Espeon-GX,61/149,Rare Holo GX,SUM
 Mareanie,62/149,Common,SUM
 Toxapex,63/149,Rare Holo,SUM
 Cosmog,64/149,Common,SUM
 Cosmoem,65/149,Rare,SUM
-Lunala GX,66/149,Rare Holo GX,SUM
+Lunala-GX,66/149,Rare Holo GX,SUM
 Makuhita,67/149,Common,SUM
 Hariyama,68/149,Rare,SUM
 Roggenrola,69/149,Common,SUM
@@ -13639,7 +13639,7 @@ Alolan Rattata,76/149,Common,SUM
 Alolan Raticate,77/149,Uncommon,SUM
 Alolan Meowth,78/149,Common,SUM
 Alolan Persian,79/149,Uncommon,SUM
-Umbreon GX,80/149,Rare Holo GX,SUM
+Umbreon-GX,80/149,Rare Holo GX,SUM
 Carvanha,81/149,Common,SUM
 Sharpedo,82/149,Rare Holo,SUM
 Sandile,83/149,Common,SUM
@@ -13648,7 +13648,7 @@ Krookodile,85/149,Rare Holo,SUM
 Alolan Diglett,86/149,Common,SUM
 Alolan Dugtrio,87/149,Rare Holo,SUM
 Skarmory,88/149,Common,SUM
-Solgaleo GX,89/149,Rare Holo GX,SUM
+Solgaleo-GX,89/149,Rare Holo GX,SUM
 Snubbull,90/149,Common,SUM
 Granbull,91/149,Uncommon,SUM
 Cutiefly,92/149,Common,SUM
@@ -13659,7 +13659,7 @@ Dragonite,96/149,Rare Holo,SUM
 Spearow,97/149,Common,SUM
 Fearow,98/149,Common,SUM
 Kangaskhan,99/149,Rare Holo,SUM
-Tauros GX,100/149,Rare Holo GX,SUM
+Tauros-GX,100/149,Rare Holo GX,SUM
 Eevee,101/149,Common,SUM
 Eevee,101a/149,Common,SUM
 Spinda,102/149,Uncommon,SUM
@@ -13670,7 +13670,7 @@ Pikipek,106/149,Common,SUM
 Trumbeak,107/149,Uncommon,SUM
 Toucannon,108/149,Rare,SUM
 Yungoos,109/149,Common,SUM
-Gumshoos GX,110/149,Rare Holo GX,SUM
+Gumshoos-GX,110/149,Rare Holo GX,SUM
 Stufful,111/149,Common,SUM
 Bewear,112/149,Rare,SUM
 Oranguru,113/149,Rare Holo,SUM
@@ -13698,26 +13698,26 @@ Timer Ball,134/149,Uncommon,SUM
 Ultra Ball,135/149,Uncommon,SUM
 Double Colorless Energy,136/149,Uncommon,SUM
 Rainbow Energy,137/149,Uncommon,SUM
-Lurantis GX,138/149,Rare Ultra,SUM
-Lapras GX,139/149,Rare Ultra,SUM
-Espeon GX,140/149,Rare Ultra,SUM
-Lunala GX,141/149,Rare Ultra,SUM
-Umbreon GX,142/149,Rare Ultra,SUM
-Solgaleo GX,143/149,Rare Ultra,SUM
-Tauros GX,144/149,Rare Ultra,SUM
-Gumshoos GX,145/149,Rare Ultra,SUM
+Lurantis-GX,138/149,Rare Ultra,SUM
+Lapras-GX,139/149,Rare Ultra,SUM
+Espeon-GX,140/149,Rare Ultra,SUM
+Lunala-GX,141/149,Rare Ultra,SUM
+Umbreon-GX,142/149,Rare Ultra,SUM
+Solgaleo-GX,143/149,Rare Ultra,SUM
+Tauros-GX,144/149,Rare Ultra,SUM
+Gumshoos-GX,145/149,Rare Ultra,SUM
 Ilima,146/149,Rare Ultra,SUM
 Lillie,147/149,Rare Ultra,SUM
 Professor Kukui,148/149,Rare Ultra,SUM
 Team Skull Grunt,149/149,Rare Ultra,SUM
-Lurantis GX,150/149,Rare Rainbow,SUM
-Lapras GX,151/149,Rare Rainbow,SUM
-Espeon GX,152/149,Rare Rainbow,SUM
-Lunala GX,153/149,Rare Rainbow,SUM
-Umbreon GX,154/149,Rare Rainbow,SUM
-Solgaleo GX,155/149,Rare Rainbow,SUM
-Tauros GX,156/149,Rare Rainbow,SUM
-Gumshoos GX,157/149,Rare Rainbow,SUM
+Lurantis-GX,150/149,Rare Rainbow,SUM
+Lapras-GX,151/149,Rare Rainbow,SUM
+Espeon-GX,152/149,Rare Rainbow,SUM
+Lunala-GX,153/149,Rare Rainbow,SUM
+Umbreon-GX,154/149,Rare Rainbow,SUM
+Solgaleo-GX,155/149,Rare Rainbow,SUM
+Tauros-GX,156/149,Rare Rainbow,SUM
+Gumshoos-GX,157/149,Rare Rainbow,SUM
 Nest Ball,158/149,Rare Secret,SUM
 Rotom Dex,159/149,Rare Secret,SUM
 Switch,160/149,Rare Secret,SUM
@@ -13733,7 +13733,7 @@ Fighting Energy,169/149,Common,SUM
 Darkness Energy,170/149,Common,SUM
 Metal Energy,171/149,Common,SUM
 Fairy Energy,172/149,Common,SUM
-Celebi & Venusaur GX,1/181,Rare Holo GX,TEU
+Celebi & Venusaur-GX,1/181,Rare Holo GX,TEU
 Weedle,2/181,Common,TEU
 Weedle,3/181,Common,TEU
 Kakuna,4/181,Uncommon,TEU
@@ -13765,7 +13765,7 @@ Magikarp,29/181,Common,TEU
 Gyarados,30/181,Rare Holo,TEU
 Lapras,31/181,Rare,TEU
 Articuno,32/181,Rare Holo,TEU
-Pikachu & Zekrom GX,33/181,Rare Holo GX,TEU
+Pikachu & Zekrom-GX,33/181,Rare Holo GX,TEU
 Alolan Geodude,34/181,Common,TEU
 Alolan Geodude,35/181,Common,TEU
 Alolan Graveler,36/181,Uncommon,TEU
@@ -13775,7 +13775,7 @@ Electrode,39/181,Rare Holo,TEU
 Zapdos,40/181,Rare Holo,TEU
 Mareep,41/181,Common,TEU
 Flaaffy,42/181,Uncommon,TEU
-Ampharos GX,43/181,Rare Holo GX,TEU
+Ampharos-GX,43/181,Rare Holo GX,TEU
 Blitzle,44/181,Common,TEU
 Zebstrika,45/181,Rare,TEU
 Emolga,46/181,Common,TEU
@@ -13785,11 +13785,11 @@ Helioptile,49/181,Common,TEU
 Heliolisk,50/181,Uncommon,TEU
 Tapu Koko ◇,51/181,Rare Prism Star,TEU
 Zeraora,52/181,Rare Holo,TEU
-Gengar & Mimikyu GX,53/181,Rare Holo GX,TEU
-Nidoran♀,54/181,Common,TEU
+Gengar & Mimikyu-GX,53/181,Rare Holo GX,TEU
+Nidoran ♀,54/181,Common,TEU
 Nidorina,55/181,Uncommon,TEU
 Nidoqueen,56/181,Rare,TEU
-Nidoran♂,57/181,Common,TEU
+Nidoran ♂,57/181,Common,TEU
 Nidorino,58/181,Uncommon,TEU
 Nidoking,59/181,Rare,TEU
 Tentacool,60/181,Common,TEU
@@ -13799,7 +13799,7 @@ Muk,63/181,Rare,TEU
 Alolan Marowak,64/181,Rare,TEU
 Starmie,65/181,Rare,TEU
 Mr. Mime,66/181,Rare,TEU
-Mr. Mime GX,67/181,Rare Holo GX,TEU
+Mr. Mime-GX,67/181,Rare Holo GX,TEU
 Jynx,68/181,Uncommon,TEU
 Cosmog,69/181,Common,TEU
 Cosmoem,70/181,Uncommon,TEU
@@ -13814,7 +13814,7 @@ Kabutops,78/181,Rare,TEU
 Larvitar,79/181,Common,TEU
 Pupitar,80/181,Uncommon,TEU
 Pancham,81/181,Common,TEU
-Lycanroc GX,82/181,Rare Holo GX,TEU
+Lycanroc-GX,82/181,Rare Holo GX,TEU
 Alolan Grimer,83/181,Common,TEU
 Alolan Muk,84/181,Rare,TEU
 Tyranitar,85/181,Rare Holo,TEU
@@ -13828,8 +13828,8 @@ Vullaby,92/181,Common,TEU
 Mandibuzz,93/181,Rare,TEU
 Pangoro,94/181,Rare,TEU
 Yveltal,95/181,Rare Holo,TEU
-Hoopa GX,96/181,Rare Holo GX,TEU
-Incineroar GX,97/181,Rare Holo GX,TEU
+Hoopa-GX,96/181,Rare Holo GX,TEU
+Incineroar-GX,97/181,Rare Holo GX,TEU
 Skarmory,98/181,Rare,TEU
 Jirachi,99/181,Rare Holo,TEU
 Bronzor,100/181,Common,TEU
@@ -13838,41 +13838,41 @@ Ferroseed,102/181,Common,TEU
 Ferrothorn,103/181,Rare,TEU
 Pawniard,104/181,Common,TEU
 Bisharp,105/181,Rare,TEU
-Cobalion GX,106/181,Rare Holo GX,TEU
+Cobalion-GX,106/181,Rare Holo GX,TEU
 Honedge,107/181,Common,TEU
 Doublade,108/181,Uncommon,TEU
 Aegislash,109/181,Rare Holo,TEU
 Klefki,110/181,Common,TEU
 Alolan Ninetales,111/181,Rare Holo,TEU
 Mimikyu,112/181,Rare,TEU
-Latias & Latios GX,113/181,Rare Holo GX,TEU
+Latias & Latios-GX,113/181,Rare Holo GX,TEU
 Alolan Exeggutor,114/181,Rare,TEU
 Alolan Exeggutor,115/181,Rare,TEU
 Dratini,116/181,Common,TEU
 Dratini,117/181,Common,TEU
 Dragonair,118/181,Uncommon,TEU
 Dragonite,119/181,Rare Holo,TEU
-Eevee & Snorlax GX,120/181,Rare Holo GX,TEU
+Eevee & Snorlax-GX,120/181,Rare Holo GX,TEU
 Pidgey,121/181,Common,TEU
 Pidgey,122/181,Common,TEU
 Pidgeotto,123/181,Common,TEU
 Pidgeot,124/181,Rare,TEU
 Meowth,125/181,Common,TEU
 Persian,126/181,Uncommon,TEU
-Farfetch’d,127/181,Uncommon,TEU
+Farfetch'd,127/181,Uncommon,TEU
 Kangaskhan,128/181,Uncommon,TEU
 Tauros,129/181,Uncommon,TEU
 Aerodactyl,130/181,Rare,TEU
 Lugia,131/181,Rare Holo,TEU
 Zangoose,132/181,Rare Holo,TEU
-Bill’s Analysis,133/181,Rare Holo,TEU
+Bill's Analysis,133/181,Rare Holo,TEU
 Black Market ◇,134/181,Rare Prism Star,TEU
-Brock’s Grit,135/181,Uncommon,TEU
+Brock's Grit,135/181,Uncommon,TEU
 Buff Padding,136/181,Uncommon,TEU
 Dana,137/181,Uncommon,TEU
 Dangerous Drill,138/181,Uncommon,TEU
 Electrocharger,139/181,Uncommon,TEU
-Erika’s Hospitality,140/181,Rare Holo,TEU
+Erika's Hospitality,140/181,Rare Holo,TEU
 Evelyn,141/181,Uncommon,TEU
 Fairy Charm UB,142/181,Uncommon,TEU
 Grass Memory,143/181,Uncommon,TEU
@@ -13888,44 +13888,44 @@ Pokémon Communication,152/181,Uncommon,TEU
 Pokémon Communication,152a/181,Uncommon,TEU
 Pokémon Communication,152b/181,Uncommon,TEU
 Return Label,153/181,Uncommon,TEU
-Sabrina’s Suggestion,154/181,Uncommon,TEU
+Sabrina's Suggestion,154/181,Uncommon,TEU
 Unidentified Fossil,155/181,Uncommon,TEU
 Viridian Forest,156/181,Uncommon,TEU
 Water Memory,157/181,Uncommon,TEU
 Wondrous Labyrinth ◇,158/181,Rare Prism Star,TEU
-Celebi & Venusaur GX,159/181,Rare Ultra,TEU
-Magikarp & Wailord GX,160/181,Rare Ultra,TEU
-Magikarp & Wailord GX,161/181,Rare Ultra,TEU
-Pikachu & Zekrom GX,162/181,Rare Ultra,TEU
-Ampharos GX,163/181,Rare Ultra,TEU
-Gengar & Mimikyu GX,164/181,Rare Ultra,TEU
-Gengar & Mimikyu GX,165/181,Rare Ultra,TEU
-Hoopa GX,166/181,Rare Ultra,TEU
-Incineroar GX,167/181,Rare Ultra,TEU
-Cobalion GX,168/181,Rare Ultra,TEU
-Latias & Latios GX,169/181,Rare Ultra,TEU
-Latias & Latios GX,170/181,Rare Ultra,TEU
-Eevee & Snorlax GX,171/181,Rare Ultra,TEU
-Brock’s Grit,172/181,Rare Ultra,TEU
+Celebi & Venusaur-GX,159/181,Rare Ultra,TEU
+Magikarp & Wailord-GX,160/181,Rare Ultra,TEU
+Magikarp & Wailord-GX,161/181,Rare Ultra,TEU
+Pikachu & Zekrom-GX,162/181,Rare Ultra,TEU
+Ampharos-GX,163/181,Rare Ultra,TEU
+Gengar & Mimikyu-GX,164/181,Rare Ultra,TEU
+Gengar & Mimikyu-GX,165/181,Rare Ultra,TEU
+Hoopa-GX,166/181,Rare Ultra,TEU
+Incineroar-GX,167/181,Rare Ultra,TEU
+Cobalion-GX,168/181,Rare Ultra,TEU
+Latias & Latios-GX,169/181,Rare Ultra,TEU
+Latias & Latios-GX,170/181,Rare Ultra,TEU
+Eevee & Snorlax-GX,171/181,Rare Ultra,TEU
+Brock's Grit,172/181,Rare Ultra,TEU
 Dana,173/181,Rare Ultra,TEU
-Erika’s Hospitality,174/181,Rare Ultra,TEU
+Erika's Hospitality,174/181,Rare Ultra,TEU
 Evelyn,175/181,Rare Ultra,TEU
 Ingo & Emmet,176/181,Rare Ultra,TEU
 Jasmine,177/181,Rare Ultra,TEU
 Morgan,178/181,Rare Ultra,TEU
 Nanu,179/181,Rare Ultra,TEU
 Nita,180/181,Rare Ultra,TEU
-Sabrina’s Suggestion,181/181,Rare Ultra,TEU
-Celebi & Venusaur GX,182/181,Rare Rainbow,TEU
-Magikarp & Wailord GX,183/181,Rare Rainbow,TEU
-Pikachu & Zekrom GX,184/181,Rare Rainbow,TEU
-Ampharos GX,185/181,Rare Rainbow,TEU
-Gengar & Mimikyu GX,186/181,Rare Rainbow,TEU
-Hoopa GX,187/181,Rare Rainbow,TEU
-Incineroar GX,188/181,Rare Rainbow,TEU
-Cobalion GX,189/181,Rare Rainbow,TEU
-Latias & Latios GX,190/181,Rare Rainbow,TEU
-Eevee & Snorlax GX,191/181,Rare Rainbow,TEU
+Sabrina's Suggestion,181/181,Rare Ultra,TEU
+Celebi & Venusaur-GX,182/181,Rare Rainbow,TEU
+Magikarp & Wailord-GX,183/181,Rare Rainbow,TEU
+Pikachu & Zekrom-GX,184/181,Rare Rainbow,TEU
+Ampharos-GX,185/181,Rare Rainbow,TEU
+Gengar & Mimikyu-GX,186/181,Rare Rainbow,TEU
+Hoopa-GX,187/181,Rare Rainbow,TEU
+Incineroar-GX,188/181,Rare Rainbow,TEU
+Cobalion-GX,189/181,Rare Rainbow,TEU
+Latias & Latios-GX,190/181,Rare Rainbow,TEU
+Eevee & Snorlax-GX,191/181,Rare Rainbow,TEU
 Dangerous Drill,192/181,Rare Secret,TEU
 Electrocharger,193/181,Rare Secret,TEU
 Judge Whistle,194/181,Rare Secret,TEU
@@ -13943,7 +13943,7 @@ Torterra,9/156,Rare Holo,UPR
 Cherubi,10/156,Common,UPR
 Cherrim,11/156,Uncommon,UPR
 Carnivine,12/156,Common,UPR
-Leafeon GX,13/156,Rare Holo GX,UPR
+Leafeon-GX,13/156,Rare Holo GX,UPR
 Mow Rotom,14/156,Rare,UPR
 Shaymin,15/156,Rare Holo,UPR
 Dewpider,16/156,Common,UPR
@@ -13969,7 +13969,7 @@ Buizel,35/156,Common,UPR
 Floatzel,36/156,Uncommon,UPR
 Snover,37/156,Common,UPR
 Abomasnow,38/156,Rare,UPR
-Glaceon GX,39/156,Rare Holo GX,UPR
+Glaceon-GX,39/156,Rare Holo GX,UPR
 Wash Rotom,40/156,Rare,UPR
 Frost Rotom,41/156,Rare,UPR
 Manaphy,42/156,Uncommon,UPR
@@ -13993,7 +13993,7 @@ Cresselia,59/156,Rare Holo,UPR
 Cosmog,60/156,Common,UPR
 Cosmoem,61/156,Uncommon,UPR
 Lunala ◇,62/156,Rare Prism Star,UPR
-Dawn Wings Necrozma GX,63/156,Rare Holo GX,UPR
+Dawn Wings Necrozma-GX,63/156,Rare Holo GX,UPR
 Cranidos,64/156,Uncommon,UPR
 Rampardos,65/156,Rare Holo,UPR
 Riolu,66/156,Common,UPR
@@ -14020,7 +14020,7 @@ Bronzor,86/156,Common,UPR
 Bronzong,87/156,Uncommon,UPR
 Heatran,88/156,Rare Holo,UPR
 Solgaleo ◇,89/156,Rare Prism Star,UPR
-Dusk Mane Necrozma GX,90/156,Rare Holo GX,UPR
+Dusk Mane Necrozma-GX,90/156,Rare Holo GX,UPR
 Magearna,91/156,Rare,UPR
 Morelull,92/156,Common,UPR
 Shiinotic,93/156,Rare,UPR
@@ -14030,8 +14030,8 @@ Gible,96/156,Common,UPR
 Gible,97/156,Common,UPR
 Gabite,98/156,Uncommon,UPR
 Garchomp,99/156,Rare,UPR
-Dialga GX,100/156,Rare Holo GX,UPR
-Palkia GX,101/156,Rare Holo GX,UPR
+Dialga-GX,100/156,Rare Holo GX,UPR
+Palkia-GX,101/156,Rare Holo GX,UPR
 Lickitung,102/156,Common,UPR
 Lickilicky,103/156,Rare,UPR
 Eevee,104/156,Common,UPR
@@ -14046,7 +14046,7 @@ Yungoos,112/156,Common,UPR
 Gumshoos,113/156,Uncommon,UPR
 Oranguru,114/156,Uncommon,UPR
 Type: Null,115/156,Rare,UPR
-Silvally GX,116/156,Rare Holo GX,UPR
+Silvally-GX,116/156,Rare Holo GX,UPR
 Drampa,117/156,Rare Holo,UPR
 Ancient Crystal,118/156,Uncommon,UPR
 Cynthia,119/156,Uncommon,UPR
@@ -14073,15 +14073,15 @@ Volkner,135a/156,Uncommon,UPR
 Super Boost Energy ◇,136/156,Rare Prism Star,UPR
 Unit Energy GrassFireWater,137/156,Uncommon,UPR
 Unit Energy LightningPsychicMetal,138/156,Uncommon,UPR
-Leafeon GX,139/156,Rare Ultra,UPR
-Pheromosa GX,140/156,Rare Ultra,UPR
-Glaceon GX,141/156,Rare Ultra,UPR
-Xurkitree GX,142/156,Rare Ultra,UPR
-Dawn Wings Necrozma GX,143/156,Rare Ultra,UPR
-Celesteela GX,144/156,Rare Ultra,UPR
-Dusk Mane Necrozma GX,145/156,Rare Ultra,UPR
-Dialga GX,146/156,Rare Ultra,UPR
-Palkia GX,147/156,Rare Ultra,UPR
+Leafeon-GX,139/156,Rare Ultra,UPR
+Pheromosa-GX,140/156,Rare Ultra,UPR
+Glaceon-GX,141/156,Rare Ultra,UPR
+Xurkitree-GX,142/156,Rare Ultra,UPR
+Dawn Wings Necrozma-GX,143/156,Rare Ultra,UPR
+Celesteela-GX,144/156,Rare Ultra,UPR
+Dusk Mane Necrozma-GX,145/156,Rare Ultra,UPR
+Dialga-GX,146/156,Rare Ultra,UPR
+Palkia-GX,147/156,Rare Ultra,UPR
 Cynthia,148/156,Rare Ultra,UPR
 Gardenia,149/156,Rare Ultra,UPR
 Lana,150/156,Rare Ultra,UPR
@@ -14092,24 +14092,24 @@ Lusamine,153a/156,Rare Ultra,UPR
 Mars,154/156,Rare Ultra,UPR
 Pokémon Fan Club,155/156,Rare Ultra,UPR
 Volkner,156/156,Rare Ultra,UPR
-Leafeon GX,157/156,Rare Rainbow,UPR
-Pheromosa GX,158/156,Rare Rainbow,UPR
-Glaceon GX,159/156,Rare Rainbow,UPR
-Xurkitree GX,160/156,Rare Rainbow,UPR
-Dawn Wings Necrozma GX,161/156,Rare Rainbow,UPR
-Celesteela GX,162/156,Rare Rainbow,UPR
-Dusk Mane Necrozma GX,163/156,Rare Rainbow,UPR
-Dialga GX,164/156,Rare Rainbow,UPR
-Palkia GX,165/156,Rare Rainbow,UPR
+Leafeon-GX,157/156,Rare Rainbow,UPR
+Pheromosa-GX,158/156,Rare Rainbow,UPR
+Glaceon-GX,159/156,Rare Rainbow,UPR
+Xurkitree-GX,160/156,Rare Rainbow,UPR
+Dawn Wings Necrozma-GX,161/156,Rare Rainbow,UPR
+Celesteela-GX,162/156,Rare Rainbow,UPR
+Dusk Mane Necrozma-GX,163/156,Rare Rainbow,UPR
+Dialga-GX,164/156,Rare Rainbow,UPR
+Palkia-GX,165/156,Rare Rainbow,UPR
 Crushing Hammer,166/156,Rare Secret,UPR
 Escape Board,167/156,Rare Secret,UPR
 Missing Clover,168/156,Rare Secret,UPR
 Peeking Red Card,169/156,Rare Secret,UPR
 Unit Energy GrassFireWater,170/156,Rare Secret,UPR
 Unit Energy LightningPsychicMetal,171/156,Rare Secret,UPR
-Lunala GX,172/156,Rare Secret,UPR
-Solgaleo GX,173/156,Rare Secret,UPR
-Pheromosa & Buzzwole GX,1/214,Rare Holo GX,UNB
+Lunala-GX,172/156,Rare Secret,UPR
+Solgaleo-GX,173/156,Rare Secret,UPR
+Pheromosa & Buzzwole-GX,1/214,Rare Holo GX,UNB
 Caterpie,2/214,Common,UNB
 Metapod,3/214,Uncommon,UNB
 Butterfree,4/214,Rare,UNB
@@ -14120,7 +14120,7 @@ Vileplume,8/214,Rare Holo,UNB
 Venonat,9/214,Common,UNB
 Venonat,10/214,Common,UNB
 Venomoth,11/214,Rare,UNB
-Venomoth GX,12/214,Rare Holo GX,UNB
+Venomoth-GX,12/214,Rare Holo GX,UNB
 Bellsprout,13/214,Common,UNB
 Weepinbell,14/214,Uncommon,UNB
 Victreebel,15/214,Rare,UNB
@@ -14128,7 +14128,7 @@ Tangela,16/214,Common,UNB
 Tangrowth,17/214,Rare,UNB
 Grubbin,18/214,Common,UNB
 Kartana,19/214,Rare Holo,UNB
-Reshiram & Charizard GX,20/214,Rare Holo GX,UNB
+Reshiram & Charizard-GX,20/214,Rare Holo GX,UNB
 Growlithe,21/214,Common,UNB
 Arcanine,22/214,Rare Holo,UNB
 Darumaka,23/214,Common,UNB
@@ -14143,7 +14143,7 @@ Salazzle,31/214,Rare,UNB
 Blacephalon,32/214,Rare,UNB
 Squirtle,33/214,Common,UNB
 Wartortle,34/214,Uncommon,UNB
-Blastoise GX,35/214,Rare Holo GX,UNB
+Blastoise-GX,35/214,Rare Holo GX,UNB
 Poliwag,36/214,Common,UNB
 Poliwag,37/214,Common,UNB
 Poliwhirl,38/214,Uncommon,UNB
@@ -14165,11 +14165,11 @@ Pyukumuku,53/214,Uncommon,UNB
 Pikachu,54/214,Common,UNB
 Raichu,55/214,Rare,UNB
 Stunfisk,56/214,Rare,UNB
-Dedenne GX,57/214,Rare Holo GX,UNB
+Dedenne-GX,57/214,Rare Holo GX,UNB
 Charjabug,58/214,Uncommon,UNB
 Vikavolt,59/214,Rare Holo,UNB
 Zeraora,60/214,Rare,UNB
-Muk & Alolan Muk GX,61/214,Rare Holo GX,UNB
+Muk & Alolan Muk-GX,61/214,Rare Holo GX,UNB
 Ekans,62/214,Common,UNB
 Arbok,63/214,Rare,UNB
 Zubat,64/214,Common,UNB
@@ -14190,7 +14190,7 @@ Mismagius,78/214,Rare,UNB
 Espurr,79/214,Common,UNB
 Meowstic,80/214,Rare,UNB
 Marshadow,81/214,Rare Holo,UNB
-Marshadow & Machamp GX,82/214,Rare Holo GX,UNB
+Marshadow & Machamp-GX,82/214,Rare Holo GX,UNB
 Sandshrew,83/214,Common,UNB
 Sandslash,84/214,Rare,UNB
 Diglett,85/214,Common,UNB
@@ -14215,9 +14215,9 @@ Landorus,103/214,Rare Holo,UNB
 Crabrawler,104/214,Common,UNB
 Crabominable,105/214,Rare,UNB
 Stakataka,106/214,Rare Holo,UNB
-Greninja & Zoroark GX,107/214,Rare Holo GX,UNB
+Greninja & Zoroark-GX,107/214,Rare Holo GX,UNB
 Murkrow,108/214,Common,UNB
-Honchkrow GX,109/214,Rare Holo GX,UNB
+Honchkrow-GX,109/214,Rare Holo GX,UNB
 Carvanha,110/214,Common,UNB
 Sharpedo,111/214,Rare,UNB
 Spiritomb,112/214,Rare Holo,UNB
@@ -14228,7 +14228,7 @@ Krookodile,116/214,Rare,UNB
 Greninja,117/214,Rare Holo,UNB
 Inkay,118/214,Common,UNB
 Malamar,119/214,Rare Holo,UNB
-Lucario & Melmetal GX,120/214,Rare Holo GX,UNB
+Lucario & Melmetal-GX,120/214,Rare Holo GX,UNB
 Alolan Diglett,121/214,Common,UNB
 Alolan Dugtrio,122/214,Rare,UNB
 Aron,123/214,Common,UNB
@@ -14238,7 +14238,7 @@ Lucario,126/214,Rare Holo,UNB
 Genesect,127/214,Rare,UNB
 Meltan,128/214,Common,UNB
 Melmetal,129/214,Rare Holo,UNB
-Gardevoir & Sylveon GX,130/214,Rare Holo GX,UNB
+Gardevoir & Sylveon-GX,130/214,Rare Holo GX,UNB
 Cleffa,131/214,Uncommon,UNB
 Clefairy,132/214,Common,UNB
 Clefable,133/214,Rare,UNB
@@ -14248,7 +14248,7 @@ Togepi,136/214,Common,UNB
 Togetic,137/214,Uncommon,UNB
 Togekiss,138/214,Rare Holo,UNB
 Cottonee,139/214,Common,UNB
-Whimsicott GX,140/214,Rare Holo GX,UNB
+Whimsicott-GX,140/214,Rare Holo GX,UNB
 Spritzee,141/214,Common,UNB
 Aromatisse,142/214,Rare,UNB
 Rattata,143/214,Common,UNB
@@ -14257,7 +14257,7 @@ Spearow,145/214,Common,UNB
 Fearow,146/214,Uncommon,UNB
 Meowth,147/214,Common,UNB
 Persian,148/214,Rare,UNB
-Persian GX,149/214,Rare Holo GX,UNB
+Persian-GX,149/214,Rare Holo GX,UNB
 Doduo,150/214,Common,UNB
 Dodrio,151/214,Uncommon,UNB
 Lickitung,152/214,Common,UNB
@@ -14271,7 +14271,7 @@ Glameow,159/214,Common,UNB
 Purugly,160/214,Rare,UNB
 Happiny,161/214,Uncommon,UNB
 Chatot,162/214,Uncommon,UNB
-Celesteela GX,163/214,Rare Holo GX,UNB
+Celesteela-GX,163/214,Rare Holo GX,UNB
 Beast Bringer,164/214,Uncommon,UNB
 Chip-Chip Ice Axe,165/214,Uncommon,UNB
 Devolution Spray Z,166/214,Uncommon,UNB
@@ -14282,11 +14282,11 @@ Energy Spinner,170/214,Uncommon,UNB
 Fairy Charm Ability,171/214,Uncommon,UNB
 Fairy Charm Lightning,172/214,Uncommon,UNB
 Fire Crystal,173/214,Uncommon,UNB
-Giovanni’s Exile,174/214,Uncommon,UNB
-Green’s Exploration,175/214,Uncommon,UNB
+Giovanni's Exile,174/214,Uncommon,UNB
+Green's Exploration,175/214,Uncommon,UNB
 Janine,176/214,Uncommon,UNB
-Koga’s Trap,177/214,Uncommon,UNB
-Lt. Surge’s Strategy,178/214,Uncommon,UNB
+Koga's Trap,177/214,Uncommon,UNB
+Lt. Surge's Strategy,178/214,Uncommon,UNB
 Martial Arts Dojo,179/214,Uncommon,UNB
 Metal Core Barrier,180/214,Uncommon,UNB
 Molayne,181/214,Uncommon,UNB
@@ -14294,7 +14294,7 @@ Pokégear 3.0,182/214,Uncommon,UNB
 Pokégear 3.0,182a/214,Uncommon,UNB
 Pokégear 3.0,182b/214,Uncommon,UNB
 Power Plant,183/214,Uncommon,UNB
-Red’s Challenge,184/214,Rare Holo,UNB
+Red's Challenge,184/214,Rare Holo,UNB
 Samson Oak,185/214,Uncommon,UNB
 Stealthy Hood,186/214,Uncommon,UNB
 Surprise Box,187/214,Uncommon,UNB
@@ -14302,52 +14302,52 @@ Ultra Forest Kartenvoy,188/214,Uncommon,UNB
 Welder,189/214,Uncommon,UNB
 Welder,189a/214,Uncommon,UNB
 Triple Acceleration Energy,190/214,Uncommon,UNB
-Pheromosa & Buzzwole GX,191/214,Rare Ultra,UNB
-Pheromosa & Buzzwole GX,192/214,Rare Ultra,UNB
-Venomoth GX,193/214,Rare Ultra,UNB
-Reshiram & Charizard GX,194/214,Rare Ultra,UNB
-Dedenne GX,195/214,Rare Ultra,UNB
+Pheromosa & Buzzwole-GX,191/214,Rare Ultra,UNB
+Pheromosa & Buzzwole-GX,192/214,Rare Ultra,UNB
+Venomoth-GX,193/214,Rare Ultra,UNB
+Reshiram & Charizard-GX,194/214,Rare Ultra,UNB
+Dedenne-GX,195/214,Rare Ultra,UNB
 Dedenne-GX,195a/214,Rare Ultra,UNB
-Muk & Alolan Muk GX,196/214,Rare Ultra,UNB
-Muk & Alolan Muk GX,197/214,Rare Ultra,UNB
-Marshadow & Machamp GX,198/214,Rare Ultra,UNB
-Marshadow & Machamp GX,199/214,Rare Ultra,UNB
-Greninja & Zoroark GX,200/214,Rare Ultra,UNB
-Greninja & Zoroark GX,201/214,Rare Ultra,UNB
-Honchkrow GX,202/214,Rare Ultra,UNB
-Lucario & Melmetal GX,203/214,Rare Ultra,UNB
-Gardevoir & Sylveon GX,204/214,Rare Ultra,UNB
-Gardevoir & Sylveon GX,205/214,Rare Ultra,UNB
-Whimsicott GX,206/214,Rare Ultra,UNB
-Persian GX,207/214,Rare Ultra,UNB
-Celesteela GX,208/214,Rare Ultra,UNB
-Green’s Exploration,209/214,Rare Ultra,UNB
+Muk & Alolan Muk-GX,196/214,Rare Ultra,UNB
+Muk & Alolan Muk-GX,197/214,Rare Ultra,UNB
+Marshadow & Machamp-GX,198/214,Rare Ultra,UNB
+Marshadow & Machamp-GX,199/214,Rare Ultra,UNB
+Greninja & Zoroark-GX,200/214,Rare Ultra,UNB
+Greninja & Zoroark-GX,201/214,Rare Ultra,UNB
+Honchkrow-GX,202/214,Rare Ultra,UNB
+Lucario & Melmetal-GX,203/214,Rare Ultra,UNB
+Gardevoir & Sylveon-GX,204/214,Rare Ultra,UNB
+Gardevoir & Sylveon-GX,205/214,Rare Ultra,UNB
+Whimsicott-GX,206/214,Rare Ultra,UNB
+Persian-GX,207/214,Rare Ultra,UNB
+Celesteela-GX,208/214,Rare Ultra,UNB
+Green's Exploration,209/214,Rare Ultra,UNB
 Janine,210/214,Rare Ultra,UNB
-Koga’s Trap,211/214,Rare Ultra,UNB
+Koga's Trap,211/214,Rare Ultra,UNB
 Molayne,212/214,Rare Ultra,UNB
-Red’s Challenge,213/214,Rare Ultra,UNB
+Red's Challenge,213/214,Rare Ultra,UNB
 Welder,214/214,Rare Ultra,UNB
-Pheromosa & Buzzwole GX,215/214,Rare Rainbow,UNB
-Venomoth GX,216/214,Rare Rainbow,UNB
-Reshiram & Charizard GX,217/214,Rare Rainbow,UNB
-Blastoise GX,218/214,Rare Rainbow,UNB
-Dedenne GX,219/214,Rare Rainbow,UNB
-Muk & Alolan Muk GX,220/214,Rare Rainbow,UNB
-Marshadow & Machamp GX,221/214,Rare Rainbow,UNB
-Greninja & Zoroark GX,222/214,Rare Rainbow,UNB
-Honchkrow GX,223/214,Rare Rainbow,UNB
-Lucario & Melmetal GX,224/214,Rare Rainbow,UNB
-Gardevoir & Sylveon GX,225/214,Rare Rainbow,UNB
-Whimsicott GX,226/214,Rare Rainbow,UNB
-Persian GX,227/214,Rare Rainbow,UNB
-Celesteela GX,228/214,Rare Rainbow,UNB
+Pheromosa & Buzzwole-GX,215/214,Rare Rainbow,UNB
+Venomoth-GX,216/214,Rare Rainbow,UNB
+Reshiram & Charizard-GX,217/214,Rare Rainbow,UNB
+Blastoise-GX,218/214,Rare Rainbow,UNB
+Dedenne-GX,219/214,Rare Rainbow,UNB
+Muk & Alolan Muk-GX,220/214,Rare Rainbow,UNB
+Marshadow & Machamp-GX,221/214,Rare Rainbow,UNB
+Greninja & Zoroark-GX,222/214,Rare Rainbow,UNB
+Honchkrow-GX,223/214,Rare Rainbow,UNB
+Lucario & Melmetal-GX,224/214,Rare Rainbow,UNB
+Gardevoir & Sylveon-GX,225/214,Rare Rainbow,UNB
+Whimsicott-GX,226/214,Rare Rainbow,UNB
+Persian-GX,227/214,Rare Rainbow,UNB
+Celesteela-GX,228/214,Rare Rainbow,UNB
 Beast Bringer,229/214,Rare Secret,UNB
 Electromagnetic Radar,230/214,Rare Secret,UNB
 Fire Crystal,231/214,Rare Secret,UNB
 Metal Core Barrier,232/214,Rare Secret,UNB
 Pokégear 3.0,233/214,Rare Secret,UNB
 Triple Acceleration Energy,234/214,Rare Secret,UNB
-Rowlet & Alolan Exeggutor GX,1/236,Rare Holo GX,UNM
+Rowlet & Alolan Exeggutor-GX,1/236,Rare Holo GX,UNM
 Yanma,2/236,Common,UNM
 Yanmega,3/236,Uncommon,UNM
 Celebi,4/236,Rare Holo,UNM
@@ -14371,7 +14371,7 @@ Magmar,21/236,Common,UNM
 Magmortar,22/236,Rare,UNM
 Numel,23/236,Common,UNM
 Camerupt,24/236,Rare,UNM
-Heatran GX,25/236,Rare Holo GX,UNM
+Heatran-GX,25/236,Rare Holo GX,UNM
 Victini,26/236,Rare Holo,UNM
 Litwick,27/236,Common,UNM
 Litwick,28/236,Common,UNM
@@ -14381,7 +14381,7 @@ Fletchinder,31/236,Common,UNM
 Talonflame,32/236,Rare,UNM
 Salandit,33/236,Common,UNM
 Salazzle,34/236,Rare,UNM
-Slowpoke & Psyduck GX,35/236,Rare Holo GX,UNM
+Slowpoke & Psyduck-GX,35/236,Rare Holo GX,UNM
 Lapras,36/236,Uncommon,UNM
 Snorunt,37/236,Common,UNM
 Froslass,38/236,Rare Holo,UNM
@@ -14393,14 +14393,14 @@ Basculin,43/236,Uncommon,UNM
 Tirtouga,44/236,Uncommon,UNM
 Carracosta,45/236,Uncommon,UNM
 Cryogonal,46/236,Common,UNM
-Keldeo GX,47/236,Rare Holo GX,UNM
+Keldeo-GX,47/236,Rare Holo GX,UNM
 Dewpider,48/236,Common,UNM
 Araquanid,49/236,Rare,UNM
 Wimpod,50/236,Common,UNM
 Golisopod,51/236,Rare Holo,UNM
 Pyukumuku,52/236,Uncommon,UNM
 Tapu Fini,53/236,Rare,UNM
-Raichu & Alolan Raichu GX,54/236,Rare Holo GX,UNM
+Raichu & Alolan Raichu-GX,54/236,Rare Holo GX,UNM
 Pikachu,55/236,Common,UNM
 Pikachu,56/236,Common,UNM
 Alolan Raichu,57/236,Rare Holo,UNM
@@ -14417,16 +14417,16 @@ Stunfisk,67/236,Common,UNM
 Thundurus,68/236,Uncommon,UNM
 Tapu Koko,69/236,Rare Holo,UNM
 Xurkitree,70/236,Rare,UNM
-Mewtwo & Mew GX,71/236,Rare Holo GX,UNM
-Espeon & Deoxys GX,72/236,Rare Holo GX,UNM
+Mewtwo & Mew-GX,71/236,Rare Holo GX,UNM
+Espeon & Deoxys-GX,72/236,Rare Holo GX,UNM
 Exeggcute,73/236,Common,UNM
 Exeggutor,74/236,Rare,UNM
 Alolan Marowak,75/236,Rare,UNM
 Jynx,76/236,Uncommon,UNM
 Wynaut,77/236,Uncommon,UNM
-Latios GX,78/236,Rare Holo GX,UNM
-Jirachi GX,79/236,Rare Holo GX,UNM
-Jirachi GX,79a/236,Rare Ultra,UNM
+Latios-GX,78/236,Rare Holo GX,UNM
+Jirachi-GX,79/236,Rare Holo GX,UNM
+Jirachi-GX,79a/236,Rare Ultra,UNM
 Drifloon,80/236,Common,UNM
 Drifblim,81/236,Rare,UNM
 Skorupi,82/236,Common,UNM
@@ -14453,7 +14453,7 @@ Poipole,102/236,Common,UNM
 Onix,103/236,Common,UNM
 Steelix,104/236,Rare,UNM
 Cubone,105/236,Common,UNM
-Aerodactyl GX,106/236,Rare Holo GX,UNM
+Aerodactyl-GX,106/236,Rare Holo GX,UNM
 Heracross,107/236,Uncommon,UNM
 Breloom,108/236,Uncommon,UNM
 Meditite,109/236,Common,UNM
@@ -14472,14 +14472,14 @@ Archeops,121/236,Rare,UNM
 Terrakion,122/236,Rare Holo,UNM
 Meloetta,123/236,Rare,UNM
 Zygarde,124/236,Rare,UNM
-Umbreon & Darkrai GX,125/236,Rare Holo GX,UNM
-Mega Sableye & Tyranitar GX,126/236,Rare Holo GX,UNM
+Umbreon & Darkrai-GX,125/236,Rare Holo GX,UNM
+Mega Sableye & Tyranitar-GX,126/236,Rare Holo GX,UNM
 Alolan Grimer,127/236,Common,UNM
 Murkrow,128/236,Common,UNM
 Murkrow,129/236,Common,UNM
 Honchkrow,130/236,Rare,UNM
 Sneasel,131/236,Common,UNM
-Weavile GX,132/236,Rare Holo GX,UNM
+Weavile-GX,132/236,Rare Holo GX,UNM
 Sableye,133/236,Uncommon,UNM
 Drapion,134/236,Rare,UNM
 Purrloin,135/236,Common,UNM
@@ -14488,18 +14488,18 @@ Scraggy,137/236,Common,UNM
 Scrafty,138/236,Rare,UNM
 Yveltal,139/236,Rare Holo,UNM
 Hoopa,140/236,Rare Holo,UNM
-Mawile GX,141/236,Rare Holo GX,UNM
+Mawile-GX,141/236,Rare Holo GX,UNM
 Escavalier,142/236,Rare,UNM
 Cottonee,143/236,Common,UNM
 Whimsicott,144/236,Rare,UNM
 Dedenne,145/236,Uncommon,UNM
-Garchomp & Giratina GX,146/236,Rare Holo GX,UNM
+Garchomp & Giratina-GX,146/236,Rare Holo GX,UNM
 Dratini,147/236,Common,UNM
 Dratini,148/236,Common,UNM
 Dragonair,149/236,Uncommon,UNM
 Dragonair,150/236,Uncommon,UNM
 Dragonite,151/236,Rare,UNM
-Dragonite GX,152/236,Rare Holo GX,UNM
+Dragonite-GX,152/236,Rare Holo GX,UNM
 Latias,153/236,Rare,UNM
 Axew,154/236,Common,UNM
 Fraxure,155/236,Uncommon,UNM
@@ -14507,7 +14507,7 @@ Haxorus,156/236,Rare Holo,UNM
 Druddigon,157/236,Common,UNM
 Noibat,158/236,Common,UNM
 Noivern,159/236,Rare,UNM
-Naganadel GX,160/236,Rare Holo GX,UNM
+Naganadel-GX,160/236,Rare Holo GX,UNM
 Lickitung,161/236,Common,UNM
 Lickilicky,162/236,Rare,UNM
 Kangaskhan,163/236,Rare Holo,UNM
@@ -14533,9 +14533,9 @@ Oranguru,182/236,Uncommon,UNM
 Type: Null,183/236,Uncommon,UNM
 Silvally,184/236,Rare Holo,UNM
 Komala,185/236,Uncommon,UNM
-Blaine’s Quiz Show,186/236,Uncommon,UNM
+Blaine's Quiz Show,186/236,Uncommon,UNM
 Blizzard Town,187/236,Uncommon,UNM
-Blue’s Tactics,188/236,Uncommon,UNM
+Blue's Tactics,188/236,Uncommon,UNM
 Bug Catcher,189/236,Uncommon,UNM
 Channeler,190/236,Uncommon,UNM
 Cherish Ball,191/236,Uncommon,UNM
@@ -14550,7 +14550,7 @@ Great Potion,198/236,Uncommon,UNM
 Grimsley,199/236,Uncommon,UNM
 Hapu,200/236,Uncommon,UNM
 Karate Belt,201/236,Uncommon,UNM
-Misty’s Favor,202/236,Uncommon,UNM
+Misty's Favor,202/236,Uncommon,UNM
 Normalium Z: Tackle,203/236,Uncommon,UNM
 Poké Maniac,204/236,Uncommon,UNM
 Pokémon Research Lab,205/236,Uncommon,UNM
@@ -14563,42 +14563,42 @@ Unidentified Fossil,210/236,Uncommon,UNM
 U-Turn Board,211/236,Uncommon,UNM
 Recycle Energy,212/236,Uncommon,UNM
 Weakness Guard Energy,213/236,Uncommon,UNM
-Rowlet & Alolan Exeggutor GX,214/236,Rare Ultra,UNM
-Rowlet & Alolan Exeggutor GX,215/236,Rare Ultra,UNM
-Heatran GX,216/236,Rare Ultra,UNM
-Slowpoke & Psyduck GX,217/236,Rare Ultra,UNM
-Slowpoke & Psyduck GX,218/236,Rare Ultra,UNM
-Keldeo GX,219/236,Rare Ultra,UNM
-Raichu & Alolan Raichu GX,220/236,Rare Ultra,UNM
-Raichu & Alolan Raichu GX,221/236,Rare Ultra,UNM
-Mewtwo & Mew GX,222/236,Rare Ultra,UNM
-Latios GX,223/236,Rare Ultra,UNM
-Aerodactyl GX,224/236,Rare Ultra,UNM
-Mega Sableye & Tyranitar GX,225/236,Rare Ultra,UNM
-Mega Sableye & Tyranitar GX,226/236,Rare Ultra,UNM
-Mawile GX,227/236,Rare Ultra,UNM
-Garchomp & Giratina GX,228/236,Rare Ultra,UNM
-Dragonite GX,229/236,Rare Ultra,UNM
-Naganadel GX,230/236,Rare Ultra,UNM
-Blue’s Tactics,231/236,Rare Ultra,UNM
+Rowlet & Alolan Exeggutor-GX,214/236,Rare Ultra,UNM
+Rowlet & Alolan Exeggutor-GX,215/236,Rare Ultra,UNM
+Heatran-GX,216/236,Rare Ultra,UNM
+Slowpoke & Psyduck-GX,217/236,Rare Ultra,UNM
+Slowpoke & Psyduck-GX,218/236,Rare Ultra,UNM
+Keldeo-GX,219/236,Rare Ultra,UNM
+Raichu & Alolan Raichu-GX,220/236,Rare Ultra,UNM
+Raichu & Alolan Raichu-GX,221/236,Rare Ultra,UNM
+Mewtwo & Mew-GX,222/236,Rare Ultra,UNM
+Latios-GX,223/236,Rare Ultra,UNM
+Aerodactyl-GX,224/236,Rare Ultra,UNM
+Mega Sableye & Tyranitar-GX,225/236,Rare Ultra,UNM
+Mega Sableye & Tyranitar-GX,226/236,Rare Ultra,UNM
+Mawile-GX,227/236,Rare Ultra,UNM
+Garchomp & Giratina-GX,228/236,Rare Ultra,UNM
+Dragonite-GX,229/236,Rare Ultra,UNM
+Naganadel-GX,230/236,Rare Ultra,UNM
+Blue's Tactics,231/236,Rare Ultra,UNM
 Channeler,232/236,Rare Ultra,UNM
 Coach Trainer,233/236,Rare Ultra,UNM
 Grimsley,234/236,Rare Ultra,UNM
-Misty’s Favor,235/236,Rare Ultra,UNM
+Misty's Favor,235/236,Rare Ultra,UNM
 Poké Maniac,236/236,Rare Ultra,UNM
-Rowlet & Alolan Exeggutor GX,237/236,Rare Rainbow,UNM
-Heatran GX,238/236,Rare Rainbow,UNM
-Slowpoke & Psyduck GX,239/236,Rare Rainbow,UNM
-Keldeo GX,240/236,Rare Rainbow,UNM
-Raichu & Alolan Raichu GX,241/236,Rare Rainbow,UNM
-Mewtwo & Mew GX,242/236,Rare Rainbow,UNM
-Latios GX,243/236,Rare Rainbow,UNM
-Aerodactyl GX,244/236,Rare Rainbow,UNM
-Mega Sableye & Tyranitar GX,245/236,Rare Rainbow,UNM
-Mawile GX,246/236,Rare Rainbow,UNM
-Garchomp & Giratina GX,247/236,Rare Rainbow,UNM
-Dragonite GX,248/236,Rare Rainbow,UNM
-Naganadel GX,249/236,Rare Rainbow,UNM
+Rowlet & Alolan Exeggutor-GX,237/236,Rare Rainbow,UNM
+Heatran-GX,238/236,Rare Rainbow,UNM
+Slowpoke & Psyduck-GX,239/236,Rare Rainbow,UNM
+Keldeo-GX,240/236,Rare Rainbow,UNM
+Raichu & Alolan Raichu-GX,241/236,Rare Rainbow,UNM
+Mewtwo & Mew-GX,242/236,Rare Rainbow,UNM
+Latios-GX,243/236,Rare Rainbow,UNM
+Aerodactyl-GX,244/236,Rare Rainbow,UNM
+Mega Sableye & Tyranitar-GX,245/236,Rare Rainbow,UNM
+Mawile-GX,246/236,Rare Rainbow,UNM
+Garchomp & Giratina-GX,247/236,Rare Rainbow,UNM
+Dragonite-GX,248/236,Rare Rainbow,UNM
+Naganadel-GX,249/236,Rare Rainbow,UNM
 Cherish Ball,250/236,Rare Secret,UNM
 Giant Bomb,251/236,Rare Secret,UNM
 Karate Belt,252/236,Rare Secret,UNM
@@ -15267,17 +15267,17 @@ Shining Magikarp,66/25,Classic Collection,CELCC
 Team Magma's Groudon,9/25,Classic Collection,CELCC
 Rocket's Admin.,86/25,Classic Collection,CELCC
 Mew ex,88/25,Classic Collection,CELCC
-Gardevoir ex,93/25,Classic Collection,CELCC
-Umbreon ☆,17/25,Classic Collection,CELCC
+Gardevoir ex δ,93/25,Classic Collection,CELCC
+Umbreon ★,17/25,Classic Collection,CELCC
 Luxray GL LV.X,109/25,Classic Collection,CELCC
 Garchomp C LV.X,145/25,Classic Collection,CELCC
 Donphan,107/25,Classic Collection,CELCC
 Reshiram,113/25,Classic Collection,CELCC
 Zekrom,114/25,Classic Collection,CELCC
-Mewtwo EX,54/25,Classic Collection,CELCC
-Xerneas EX,97/25,Classic Collection,CELCC
-M Rayquaza EX,76/25,Classic Collection,CELCC
-Tapu Lele GX,60/25,Classic Collection,CELCC
+Mewtwo-EX,54/25,Classic Collection,CELCC
+Xerneas-EX,97/25,Classic Collection,CELCC
+M Rayquaza-EX,76/25,Classic Collection,CELCC
+Tapu Lele-GX,60/25,Classic Collection,CELCC
 Ho-Oh,1/25,Rare,CEL
 Reshiram,2/25,Rare,CEL
 Kyogre,3/25,Rare,CEL
@@ -17056,7 +17056,7 @@ Bewear,150/192,Uncommon,RCL
 Skwovet,151/192,Common,RCL
 Greedent,152/192,Rare,RCL
 Dubwool V,153/192,Rare Holo V,RCL
-Boss's Orders (Giovanni),154/192,Rare Holo,RCL
+Boss's Orders,154/192,Rare Holo,RCL
 Burning Scarf,155/192,Uncommon,RCL
 Capacious Bucket,156/192,Uncommon,RCL
 Cursed Shovel,157/192,Uncommon,RCL
@@ -17091,7 +17091,7 @@ Falinks V,185/192,Rare Ultra,RCL
 Malamar V,186/192,Rare Ultra,RCL
 Copperajah V,187/192,Rare Ultra,RCL
 Dubwool V,188/192,Rare Ultra,RCL
-Boss's Orders (Giovanni),189/192,Rare Ultra,RCL
+Boss's Orders,189/192,Rare Ultra,RCL
 Milo,190/192,Rare Ultra,RCL
 Oleana,191/192,Rare Ultra,RCL
 Sonia,192/192,Rare Ultra,RCL
@@ -17102,7 +17102,7 @@ Toxtricity VMAX,196/192,Rare Rainbow,RCL
 Dragapult VMAX,197/192,Rare Rainbow,RCL
 Malamar VMAX,198/192,Rare Rainbow,RCL
 Copperajah VMAX,199/192,Rare Rainbow,RCL
-Boss's Orders (Giovanni),200/192,Rare Rainbow,RCL
+Boss's Orders,200/192,Rare Rainbow,RCL
 Milo,201/192,Rare Rainbow,RCL
 Oleana,202/192,Rare Rainbow,RCL
 Sonia,203/192,Rare Rainbow,RCL
@@ -17291,9 +17291,9 @@ Cramorant V,54/72,Rare Holo V,SHF
 Cramorant VMAX,55/72,Rare Holo VMAX,SHF
 Indeedee,56/72,Rare Holo,SHF
 Ball Guy,57/72,Uncommon,SHF
-Boss's Orders (Lysandre),58/72,Rare,SHF
+Boss's Orders,58/72,Rare,SHF
 Gym Trainer,59/72,Uncommon,SHF
-Professor's Research (Professor Juniper),60/72,Rare,SHF
+Professor's Research,60/72,Rare,SHF
 Rusted Shield,61/72,Uncommon,SHF
 Rusted Sword,62/72,Uncommon,SHF
 Team Yell Towel,63/72,Uncommon,SHF
@@ -17902,8 +17902,8 @@ Shadow Rider Calyrex V,SWSH131/307,Promo,SWSHP
 Dragapult,SWSH132/307,Promo,SWSHP
 Lance's Charizard V,SWSH133/307,Promo,SWSHP
 Dark Sylveon V,SWSH134/307,Promo,SWSHP
-Zacian,SWSH135/307,Promo,SWSHP
-Mimikyu,SWSH136/307,Promo,SWSHP
+Zacian LV.X,SWSH135/307,Promo,SWSHP
+Mimikyu δ,SWSH136/307,Promo,SWSHP
 Light Toxtricity,SWSH137/307,Promo,SWSHP
 Hydreigon C,SWSH138/307,Promo,SWSHP
 Pikachu V-UNION,SWSH139/307,Promo,SWSHP
@@ -17911,7 +17911,7 @@ Pikachu V-UNION,SWSH140/307,Promo,SWSHP
 Pikachu V-UNION,SWSH141/307,Promo,SWSHP
 Pikachu V-UNION,SWSH142/307,Promo,SWSHP
 Pikachu V,SWSH143/307,Promo,SWSHP
-Greninja ☆,SWSH144/307,Promo,SWSHP
+Greninja ★,SWSH144/307,Promo,SWSHP
 Pikachu V,SWSH145/307,Promo,SWSHP
 Poké Ball,SWSH146/307,Promo,SWSHP
 Rayquaza V,SWSH147/307,Promo,SWSHP
@@ -18281,8 +18281,8 @@ Vileplume,3/98,Rare,AOR
 Bellossom,4/98,Uncommon,AOR
 Spinarak,5/98,Common,AOR
 Ariados,6/98,Uncommon,AOR
-Sceptile EX,7/98,Rare Holo EX,AOR
-M Sceptile EX,8/98,Rare Holo EX,AOR
+Sceptile-EX,7/98,Rare Holo EX,AOR
+M Sceptile-EX,8/98,Rare Holo EX,AOR
 Combee,9/98,Common,AOR
 Vespiquen,10/98,Uncommon,AOR
 Vespiquen,11/98,Rare,AOR
@@ -18299,10 +18299,10 @@ Gyarados,21/98,Rare Holo,AOR
 Vaporeon,22/98,Uncommon,AOR
 Relicanth,23/98,Common,AOR
 Regice,24/98,Rare,AOR
-Kyurem EX,25/98,Rare Holo EX,AOR
+Kyurem-EX,25/98,Rare Holo EX,AOR
 Jolteon,26/98,Rare Holo,AOR
-Ampharos EX,27/98,Rare Holo EX,AOR
-M Ampharos EX,28/98,Rare Holo EX,AOR
+Ampharos-EX,27/98,Rare Holo EX,AOR
+M Ampharos-EX,28/98,Rare Holo EX,AOR
 Rotom,29/98,Uncommon,AOR
 Unown,30/98,Common,AOR
 Baltoy,31/98,Common,AOR
@@ -18310,14 +18310,14 @@ Baltoy,32/98,Common,AOR
 Claydol,33/98,Rare,AOR
 Golett,34/98,Common,AOR
 Golurk,35/98,Rare,AOR
-Hoopa EX,36/98,Rare Holo EX,AOR
-Machamp EX,37/98,Rare Holo EX,AOR
+Hoopa-EX,36/98,Rare Holo EX,AOR
+Machamp-EX,37/98,Rare Holo EX,AOR
 Wooper,38/98,Common,AOR
 Quagsire,39/98,Common,AOR
 Regirock,40/98,Rare,AOR
 Golurk,41/98,Common,AOR
-Tyranitar EX,42/98,Rare Holo EX,AOR
-M Tyranitar EX,43/98,Rare Holo EX,AOR
+Tyranitar-EX,42/98,Rare Holo EX,AOR
+M Tyranitar-EX,43/98,Rare Holo EX,AOR
 Sableye,44/98,Uncommon,AOR
 Inkay,45/98,Common,AOR
 Malamar,46/98,Common,AOR
@@ -18331,7 +18331,7 @@ Kirlia,53/98,Uncommon,AOR
 Gardevoir,54/98,Rare Holo,AOR
 Cottonee,55/98,Common,AOR
 Whimsicott,56/98,Uncommon,AOR
-Giratina EX,57/98,Rare Holo EX,AOR
+Giratina-EX,57/98,Rare Holo EX,AOR
 Goomy,58/98,Common,AOR
 Sliggoo,59/98,Uncommon,AOR
 Goodra,60/98,Rare Holo,AOR
@@ -18342,7 +18342,7 @@ Porygon,64/98,Common,AOR
 Porygon2,65/98,Uncommon,AOR
 Porygon-Z,66/98,Rare,AOR
 Porygon-Z,67/98,Rare Holo,AOR
-Lugia EX,68/98,Rare Holo EX,AOR
+Lugia-EX,68/98,Rare Holo EX,AOR
 Ace Trainer,69/98,Uncommon,AOR
 Ampharos Spirit Link,70/98,Uncommon,AOR
 Eco Arm,71/98,Uncommon,AOR
@@ -18359,21 +18359,21 @@ Sceptile Spirit Link,80/98,Uncommon,AOR
 Tyranitar Spirit Link,81/98,Uncommon,AOR
 Dangerous Energy,82/98,Uncommon,AOR
 Flash Energy,83/98,Uncommon,AOR
-Sceptile EX,84/98,Rare Ultra,AOR
-M Sceptile EX,85/98,Rare Ultra,AOR
-Kyurem EX,86/98,Rare Ultra,AOR
-Ampharos EX,87/98,Rare Ultra,AOR
-M Ampharos EX,88/98,Rare Ultra,AOR
-Hoopa EX,89/98,Rare Ultra,AOR
-Machamp EX,90/98,Rare Ultra,AOR
-Tyranitar EX,91/98,Rare Ultra,AOR
-M Tyranitar EX,92/98,Rare Ultra,AOR
-Giratina EX,93/98,Rare Ultra,AOR
-Lugia EX,94/98,Rare Ultra,AOR
+Sceptile-EX,84/98,Rare Ultra,AOR
+M Sceptile-EX,85/98,Rare Ultra,AOR
+Kyurem-EX,86/98,Rare Ultra,AOR
+Ampharos-EX,87/98,Rare Ultra,AOR
+M Ampharos-EX,88/98,Rare Ultra,AOR
+Hoopa-EX,89/98,Rare Ultra,AOR
+Machamp-EX,90/98,Rare Ultra,AOR
+Tyranitar-EX,91/98,Rare Ultra,AOR
+M Tyranitar-EX,92/98,Rare Ultra,AOR
+Giratina-EX,93/98,Rare Ultra,AOR
+Lugia-EX,94/98,Rare Ultra,AOR
 Steven,95/98,Rare Ultra,AOR
-Primal Kyogre EX,96/98,Rare Secret,AOR
-Primal Groudon EX,97/98,Rare Secret,AOR
-M Rayquaza EX,98/98,Rare Secret,AOR
+Primal Kyogre-EX,96/98,Rare Secret,AOR
+Primal Groudon-EX,97/98,Rare Secret,AOR
+M Rayquaza-EX,98/98,Rare Secret,AOR
 Energy Retrieval,99/98,Rare Secret,AOR
 Trainers' Mail,100/98,Rare Secret,AOR
 Chikorita,1/122,Common,BKP
@@ -18389,7 +18389,7 @@ Growlithe,10/122,Common,BKP
 Arcanine,11/122,Uncommon,BKP
 Numel,12/122,Common,BKP
 Camerupt,13/122,Rare,BKP
-Emboar EX,14/122,Rare Holo EX,BKP
+Emboar-EX,14/122,Rare Holo EX,BKP
 Heatmor,15/122,Uncommon,BKP
 Psyduck,16/122,Common,BKP
 Golduck,17/122,Rare,BKP
@@ -18401,13 +18401,13 @@ Shellder,22/122,Common,BKP
 Shellder,23/122,Common,BKP
 Cloyster,24/122,Uncommon,BKP
 Staryu,25/122,Common,BKP
-Gyarados EX,26/122,Rare Holo EX,BKP
-M Gyarados EX,27/122,Rare Holo EX,BKP
+Gyarados-EX,26/122,Rare Holo EX,BKP
+M Gyarados-EX,27/122,Rare Holo EX,BKP
 Lapras,28/122,Uncommon,BKP
 Corsola,29/122,Common,BKP
 Suicune,30/122,Rare Holo,BKP
-Palkia EX,31/122,Rare Holo EX,BKP
-Manaphy EX,32/122,Rare Holo EX,BKP
+Palkia-EX,31/122,Rare Holo EX,BKP
+Manaphy-EX,32/122,Rare Holo EX,BKP
 Tympole,33/122,Common,BKP
 Palpitoad,34/122,Uncommon,BKP
 Seismitoad,35/122,Rare,BKP
@@ -18427,7 +18427,7 @@ Blitzle,48/122,Common,BKP
 Zebstrika,49/122,Rare,BKP
 Drowzee,50/122,Common,BKP
 Hypno,51/122,Rare,BKP
-Espeon EX,52/122,Rare Holo EX,BKP
+Espeon-EX,52/122,Rare Holo EX,BKP
 Skorupi,53/122,Common,BKP
 Drapion,54/122,Rare,BKP
 Sigilyph,55/122,Uncommon,BKP
@@ -18449,16 +18449,16 @@ Garchomp,70/122,Rare Holo,BKP
 Pancham,71/122,Common,BKP
 Nuzleaf,72/122,Uncommon,BKP
 Shiftry,73/122,Rare,BKP
-Darkrai EX,74/122,Rare Holo EX,BKP
+Darkrai-EX,74/122,Rare Holo EX,BKP
 Pangoro,75/122,Rare,BKP
-Scizor EX,76/122,Rare Holo EX,BKP
-M Scizor EX,77/122,Rare Holo EX,BKP
+Scizor-EX,76/122,Rare Holo EX,BKP
+M Scizor-EX,77/122,Rare Holo EX,BKP
 Mawile,78/122,Uncommon,BKP
 Ferroseed,79/122,Common,BKP
 Ferrothorn,80/122,Rare,BKP
 Clefairy,81/122,Common,BKP
 Clefable,82/122,Rare,BKP
-Togekiss EX,83/122,Rare Holo EX,BKP
+Togekiss-EX,83/122,Rare Holo EX,BKP
 Spritzee,84/122,Common,BKP
 Aromatisse,85/122,Uncommon,BKP
 Dragalge,86/122,Rare Holo,BKP
@@ -18467,7 +18467,7 @@ Raticate,88/122,Rare,BKP
 Raticate BREAK,89/122,Rare BREAK,BKP
 Dunsparce,90/122,Uncommon,BKP
 Stantler,91/122,Uncommon,BKP
-Ho-Oh EX,92/122,Rare Holo EX,BKP
+Ho-Oh-EX,92/122,Rare Holo EX,BKP
 Glameow,93/122,Common,BKP
 Purugly,94/122,Uncommon,BKP
 Furfrou,95/122,Common,BKP
@@ -18492,16 +18492,16 @@ Reverse Valley,110/122,Uncommon,BKP
 Scizor Spirit Link,111/122,Uncommon,BKP
 Tierno,112/122,Uncommon,BKP
 Splash Energy,113/122,Uncommon,BKP
-Gyarados EX,114/122,Rare Ultra,BKP
-M Gyarados EX,115/122,Rare Ultra,BKP
-Manaphy EX,116/122,Rare Ultra,BKP
-Espeon EX,117/122,Rare Ultra,BKP
-Darkrai EX,118/122,Rare Ultra,BKP
-Scizor EX,119/122,Rare Ultra,BKP
-M Scizor EX,120/122,Rare Ultra,BKP
-Ho-Oh EX,121/122,Rare Ultra,BKP
+Gyarados-EX,114/122,Rare Ultra,BKP
+M Gyarados-EX,115/122,Rare Ultra,BKP
+Manaphy-EX,116/122,Rare Ultra,BKP
+Espeon-EX,117/122,Rare Ultra,BKP
+Darkrai-EX,118/122,Rare Ultra,BKP
+Scizor-EX,119/122,Rare Ultra,BKP
+M Scizor-EX,120/122,Rare Ultra,BKP
+Ho-Oh-EX,121/122,Rare Ultra,BKP
 Skyla,122/122,Rare Ultra,BKP
-Gyarados EX,123/122,Rare Secret,BKP
+Gyarados-EX,123/122,Rare Secret,BKP
 Paras,1/162,Common,BKT
 Parasect,2/162,Rare,BKT
 Pinsir,3/162,Uncommon,BKT
@@ -18522,8 +18522,8 @@ Gogoat,17/162,Uncommon,BKT
 Cyndaquil,18/162,Common,BKT
 Quilava,19/162,Uncommon,BKT
 Typhlosion,20/162,Rare Holo,BKT
-Houndoom EX,21/162,Rare Holo EX,BKT
-M Houndoom EX,22/162,Rare Holo EX,BKT
+Houndoom-EX,21/162,Rare Holo EX,BKT
+M Houndoom-EX,22/162,Rare Holo EX,BKT
 Pansear,23/162,Common,BKT
 Simisear,24/162,Rare,BKT
 Fennekin,25/162,Common,BKT
@@ -18535,8 +18535,8 @@ Starmie,30/162,Uncommon,BKT
 Remoraid,31/162,Common,BKT
 Remoraid,32/162,Common,BKT
 Octillery,33/162,Rare Holo,BKT
-Glalie EX,34/162,Rare Holo EX,BKT
-M Glalie EX,35/162,Rare Holo EX,BKT
+Glalie-EX,34/162,Rare Holo EX,BKT
+M Glalie-EX,35/162,Rare Holo EX,BKT
 Piplup,36/162,Common,BKT
 Prinplup,37/162,Uncommon,BKT
 Empoleon,38/162,Rare Holo,BKT
@@ -18562,10 +18562,10 @@ Dedenne,57/162,Uncommon,BKT
 Gastly,58/162,Common,BKT
 Haunter,59/162,Uncommon,BKT
 Gengar,60/162,Rare Holo,BKT
-Mewtwo EX,61/162,Rare Holo EX,BKT
-Mewtwo EX,62/162,Rare Holo EX,BKT
-M Mewtwo EX,63/162,Rare Holo EX,BKT
-M Mewtwo EX,64/162,Rare Holo EX,BKT
+Mewtwo-EX,61/162,Rare Holo EX,BKT
+Mewtwo-EX,62/162,Rare Holo EX,BKT
+M Mewtwo-EX,63/162,Rare Holo EX,BKT
+M Mewtwo-EX,64/162,Rare Holo EX,BKT
 Misdreavus,65/162,Common,BKT
 Mismagius,66/162,Rare Holo,BKT
 Wobbuffet,67/162,Uncommon,BKT
@@ -18655,24 +18655,24 @@ Super Rod,149/162,Uncommon,BKT
 Town Map,150/162,Uncommon,BKT
 Burning Energy,151/162,Uncommon,BKT
 Rainbow Energy,152/162,Uncommon,BKT
-Houndoom EX,153/162,Rare Ultra,BKT
-M Houndoom EX,154/162,Rare Ultra,BKT
-Glalie EX,155/162,Rare Ultra,BKT
-M Glalie EX,156/162,Rare Ultra,BKT
-Mewtwo EX,157/162,Rare Ultra,BKT
-Mewtwo EX,158/162,Rare Ultra,BKT
-M Mewtwo EX,159/162,Rare Ultra,BKT
-M Mewtwo EX,160/162,Rare Ultra,BKT
+Houndoom-EX,153/162,Rare Ultra,BKT
+M Houndoom-EX,154/162,Rare Ultra,BKT
+Glalie-EX,155/162,Rare Ultra,BKT
+M Glalie-EX,156/162,Rare Ultra,BKT
+Mewtwo-EX,157/162,Rare Ultra,BKT
+Mewtwo-EX,158/162,Rare Ultra,BKT
+M Mewtwo-EX,159/162,Rare Ultra,BKT
+M Mewtwo-EX,160/162,Rare Ultra,BKT
 Brigette,161/162,Rare Ultra,BKT
 Giovanni's Scheme,162/162,Rare Ultra,BKT
-Mewtwo EX,163/162,Rare Secret,BKT
-Mewtwo EX,164/162,Rare Secret,BKT
+Mewtwo-EX,163/162,Rare Secret,BKT
+Mewtwo-EX,164/162,Rare Secret,BKT
 Team Magma's Numel,1/34,Common,DCR
 Team Magma's Camerupt,2/34,Rare Holo,DCR
 Team Aqua's Spheal,3/34,Common,DCR
 Team Aqua's Sealeo,4/34,Common,DCR
 Team Aqua's Walrein,5/34,Rare Holo,DCR
-Team Aqua's Kyogre EX,6/34,Rare Ultra,DCR
+Team Aqua's Kyogre-EX,6/34,Rare Ultra,DCR
 Team Aqua's Grimer,7/34,Common,DCR
 Team Aqua's Muk,8/34,Rare Holo,DCR
 Team Aqua's Seviper,9/34,Common,DCR
@@ -18681,7 +18681,7 @@ Team Magma's Claydol,11/34,Rare Holo,DCR
 Team Magma's Aron,12/34,Common,DCR
 Team Magma's Lairon,13/34,Common,DCR
 Team Magma's Aggron,14/34,Rare Holo,DCR
-Team Magma's Groudon EX,15/34,Rare Ultra,DCR
+Team Magma's Groudon-EX,15/34,Rare Ultra,DCR
 Team Aqua's Poochyena,16/34,Common,DCR
 Team Magma's Poochyena,17/34,Common,DCR
 Team Aqua's Mightyena,18/34,Common,DCR
@@ -18701,8 +18701,8 @@ Team Magma's Great Ball,31/34,Uncommon,DCR
 Team Magma's Secret Base,32/34,Uncommon,DCR
 Double Aqua Energy,33/34,Uncommon,DCR
 Double Magma Energy,34/34,Uncommon,DCR
-Venusaur EX,1/108,Rare Holo EX,EVO
-M Venusaur EX,2/108,Rare Holo EX,EVO
+Venusaur-EX,1/108,Rare Holo EX,EVO
+M Venusaur-EX,2/108,Rare Holo EX,EVO
 Caterpie,3/108,Common,EVO
 Metapod,4/108,Uncommon,EVO
 Weedle,5/108,Common,EVO
@@ -18712,8 +18712,8 @@ Tangela,8/108,Common,EVO
 Charmander,9/108,Common,EVO
 Charmeleon,10/108,Uncommon,EVO
 Charizard,11/108,Rare Holo,EVO
-Charizard EX,12/108,Rare Holo EX,EVO
-M Charizard EX,13/108,Rare Holo EX,EVO
+Charizard-EX,12/108,Rare Holo EX,EVO
+M Charizard-EX,13/108,Rare Holo EX,EVO
 Vulpix,14/108,Common,EVO
 Ninetales,15/108,Rare Holo,EVO
 Ninetales BREAK,16/108,Rare BREAK,EVO
@@ -18721,13 +18721,13 @@ Growlithe,17/108,Common,EVO
 Arcanine,18/108,Rare,EVO
 Ponyta,19/108,Common,EVO
 Magmar,20/108,Uncommon,EVO
-Blastoise EX,21/108,Rare Holo EX,EVO
-M Blastoise EX,22/108,Rare Holo EX,EVO
+Blastoise-EX,21/108,Rare Holo EX,EVO
+M Blastoise-EX,22/108,Rare Holo EX,EVO
 Poliwag,23/108,Common,EVO
 Poliwhirl,24/108,Uncommon,EVO
 Poliwrath,25/108,Rare Holo,EVO
-Slowbro EX,26/108,Rare Holo EX,EVO
-M Slowbro EX,27/108,Rare Holo EX,EVO
+Slowbro-EX,26/108,Rare Holo EX,EVO
+M Slowbro-EX,27/108,Rare Holo EX,EVO
 Seel,28/108,Common,EVO
 Dewgong,29/108,Rare,EVO
 Staryu,30/108,Common,EVO
@@ -18743,7 +18743,7 @@ Voltorb,39/108,Common,EVO
 Electrode,40/108,Rare,EVO
 Electabuzz,41/108,Common,EVO
 Zapdos,42/108,Rare Holo,EVO
-Nidoran♂,43/108,Common,EVO
+Nidoran ♂,43/108,Common,EVO
 Nidorino,44/108,Uncommon,EVO
 Nidoking,45/108,Rare Holo,EVO
 Nidoking BREAK,46/108,Rare BREAK,EVO
@@ -18752,7 +18752,7 @@ Haunter,48/108,Uncommon,EVO
 Drowzee,49/108,Common,EVO
 Koffing,50/108,Uncommon,EVO
 Mewtwo,51/108,Rare,EVO
-Mewtwo EX,52/108,Rare Holo EX,EVO
+Mewtwo-EX,52/108,Rare Holo EX,EVO
 Mew,53/108,Rare Holo,EVO
 Sandshrew,54/108,Common,EVO
 Diglett,55/108,Common,EVO
@@ -18764,15 +18764,15 @@ Machamp BREAK,60/108,Rare BREAK,EVO
 Onix,61/108,Common,EVO
 Hitmonchan,62/108,Rare Holo,EVO
 Clefairy,63/108,Rare Holo,EVO
-Pidgeot EX,64/108,Rare Holo EX,EVO
-M Pidgeot EX,65/108,Rare Holo EX,EVO
+Pidgeot-EX,64/108,Rare Holo EX,EVO
+M Pidgeot-EX,65/108,Rare Holo EX,EVO
 Rattata,66/108,Common,EVO
 Raticate,67/108,Rare,EVO
 Farfetch'd,68/108,Rare,EVO
 Doduo,69/108,Common,EVO
 Chansey,70/108,Rare Holo,EVO
 Porygon,71/108,Uncommon,EVO
-Dragonite EX,72/108,Rare Holo EX,EVO
+Dragonite-EX,72/108,Rare Holo EX,EVO
 Blastoise Spirit Link,73/108,Uncommon,EVO
 Brock's Grit,74/108,Uncommon,EVO
 Charizard Spirit Link,75/108,Uncommon,EVO
@@ -18800,13 +18800,13 @@ Fighting Energy,96/108,Common,EVO
 Darkness Energy,97/108,Common,EVO
 Metal Energy,98/108,Common,EVO
 Fairy Energy,99/108,Common,EVO
-M Venusaur EX,100/108,Rare Ultra,EVO
-M Charizard EX,101/108,Rare Ultra,EVO
-M Blastoise EX,102/108,Rare Ultra,EVO
-Mewtwo EX,103/108,Rare Ultra,EVO
-Pidgeot EX,104/108,Rare Ultra,EVO
-M Pidgeot EX,105/108,Rare Ultra,EVO
-Dragonite EX,106/108,Rare Ultra,EVO
+M Venusaur-EX,100/108,Rare Ultra,EVO
+M Charizard-EX,101/108,Rare Ultra,EVO
+M Blastoise-EX,102/108,Rare Ultra,EVO
+Mewtwo-EX,103/108,Rare Ultra,EVO
+Pidgeot-EX,104/108,Rare Ultra,EVO
+M Pidgeot-EX,105/108,Rare Ultra,EVO
+Dragonite-EX,106/108,Rare Ultra,EVO
 Brock's Grit,107/108,Rare Ultra,EVO
 Misty's Determination,108/108,Rare Ultra,EVO
 ナッシー[Exeggutor],109/108,Rare Secret,EVO
@@ -18833,13 +18833,13 @@ Dewgong,16/124,Uncommon,FCO
 Omanyte,17/124,Uncommon,FCO
 Omastar,18/124,Rare,FCO
 Omastar BREAK,19/124,Rare BREAK,FCO
-Glaceon EX,20/124,Rare Holo EX,FCO
+Glaceon-EX,20/124,Rare Holo EX,FCO
 White Kyurem,21/124,Rare Holo,FCO
 Binacle,22/124,Common,FCO
 Barbaracle,23/124,Rare,FCO
 Rotom,24/124,Rare,FCO
-Alakazam EX,25/124,Rare Holo EX,FCO
-M Alakazam EX,26/124,Rare Holo EX,FCO
+Alakazam-EX,25/124,Rare Holo EX,FCO
+M Alakazam-EX,26/124,Rare Holo EX,FCO
 Koffing,27/124,Common,FCO
 Weezing,28/124,Uncommon,FCO
 Mew,29/124,Rare Holo,FCO
@@ -18856,8 +18856,8 @@ Kabutops,39/124,Rare,FCO
 Larvitar,40/124,Common,FCO
 Larvitar,41/124,Common,FCO
 Pupitar,42/124,Uncommon,FCO
-Regirock EX,43/124,Rare Holo EX,FCO
-Regirock EX,43a/124,Rare Ultra,FCO
+Regirock-EX,43/124,Rare Holo EX,FCO
+Regirock-EX,43a/124,Rare Ultra,FCO
 Wormadam,44/124,Uncommon,FCO
 Riolu,45/124,Common,FCO
 Riolu,46/124,Common,FCO
@@ -18868,9 +18868,9 @@ Carbink,50/124,Common,FCO
 Carbink BREAK,51/124,Rare BREAK,FCO
 Zygarde,52/124,Uncommon,FCO
 Zygarde,53/124,Rare,FCO
-Zygarde EX,54/124,Rare Holo EX,FCO
-Zygarde EX,54a/124,Rare Ultra,FCO
-Umbreon EX,55/124,Rare Holo EX,FCO
+Zygarde-EX,54/124,Rare Holo EX,FCO
+Zygarde-EX,54a/124,Rare Ultra,FCO
+Umbreon-EX,55/124,Rare Holo EX,FCO
 Tyranitar,56/124,Rare Holo,FCO
 Vullaby,57/124,Common,FCO
 Mandibuzz,58/124,Rare,FCO
@@ -18879,16 +18879,16 @@ Bronzor,60/124,Common,FCO
 Bronzong,61/124,Rare,FCO
 Bronzong BREAK,62/124,Rare BREAK,FCO
 Lucario,63/124,Rare Holo,FCO
-Genesect EX,64/124,Rare Holo EX,FCO
+Genesect-EX,64/124,Rare Holo EX,FCO
 Jigglypuff,65/124,Common,FCO
 Wigglytuff,66/124,Uncommon,FCO
 Mr. Mime,67/124,Rare,FCO
 Snubbull,68/124,Common,FCO
-M Altaria EX,69/124,Rare Holo EX,FCO
+M Altaria-EX,69/124,Rare Holo EX,FCO
 Cottonee,70/124,Common,FCO
 Whimsicott,71/124,Uncommon,FCO
-Diancie EX,72/124,Rare Holo EX,FCO
-Kingdra EX,73/124,Rare Holo EX,FCO
+Diancie-EX,72/124,Rare Holo EX,FCO
+Kingdra-EX,73/124,Rare Holo EX,FCO
 Meowth,74/124,Common,FCO
 Kangaskhan,75/124,Uncommon,FCO
 Aerodactyl,76/124,Rare,FCO
@@ -18898,9 +18898,9 @@ Lugia BREAK,79/124,Rare BREAK,FCO
 Whismur,80/124,Common,FCO
 Loudred,81/124,Uncommon,FCO
 Exploud,82/124,Rare,FCO
-Altaria EX,83/124,Rare Holo EX,FCO
-Audino EX,84/124,Rare Holo EX,FCO
-M Audino EX,85/124,Rare Holo EX,FCO
+Altaria-EX,83/124,Rare Holo EX,FCO
+Audino-EX,84/124,Rare Holo EX,FCO
+M Audino-EX,85/124,Rare Holo EX,FCO
 Minccino,86/124,Common,FCO
 Minccino,87/124,Common,FCO
 Cinccino,88/124,Uncommon,FCO
@@ -18933,16 +18933,16 @@ Team Rocket's Handiwork,112/124,Uncommon,FCO
 Ultra Ball,113/124,Uncommon,FCO
 Double Colorless Energy,114/124,Uncommon,FCO
 Strong Energy,115/124,Uncommon,FCO
-Glaceon EX,116/124,Rare Ultra,FCO
-Alakazam EX,117/124,Rare Ultra,FCO
-M Alakazam EX,118/124,Rare Ultra,FCO
-Umbreon EX,119/124,Rare Ultra,FCO
-Genesect EX,120/124,Rare Ultra,FCO
-M Altaria EX,121/124,Rare Ultra,FCO
-Kingdra EX,122/124,Rare Ultra,FCO
-Altaria EX,123/124,Rare Ultra,FCO
+Glaceon-EX,116/124,Rare Ultra,FCO
+Alakazam-EX,117/124,Rare Ultra,FCO
+M Alakazam-EX,118/124,Rare Ultra,FCO
+Umbreon-EX,119/124,Rare Ultra,FCO
+Genesect-EX,120/124,Rare Ultra,FCO
+M Altaria-EX,121/124,Rare Ultra,FCO
+Kingdra-EX,122/124,Rare Ultra,FCO
+Altaria-EX,123/124,Rare Ultra,FCO
 Team Rocket's Handiwork,124/124,Rare Ultra,FCO
-Alakazam EX,125/124,Rare Secret,FCO
+Alakazam-EX,125/124,Rare Secret,FCO
 Caterpie,1/106,Common,FLF
 Metapod,2/106,Uncommon,FLF
 Butterfree,3/106,Rare,FLF
@@ -18953,9 +18953,9 @@ Shiftry,7/106,Rare Holo,FLF
 Roselia,8/106,Common,FLF
 Roserade,9/106,Uncommon,FLF
 Maractus,10/106,Uncommon,FLF
-Charizard EX,11/106,Rare Holo EX,FLF
-Charizard EX,12/106,Rare Holo EX,FLF
-M Charizard EX,13/106,Rare Holo EX,FLF
+Charizard-EX,11/106,Rare Holo EX,FLF
+Charizard-EX,12/106,Rare Holo EX,FLF
+M Charizard-EX,13/106,Rare Holo EX,FLF
 Ponyta,14/106,Common,FLF
 Rapidash,15/106,Uncommon,FLF
 Torkoal,16/106,Uncommon,FLF
@@ -18977,13 +18977,13 @@ Avalugg,31/106,Uncommon,FLF
 Shinx,32/106,Common,FLF
 Luxio,33/106,Uncommon,FLF
 Luxray,34/106,Rare,FLF
-Magnezone EX,35/106,Rare Holo EX,FLF
+Magnezone-EX,35/106,Rare Holo EX,FLF
 Helioptile,36/106,Common,FLF
 Heliolisk,37/106,Rare,FLF
 Duskull,38/106,Common,FLF
 Dusclops,39/106,Uncommon,FLF
 Dusknoir,40/106,Rare Holo,FLF
-Toxicroak EX,41/106,Rare Holo EX,FLF
+Toxicroak-EX,41/106,Rare Holo EX,FLF
 Espurr,42/106,Common,FLF
 Meowstic,43/106,Rare,FLF
 Skrelp,44/106,Common,FLF
@@ -19011,7 +19011,7 @@ Floette,65/106,Uncommon,FLF
 Florges,66/106,Rare Holo,FLF
 Spritzee,67/106,Common,FLF
 Carbink,68/106,Rare Holo,FLF
-M Charizard EX,69/106,Rare Holo EX,FLF
+M Charizard-EX,69/106,Rare Holo EX,FLF
 Druddigon,70/106,Rare Holo,FLF
 Dragalge,71/106,Rare,FLF
 Goomy,72/106,Common,FLF
@@ -19020,8 +19020,8 @@ Goodra,74/106,Rare Holo,FLF
 Pidgey,75/106,Common,FLF
 Pidgeotto,76/106,Uncommon,FLF
 Pidgeot,77/106,Rare,FLF
-Kangaskhan EX,78/106,Rare Holo EX,FLF
-M Kangaskhan EX,79/106,Rare Holo EX,FLF
+Kangaskhan-EX,78/106,Rare Holo EX,FLF
+M Kangaskhan-EX,79/106,Rare Holo EX,FLF
 Snorlax,80/106,Rare,FLF
 Sentret,81/106,Common,FLF
 Furret,82/106,Rare,FLF
@@ -19043,21 +19043,21 @@ Sacred Ash,96/106,Uncommon,FLF
 Startling Megaphone,97/106,Uncommon,FLF
 Trick Shovel,98/106,Uncommon,FLF
 Ultra Ball,99/106,Uncommon,FLF
-Charizard EX,100/106,Rare Ultra,FLF
-Magnezone EX,101/106,Rare Ultra,FLF
-Toxicroak EX,102/106,Rare Ultra,FLF
-Kangaskhan EX,103/106,Rare Ultra,FLF
+Charizard-EX,100/106,Rare Ultra,FLF
+Magnezone-EX,101/106,Rare Ultra,FLF
+Toxicroak-EX,102/106,Rare Ultra,FLF
+Kangaskhan-EX,103/106,Rare Ultra,FLF
 Lysandre,104/106,Rare Ultra,FLF
 Pokémon Center Lady,105/106,Rare Ultra,FLF
 Pokémon Fan Club,106/106,Rare Ultra,FLF
-M Charizard EX,107/106,Rare Secret,FLF
-M Charizard EX,108/106,Rare Secret,FLF
-M Kangaskhan EX,109/106,Rare Secret,FLF
+M Charizard-EX,107/106,Rare Secret,FLF
+M Charizard-EX,108/106,Rare Secret,FLF
+M Kangaskhan-EX,109/106,Rare Secret,FLF
 Bellsprout,1/111,Common,FFI
 Weepinbell,2/111,Uncommon,FFI
 Victreebel,3/111,Rare Holo,FFI
-Heracross EX,4/111,Rare Holo EX,FFI
-M Heracross EX,5/111,Rare Holo EX,FFI
+Heracross-EX,4/111,Rare Holo EX,FFI
+M Heracross-EX,5/111,Rare Holo EX,FFI
 Shroomish,6/111,Common,FFI
 Leafeon,7/111,Rare,FFI
 Shelmet,8/111,Common,FFI
@@ -19072,7 +19072,7 @@ Poliwhirl,16/111,Uncommon,FFI
 Poliwrath,17/111,Rare Holo,FFI
 Politoed,18/111,Rare,FFI
 Glaceon,19/111,Rare,FFI
-Seismitoad EX,20/111,Rare Holo EX,FFI
+Seismitoad-EX,20/111,Rare Holo EX,FFI
 Cubchoo,21/111,Common,FFI
 Beartic,22/111,Rare,FFI
 Clauncher,23/111,Common,FFI
@@ -19106,9 +19106,9 @@ Breloom,50/111,Rare,FFI
 Makuhita,51/111,Common,FFI
 Hariyama,52/111,Rare,FFI
 Trapinch,53/111,Common,FFI
-Lucario EX,54/111,Rare Holo EX,FFI
-M Lucario EX,55/111,Rare Holo EX,FFI
-M Lucario EX,55a/111,Rare Ultra,FFI
+Lucario-EX,54/111,Rare Holo EX,FFI
+M Lucario-EX,55/111,Rare Holo EX,FFI
+M Lucario-EX,55a/111,Rare Ultra,FFI
 Mienfoo,56/111,Common,FFI
 Mienshao,57/111,Uncommon,FFI
 Landorus,58/111,Rare Holo,FFI
@@ -19117,7 +19117,7 @@ Pancham,60/111,Common,FFI
 Tyrunt,61/111,Uncommon,FFI
 Tyrantrum,62/111,Rare,FFI
 Hawlucha,63/111,Rare Holo,FFI
-Hawlucha EX,64/111,Rare Holo EX,FFI
+Hawlucha-EX,64/111,Rare Holo EX,FFI
 Drapion,65/111,Rare,FFI
 Scraggy,66/111,Common,FFI
 Scrafty,67/111,Uncommon,FFI
@@ -19127,7 +19127,7 @@ Clefairy,70/111,Common,FFI
 Clefable,71/111,Uncommon,FFI
 Sylveon,72/111,Rare,FFI
 Klefki,73/111,Uncommon,FFI
-Dragonite EX,74/111,Rare Holo EX,FFI
+Dragonite-EX,74/111,Rare Holo EX,FFI
 Vibrava,75/111,Uncommon,FFI
 Flygon,76/111,Rare,FFI
 Noivern,77/111,Rare Holo,FFI
@@ -19158,17 +19158,17 @@ Tool Retriever,101/111,Uncommon,FFI
 Training Center,102/111,Uncommon,FFI
 Herbal Energy,103/111,Uncommon,FFI
 Strong Energy,104/111,Uncommon,FFI
-Heracross EX,105/111,Rare Ultra,FFI
-Seismitoad EX,106/111,Rare Ultra,FFI
-Lucario EX,107/111,Rare Ultra,FFI
-Dragonite EX,108/111,Rare Ultra,FFI
+Heracross-EX,105/111,Rare Ultra,FFI
+Seismitoad-EX,106/111,Rare Ultra,FFI
+Lucario-EX,107/111,Rare Ultra,FFI
+Dragonite-EX,108/111,Rare Ultra,FFI
 Battle Reporter,109/111,Rare Ultra,FFI
 Fossil Researcher,110/111,Rare Ultra,FFI
 Korrina,111/111,Rare Ultra,FFI
-M Heracross EX,112/111,Rare Secret,FFI
-M Lucario EX,113/111,Rare Secret,FFI
-Venusaur EX,1/83,Rare Holo EX,GEN
-M Venusaur EX,2/83,Rare Holo EX,GEN
+M Heracross-EX,112/111,Rare Secret,FFI
+M Lucario-EX,113/111,Rare Secret,FFI
+Venusaur-EX,1/83,Rare Holo EX,GEN
+M Venusaur-EX,2/83,Rare Holo EX,GEN
 Caterpie,3/83,Common,GEN
 Metapod,4/83,Uncommon,GEN
 Butterfree,5/83,Rare Holo,GEN
@@ -19176,25 +19176,25 @@ Paras,6/83,Common,GEN
 Parasect,7/83,Rare,GEN
 Tangela,8/83,Common,GEN
 Pinsir,9/83,Rare,GEN
-Leafeon EX,10/83,Rare Holo EX,GEN
-Charizard EX,11/83,Rare Holo EX,GEN
-M Charizard EX,12/83,Rare Holo EX,GEN
-Ninetales EX,13/83,Rare Holo EX,GEN
+Leafeon-EX,10/83,Rare Holo EX,GEN
+Charizard-EX,11/83,Rare Holo EX,GEN
+M Charizard-EX,12/83,Rare Holo EX,GEN
+Ninetales-EX,13/83,Rare Holo EX,GEN
 Ponyta,14/83,Common,GEN
 Rapidash,15/83,Rare,GEN
 Magmar,16/83,Common,GEN
-Blastoise EX,17/83,Rare Holo EX,GEN
-M Blastoise EX,18/83,Rare Holo EX,GEN
+Blastoise-EX,17/83,Rare Holo EX,GEN
+M Blastoise-EX,18/83,Rare Holo EX,GEN
 Shellder,19/83,Common,GEN
 Cloyster,20/83,Uncommon,GEN
 Krabby,21/83,Common,GEN
 Magikarp,22/83,Common,GEN
 Gyarados,23/83,Rare,GEN
-Vaporeon EX,24/83,Rare Holo EX,GEN
+Vaporeon-EX,24/83,Rare Holo EX,GEN
 Articuno,25/83,Rare Holo,GEN
 Pikachu,26/83,Common,GEN
 Raichu,27/83,Rare Holo,GEN
-Jolteon EX,28/83,Rare Holo EX,GEN
+Jolteon-EX,28/83,Rare Holo EX,GEN
 Jolteon-EX,28a/83,Rare Ultra,GEN
 Zapdos,29/83,Rare Holo,GEN
 Zubat,30/83,Common,GEN
@@ -19204,7 +19204,7 @@ Gastly,33/83,Common,GEN
 Haunter,34/83,Uncommon,GEN
 Gengar,35/83,Rare Holo,GEN
 Jynx,36/83,Rare,GEN
-Meowstic EX,37/83,Rare Holo EX,GEN
+Meowstic-EX,37/83,Rare Holo EX,GEN
 Diglett,38/83,Common,GEN
 Dugtrio,39/83,Rare,GEN
 Machop,40/83,Common,GEN
@@ -19213,7 +19213,7 @@ Machamp,42/83,Rare Holo,GEN
 Geodude,43/83,Common,GEN
 Graveler,44/83,Uncommon,GEN
 Golem,45/83,Rare Holo,GEN
-Golem EX,46/83,Rare Holo EX,GEN
+Golem-EX,46/83,Rare Holo EX,GEN
 Hitmonlee,47/83,Rare,GEN
 Hitmonchan,48/83,Rare,GEN
 Rhyhorn,49/83,Common,GEN
@@ -19257,7 +19257,7 @@ Shroomish,RC2/83,Common,GEN
 Charmander,RC3/83,Common,GEN
 Charmeleon,RC4/83,Common,GEN
 Charizard,RC5/83,Uncommon,GEN
-Flareon EX,RC6/83,Rare Holo EX,GEN
+Flareon-EX,RC6/83,Rare Holo EX,GEN
 Snorunt,RC7/83,Common,GEN
 Froslass,RC8/83,Uncommon,GEN
 Raichu,RC9/83,Common,GEN
@@ -19272,18 +19272,18 @@ Flabébé,RC17/83,Common,GEN
 Floette,RC18/83,Uncommon,GEN
 Swirlix,RC19/83,Uncommon,GEN
 Slurpuff,RC20/83,Uncommon,GEN
-Sylveon EX,RC21/83,Rare Holo EX,GEN
+Sylveon-EX,RC21/83,Rare Holo EX,GEN
 Diancie,RC22/83,Uncommon,GEN
 Swablu,RC23/83,Common,GEN
 Altaria,RC24/83,Uncommon,GEN
 Fletchling,RC25/83,Common,GEN
 Floral Crown,RC26/83,Common,GEN
 Wally,RC27/83,Uncommon,GEN
-Flareon EX,RC28/83,Rare Ultra,GEN
+Flareon-EX,RC28/83,Rare Ultra,GEN
 Pikachu,RC29/83,Rare Ultra,GEN
-Gardevoir EX,RC30/83,Rare Ultra,GEN
-M Gardevoir EX,RC31/83,Rare Ultra,GEN
-Sylveon EX,RC32/83,Rare Ultra,GEN
+Gardevoir-EX,RC30/83,Rare Ultra,GEN
+M Gardevoir-EX,RC31/83,Rare Ultra,GEN
+Sylveon-EX,RC32/83,Rare Ultra,GEN
 Weedle,1/39,,KSS
 Pansage,2/39,,KSS
 Chespin,3/39,,KSS
@@ -19345,9 +19345,9 @@ Lumineon,19/119,Uncommon,PHF
 Frillish,20/119,Common,PHF
 Jellicent,21/119,Rare,PHF
 Alomomola,22/119,Common,PHF
-Manectric EX,23/119,Rare Holo EX,PHF
-M Manectric EX,24/119,Rare Holo EX,PHF
-M Manectric EX,24a/119,Rare Ultra,PHF
+Manectric-EX,23/119,Rare Holo EX,PHF
+M Manectric-EX,24/119,Rare Holo EX,PHF
+M Manectric-EX,24a/119,Rare Ultra,PHF
 Pachirisu,25/119,Rare,PHF
 Joltik,26/119,Common,PHF
 Galvantula,27/119,Rare,PHF
@@ -19357,8 +19357,8 @@ Heliolisk,30/119,Rare Holo,PHF
 Zubat,31/119,Common,PHF
 Golbat,32/119,Uncommon,PHF
 Crobat,33/119,Rare,PHF
-Gengar EX,34/119,Rare Holo EX,PHF
-M Gengar EX,35/119,Rare Holo EX,PHF
+Gengar-EX,34/119,Rare Holo EX,PHF
+M Gengar-EX,35/119,Rare Holo EX,PHF
 Wobbuffet,36/119,Uncommon,PHF
 Gulpin,37/119,Common,PHF
 Swalot,38/119,Rare,PHF
@@ -19381,17 +19381,17 @@ Mightyena,54/119,Rare,PHF
 Spiritomb,55/119,Rare,PHF
 Purrloin,56/119,Common,PHF
 Liepard,57/119,Uncommon,PHF
-Malamar EX,58/119,Rare Holo EX,PHF
+Malamar-EX,58/119,Rare Holo EX,PHF
 Skarmory,59/119,Common,PHF
 Bronzor,60/119,Common,PHF
 Bronzong,61/119,Rare,PHF
-Dialga EX,62/119,Rare Holo EX,PHF
+Dialga-EX,62/119,Rare Holo EX,PHF
 Heatran,63/119,Rare Holo,PHF
 Escavalier,64/119,Rare,PHF
-Aegislash EX,65/119,Rare Holo EX,PHF
-Aegislash EX,65a/119,Rare Ultra,PHF
+Aegislash-EX,65/119,Rare Holo EX,PHF
+Aegislash-EX,65a/119,Rare Ultra,PHF
 Klefki,66/119,Uncommon,PHF
-Florges EX,67/119,Rare Holo EX,PHF
+Florges-EX,67/119,Rare Holo EX,PHF
 Swirlix,68/119,Common,PHF
 Slurpuff,69/119,Rare Holo,PHF
 Dedenne,70/119,Common,PHF
@@ -19437,16 +19437,16 @@ VS Seeker,109/119,Uncommon,PHF
 Xerosic,110/119,Uncommon,PHF
 Double Colorless Energy,111/119,Uncommon,PHF
 Mystery Energy,112/119,Uncommon,PHF
-Manectric EX,113/119,Rare Ultra,PHF
-Gengar EX,114/119,Rare Ultra,PHF
-Malamar EX,115/119,Rare Ultra,PHF
-Florges EX,116/119,Rare Ultra,PHF
+Manectric-EX,113/119,Rare Ultra,PHF
+Gengar-EX,114/119,Rare Ultra,PHF
+Malamar-EX,115/119,Rare Ultra,PHF
+Florges-EX,116/119,Rare Ultra,PHF
 AZ,117/119,Rare Ultra,PHF
 Lysandre's Trump Card,118/119,Rare Ultra,PHF
 Xerosic,119/119,Rare Ultra,PHF
-M Manectric EX,120/119,Rare Secret,PHF
-M Gengar EX,121/119,Rare Secret,PHF
-Dialga EX,122/119,Rare Secret,PHF
+M Manectric-EX,120/119,Rare Secret,PHF
+M Gengar-EX,121/119,Rare Secret,PHF
+Dialga-EX,122/119,Rare Secret,PHF
 Weedle,1/160,Common,PRC
 Kakuna,2/160,Uncommon,PRC
 Beedrill,3/160,Rare,PRC
@@ -19465,7 +19465,7 @@ Shroomish,15/160,Common,PRC
 Breloom,16/160,Rare,PRC
 Volbeat,17/160,Common,PRC
 Illumise,18/160,Common,PRC
-Trevenant EX,19/160,Rare Holo EX,PRC
+Trevenant-EX,19/160,Rare Holo EX,PRC
 Vulpix,20/160,Common,PRC
 Ninetales,21/160,Rare,PRC
 Slugma,22/160,Common,PRC
@@ -19475,7 +19475,7 @@ Torchic,25/160,Common,PRC
 Torchic,26/160,Uncommon,PRC
 Combusken,27/160,Uncommon,PRC
 Blaziken,28/160,Rare Holo,PRC
-Camerupt EX,29/160,Rare Holo EX,PRC
+Camerupt-EX,29/160,Rare Holo EX,PRC
 Horsea,30/160,Common,PRC
 Seadra,31/160,Uncommon,PRC
 Staryu,32/160,Common,PRC
@@ -19484,7 +19484,7 @@ Marshtomp,34/160,Uncommon,PRC
 Swampert,35/160,Rare,PRC
 Swampert,36/160,Rare Holo,PRC
 Ludicolo,37/160,Rare,PRC
-Wailord EX,38/160,Rare Holo EX,PRC
+Wailord-EX,38/160,Rare Holo EX,PRC
 Barboach,39/160,Common,PRC
 Whiscash,40/160,Uncommon,PRC
 Whiscash,41/160,Rare,PRC
@@ -19500,8 +19500,8 @@ Huntail,50/160,Rare Holo,PRC
 Gorebyss,51/160,Uncommon,PRC
 Gorebyss,52/160,Rare,PRC
 Kyogre,53/160,Rare,PRC
-Kyogre EX,54/160,Rare Holo EX,PRC
-Primal Kyogre EX,55/160,Rare Holo EX,PRC
+Kyogre-EX,54/160,Rare Holo EX,PRC
+Primal Kyogre-EX,55/160,Rare Holo EX,PRC
 Manaphy,56/160,Rare Holo,PRC
 Chinchou,57/160,Common,PRC
 Lanturn,58/160,Uncommon,PRC
@@ -19512,7 +19512,7 @@ Tynamo,62/160,Common,PRC
 Eelektrik,63/160,Uncommon,PRC
 Eelektrik,64/160,Rare,PRC
 Eelektross,65/160,Rare Holo,PRC
-Nidoran♀,66/160,Common,PRC
+Nidoran ♀,66/160,Common,PRC
 Nidorina,67/160,Uncommon,PRC
 Nidoqueen,68/160,Uncommon,PRC
 Nidoqueen,69/160,Rare,PRC
@@ -19531,16 +19531,16 @@ Medicham,81/160,Rare,PRC
 Trapinch,82/160,Common,PRC
 Solrock,83/160,Common,PRC
 Groudon,84/160,Rare,PRC
-Groudon EX,85/160,Rare Holo EX,PRC
-Primal Groudon EX,86/160,Rare Holo EX,PRC
+Groudon-EX,85/160,Rare Holo EX,PRC
+Primal Groudon-EX,86/160,Rare Holo EX,PRC
 Hippopotas,87/160,Common,PRC
 Hippowdon,88/160,Rare Holo,PRC
 Drilbur,89/160,Common,PRC
 Diggersby,90/160,Rare,PRC
-Sharpedo EX,91/160,Rare Holo EX,PRC
+Sharpedo-EX,91/160,Rare Holo EX,PRC
 Crawdaunt,92/160,Rare Holo,PRC
-Aggron EX,93/160,Rare Holo EX,PRC
-M Aggron EX,94/160,Rare Holo EX,PRC
+Aggron-EX,93/160,Rare Holo EX,PRC
+M Aggron-EX,94/160,Rare Holo EX,PRC
 Probopass,95/160,Rare,PRC
 Excadrill,96/160,Rare,PRC
 Excadrill,97/160,Rare Holo,PRC
@@ -19551,8 +19551,8 @@ Mr. Mime,101/160,Uncommon,PRC
 Marill,102/160,Common,PRC
 Azumarill,103/160,Rare,PRC
 Azumarill,104/160,Rare Holo,PRC
-Gardevoir EX,105/160,Rare Holo EX,PRC
-M Gardevoir EX,106/160,Rare Holo EX,PRC
+Gardevoir-EX,105/160,Rare Holo EX,PRC
+M Gardevoir-EX,106/160,Rare Holo EX,PRC
 Kingdra,107/160,Rare,PRC
 Kingdra,108/160,Rare Holo,PRC
 Vibrava,109/160,Uncommon,PRC
@@ -19591,18 +19591,18 @@ Teammates,141/160,Uncommon,PRC
 Weakness Policy,142/160,Uncommon,PRC
 Shield Energy,143/160,Uncommon,PRC
 Wonder Energy,144/160,Uncommon,PRC
-Trevenant EX,145/160,Rare Ultra,PRC
-Camerupt EX,146/160,Rare Ultra,PRC
-Wailord EX,147/160,Rare Ultra,PRC
-Kyogre EX,148/160,Rare Ultra,PRC
-Primal Kyogre EX,149/160,Rare Ultra,PRC
-Groudon EX,150/160,Rare Ultra,PRC
-Primal Groudon EX,151/160,Rare Ultra,PRC
-Sharpedo EX,152/160,Rare Ultra,PRC
-Aggron EX,153/160,Rare Ultra,PRC
-M Aggron EX,154/160,Rare Ultra,PRC
-Gardevoir EX,155/160,Rare Ultra,PRC
-M Gardevoir EX,156/160,Rare Ultra,PRC
+Trevenant-EX,145/160,Rare Ultra,PRC
+Camerupt-EX,146/160,Rare Ultra,PRC
+Wailord-EX,147/160,Rare Ultra,PRC
+Kyogre-EX,148/160,Rare Ultra,PRC
+Primal Kyogre-EX,149/160,Rare Ultra,PRC
+Groudon-EX,150/160,Rare Ultra,PRC
+Primal Groudon-EX,151/160,Rare Ultra,PRC
+Sharpedo-EX,152/160,Rare Ultra,PRC
+Aggron-EX,153/160,Rare Ultra,PRC
+M Aggron-EX,154/160,Rare Ultra,PRC
+Gardevoir-EX,155/160,Rare Ultra,PRC
+M Gardevoir-EX,156/160,Rare Ultra,PRC
 Archie's Ace in the Hole,157/160,Rare Ultra,PRC
 Maxie's Hidden Ball Trick,158/160,Rare Ultra,PRC
 Professor Birch's Observations,159/160,Rare Ultra,PRC
@@ -19636,7 +19636,7 @@ Electrode,22/108,Uncommon,ROS
 Zapdos,23/108,Rare,ROS
 Electrike,24/108,Common,ROS
 Manectric,25/108,Uncommon,ROS
-Thundurus EX,26/108,Rare Holo EX,ROS
+Thundurus-EX,26/108,Rare Holo EX,ROS
 Natu,27/108,Common,ROS
 Natu,28/108,Common,ROS
 Xatu,29/108,Rare,ROS
@@ -19644,8 +19644,8 @@ Shuppet,30/108,Common,ROS
 Banette,31/108,Rare,ROS
 Banette,32/108,Rare,ROS
 Deoxys,33/108,Rare Holo,ROS
-Gallade EX,34/108,Rare Holo EX,ROS
-M Gallade EX,35/108,Rare Holo EX,ROS
+Gallade-EX,34/108,Rare Holo EX,ROS
+M Gallade-EX,35/108,Rare Holo EX,ROS
 Gligar,36/108,Common,ROS
 Gliscor,37/108,Uncommon,ROS
 Binacle,38/108,Common,ROS
@@ -19668,11 +19668,11 @@ Bagon,54/108,Common,ROS
 Bagon,55/108,Common,ROS
 Shelgon,56/108,Uncommon,ROS
 Salamence,57/108,Rare Holo,ROS
-Latios EX,58/108,Rare Holo EX,ROS
-M Latios EX,59/108,Rare Holo EX,ROS
-Rayquaza EX,60/108,Rare Holo EX,ROS
-M Rayquaza EX,61/108,Rare Holo EX,ROS
-Hydreigon EX,62/108,Rare Holo EX,ROS
+Latios-EX,58/108,Rare Holo EX,ROS
+M Latios-EX,59/108,Rare Holo EX,ROS
+Rayquaza-EX,60/108,Rare Holo EX,ROS
+M Rayquaza-EX,61/108,Rare Holo EX,ROS
+Hydreigon-EX,62/108,Rare Holo EX,ROS
 Reshiram,63/108,Rare Holo,ROS
 Zekrom,64/108,Rare Holo,ROS
 Spearow,65/108,Common,ROS
@@ -19685,10 +19685,10 @@ Swellow,71/108,Rare,ROS
 Swellow,72/108,Rare Holo,ROS
 Swablu,73/108,Common,ROS
 Altaria,74/108,Rare,ROS
-Rayquaza EX,75/108,Rare Holo EX,ROS
-M Rayquaza EX,76/108,Rare Holo EX,ROS
-Shaymin EX,77/108,Rare Holo EX,ROS
-Shaymin EX,77a/108,Rare Ultra,ROS
+Rayquaza-EX,75/108,Rare Holo EX,ROS
+M Rayquaza-EX,76/108,Rare Holo EX,ROS
+Shaymin-EX,77/108,Rare Holo EX,ROS
+Shaymin-EX,77a/108,Rare Ultra,ROS
 Pidove,78/108,Common,ROS
 Tranquill,79/108,Uncommon,ROS
 Unfezant,80/108,Uncommon,ROS
@@ -19710,15 +19710,15 @@ Wally,94/108,Uncommon,ROS
 Wide Lens,95/108,Uncommon,ROS
 Winona,96/108,Uncommon,ROS
 Double Dragon Energy,97/108,Uncommon,ROS
-Thundurus EX,98/108,Rare Ultra,ROS
-Gallade EX,99/108,Rare Ultra,ROS
-M Gallade EX,100/108,Rare Ultra,ROS
-Latios EX,101/108,Rare Ultra,ROS
-M Latios EX,102/108,Rare Ultra,ROS
-Hydreigon EX,103/108,Rare Ultra,ROS
-Rayquaza EX,104/108,Rare Ultra,ROS
-M Rayquaza EX,105/108,Rare Ultra,ROS
-Shaymin EX,106/108,Rare Ultra,ROS
+Thundurus-EX,98/108,Rare Ultra,ROS
+Gallade-EX,99/108,Rare Ultra,ROS
+M Gallade-EX,100/108,Rare Ultra,ROS
+Latios-EX,101/108,Rare Ultra,ROS
+M Latios-EX,102/108,Rare Ultra,ROS
+Hydreigon-EX,103/108,Rare Ultra,ROS
+Rayquaza-EX,104/108,Rare Ultra,ROS
+M Rayquaza-EX,105/108,Rare Ultra,ROS
+Shaymin-EX,106/108,Rare Ultra,ROS
 Wally,107/108,Rare Ultra,ROS
 Winona,108/108,Rare Ultra,ROS
 Energy Switch,109/108,Rare Secret,ROS
@@ -19748,7 +19748,7 @@ Litleo,22/114,Common,STS
 Pyroar,23/114,Rare,STS
 Pyroar BREAK,24/114,Rare BREAK,STS
 Volcanion,25/114,Rare,STS
-Volcanion EX,26/114,Rare Holo EX,STS
+Volcanion-EX,26/114,Rare Holo EX,STS
 Mantine,27/114,Common,STS
 Shellos,28/114,Common,STS
 Gastrodon,29/114,Rare,STS
@@ -19765,7 +19765,7 @@ Flaaffy,39/114,Uncommon,STS
 Ampharos,40/114,Rare Holo,STS
 Joltik,41/114,Common,STS
 Galvantula,42/114,Rare,STS
-Nidoran♂,43/114,Common,STS
+Nidoran ♂,43/114,Common,STS
 Nidorino,44/114,Uncommon,STS
 Nidoking,45/114,Rare,STS
 Drifloon,46/114,Common,STS
@@ -19789,19 +19789,19 @@ Pawniard,63/114,Common,STS
 Bisharp,64/114,Rare Holo,STS
 Yveltal,65/114,Rare Holo,STS
 Yveltal BREAK,66/114,Rare BREAK,STS
-Steelix EX,67/114,Rare Holo EX,STS
-M Steelix EX,68/114,Rare Holo EX,STS
+Steelix-EX,67/114,Rare Holo EX,STS
+M Steelix-EX,68/114,Rare Holo EX,STS
 Shieldon,69/114,Uncommon,STS
 Bastiodon,70/114,Rare,STS
 Klink,71/114,Common,STS
 Klang,72/114,Uncommon,STS
 Klinklang,73/114,Rare Holo,STS
 Cobalion,74/114,Rare,STS
-Magearna EX,75/114,Rare Holo EX,STS
+Magearna-EX,75/114,Rare Holo EX,STS
 Marill,76/114,Common,STS
 Azumarill,77/114,Uncommon,STS
-Gardevoir EX,78/114,Rare Holo EX,STS
-M Gardevoir EX,79/114,Rare Holo EX,STS
+Gardevoir-EX,78/114,Rare Holo EX,STS
+M Gardevoir-EX,79/114,Rare Holo EX,STS
 Klefki,80/114,Uncommon,STS
 Xerneas,81/114,Rare Holo,STS
 Xerneas BREAK,82/114,Rare BREAK,STS
@@ -19829,25 +19829,25 @@ Ninja Boy,103/114,Uncommon,STS
 Pokémon Ranger,104/114,Uncommon,STS
 Special Charge,105/114,Uncommon,STS
 Steelix Spirit Link,106/114,Uncommon,STS
-Volcanion EX,107/114,Rare Ultra,STS
-Steelix EX,108/114,Rare Ultra,STS
-M Steelix EX,109/114,Rare Ultra,STS
-Magearna EX,110/114,Rare Ultra,STS
-Gardevoir EX,111/114,Rare Ultra,STS
-M Gardevoir EX,112/114,Rare Ultra,STS
+Volcanion-EX,107/114,Rare Ultra,STS
+Steelix-EX,108/114,Rare Ultra,STS
+M Steelix-EX,109/114,Rare Ultra,STS
+Magearna-EX,110/114,Rare Ultra,STS
+Gardevoir-EX,111/114,Rare Ultra,STS
+M Gardevoir-EX,112/114,Rare Ultra,STS
 Pokémon Ranger,113/114,Rare Ultra,STS
 Professor Sycamore,114/114,Rare Ultra,STS
-Volcanion EX,115/114,Rare Secret,STS
-Gardevoir EX,116/114,Rare Secret,STS
+Volcanion-EX,115/114,Rare Secret,STS
+Gardevoir-EX,116/114,Rare Secret,STS
 Chespin,XY01/211,Promo,XYP
 Fennekin,XY02/211,Promo,XYP
 Froakie,XY03/211,Promo,XYP
 Sylveon,XY04/211,Promo,XYP
 Xerneas,XY05/211,Promo,XYP
 Yveltal,XY06/211,Promo,XYP
-Xerneas EX,XY07/211,Promo,XYP
-Yveltal EX,XY08/211,Promo,XYP
-Garchomp EX,XY09/211,Promo,XYP
+Xerneas-EX,XY07/211,Promo,XYP
+Yveltal-EX,XY08/211,Promo,XYP
+Garchomp-EX,XY09/211,Promo,XYP
 Dragalge,XY10/211,Promo,XYP
 Skiddo,XY11/211,Promo,XYP
 Honedge,XY12/211,Promo,XYP
@@ -19855,35 +19855,35 @@ Machamp,XY13/211,Promo,XYP
 Trevenant,XY14/211,Promo,XYP
 Slurpuff,XY15/211,Promo,XYP
 Gogoat,XY16/211,Promo,XYP
-Charizard EX,XY17/211,Promo,XYP
-Chesnaught EX,XY18/211,Promo,XYP
-Delphox EX,XY19/211,Promo,XYP
-Greninja EX,XY20/211,Promo,XYP
+Charizard-EX,XY17/211,Promo,XYP
+Chesnaught-EX,XY18/211,Promo,XYP
+Delphox-EX,XY19/211,Promo,XYP
+Greninja-EX,XY20/211,Promo,XYP
 Bronzong,XY21/211,Promo,XYP
 Darkrai,XY22/211,Promo,XYP
 Shiftry,XY23/211,Promo,XYP
 Greninja,XY24/211,Promo,XYP
-Krookodile EX,XY25/211,Promo,XYP
+Krookodile-EX,XY25/211,Promo,XYP
 Pyroar,XY26/211,Promo,XYP
 Champions Festival,XY27/211,Promo,XYP
-Venusaur EX,XY28/211,Promo,XYP
-Charizard EX,XY29/211,Promo,XYP
-Blastoise EX,XY30/211,Promo,XYP
+Venusaur-EX,XY28/211,Promo,XYP
+Charizard-EX,XY29/211,Promo,XYP
+Blastoise-EX,XY30/211,Promo,XYP
 Xerneas,XY31/211,Promo,XYP
 Yveltal,XY32/211,Promo,XYP
 Trevor,XY33/211,Promo,XYP
-Metagross EX,XY34/211,Promo,XYP
-M Metagross EX,XY35/211,Promo,XYP
+Metagross-EX,XY34/211,Promo,XYP
+M Metagross-EX,XY35/211,Promo,XYP
 Treecko,XY36/211,Promo,XYP
 Torchic,XY37/211,Promo,XYP
 Mudkip,XY38/211,Promo,XYP
 Kingdra,XY39/211,Promo,XYP
 Ditto,XY40/211,Promo,XYP
-Kyogre EX,XY41/211,Promo,XYP
-Groudon EX,XY42/211,Promo,XYP
-Diancie EX,XY43/211,Promo,XYP
-M Diancie EX,XY44/211,Promo,XYP
-Gallade EX,XY45/211,Promo,XYP
+Kyogre-EX,XY41/211,Promo,XYP
+Groudon-EX,XY42/211,Promo,XYP
+Diancie-EX,XY43/211,Promo,XYP
+M Diancie-EX,XY44/211,Promo,XYP
+Gallade-EX,XY45/211,Promo,XYP
 Altaria,XY46/211,Promo,XYP
 Heliolisk,XY47/211,Promo,XYP
 Meowstic,XY48/211,Promo,XYP
@@ -19891,28 +19891,28 @@ Regirock,XY49/211,Promo,XYP
 Pangoro,XY50/211,Promo,XYP
 Kyogre,XY51/211,Promo,XYP
 Groudon,XY52/211,Promo,XYP
-Sceptile EX,XY53/211,Promo,XYP
-Blaziken EX,XY54/211,Promo,XYP
-Swampert EX,XY55/211,Promo,XYP
+Sceptile-EX,XY53/211,Promo,XYP
+Blaziken-EX,XY54/211,Promo,XYP
+Swampert-EX,XY55/211,Promo,XYP
 Blissey,XY56/211,Promo,XYP
 Fearow,XY57/211,Promo,XYP
 Malamar,XY58/211,Promo,XYP
 Salamence,XY59/211,Promo,XYP
 Gyarados,XY60/211,Promo,XYP
-Flygon EX,XY61/211,Promo,XYP
-Absol EX,XY62/211,Promo,XYP
-M Absol EX,XY63/211,Promo,XYP
+Flygon-EX,XY61/211,Promo,XYP
+Absol-EX,XY62/211,Promo,XYP
+M Absol-EX,XY63/211,Promo,XYP
 Rayquaza,XY64/211,Promo,XYP
 Latios,XY65/211,Promo,XYP
-Rayquaza EX,XY66/211,Promo,XYP
+Rayquaza-EX,XY66/211,Promo,XYP
 Jirachi,XY67/211,Promo,XYP
 Jirachi,XY67a/211,Promo,XYP
 Chesnaught,XY68/211,Promo,XYP
-Rayquaza EX,XY69/211,Promo,XYP
-Tyrantrum EX,XY70/211,Promo,XYP
-Hoopa EX,XY71/211,Promo,XYP
-Latios EX,XY72/211,Promo,XYP
-Rayquaza EX,XY73/211,Promo,XYP
+Rayquaza-EX,XY69/211,Promo,XYP
+Tyrantrum-EX,XY70/211,Promo,XYP
+Hoopa-EX,XY71/211,Promo,XYP
+Latios-EX,XY72/211,Promo,XYP
+Rayquaza-EX,XY73/211,Promo,XYP
 Reshiram,XY74/211,Promo,XYP
 Palkia,XY75/211,Promo,XYP
 Zekrom,XY76/211,Promo,XYP
@@ -19923,10 +19923,10 @@ Black Kyurem,XY80/211,Promo,XYP
 White Kyurem,XY81/211,Promo,XYP
 Regigigas,XY82/211,Promo,XYP
 Arceus,XY83/211,Promo,XYP
-Pikachu EX,XY84/211,Promo,XYP
-Hoopa EX,XY85/211,Promo,XYP
-M Blaziken EX,XY86/211,Promo,XYP
-M Swampert EX,XY87/211,Promo,XYP
+Pikachu-EX,XY84/211,Promo,XYP
+Hoopa-EX,XY85/211,Promo,XYP
+M Blaziken-EX,XY86/211,Promo,XYP
+M Swampert-EX,XY87/211,Promo,XYP
 Chespin,XY88/211,Promo,XYP
 Pikachu,XY89/211,Promo,XYP
 Hoopa,XY90/211,Promo,XYP
@@ -19936,18 +19936,18 @@ Celebi,XY93/211,Promo,XYP
 Trevenant,XY94/211,Promo,XYP
 Pikachu,XY95/211,Promo,XYP
 Umbreon,XY96/211,Promo,XYP
-Aerodactyl EX,XY97/211,Promo,XYP
-M Aerodactyl EX,XY98/211,Promo,XYP
+Aerodactyl-EX,XY97/211,Promo,XYP
+M Aerodactyl-EX,XY98/211,Promo,XYP
 Aerodactyl Spirit Link,XY99/211,Promo,XYP
 Mewtwo,XY100/211,Promo,XYP
 Mewtwo,XY101/211,Promo,XYP
-Aurorus EX,XY102/211,Promo,XYP
-Mawile EX,XY103/211,Promo,XYP
-M Mawile EX,XY104/211,Promo,XYP
+Aurorus-EX,XY102/211,Promo,XYP
+Mawile-EX,XY103/211,Promo,XYP
+M Mawile-EX,XY104/211,Promo,XYP
 Mawile Spirit Link,XY105/211,Promo,XYP
-Gyarados EX,XY106/211,Promo,XYP
-Mewtwo EX,XY107/211,Promo,XYP
-Machamp EX,XY108/211,Promo,XYP
+Gyarados-EX,XY106/211,Promo,XYP
+Mewtwo-EX,XY107/211,Promo,XYP
+Machamp-EX,XY108/211,Promo,XYP
 Gyarados,XY109/211,Promo,XYP
 Mew,XY110/211,Promo,XYP
 Celebi,XY111/211,Promo,XYP
@@ -19960,19 +19960,19 @@ Victini,XY117/211,Promo,XYP
 Keldeo,XY118/211,Promo,XYP
 Genesect,XY119/211,Promo,XYP
 Meloetta,XY120/211,Promo,XYP
-Charizard EX,XY121/211,Promo,XYP
-Blastoise EX,XY122/211,Promo,XYP
-Venusaur EX,XY123/211,Promo,XYP
-Pikachu EX,XY124/211,Promo,XYP
-Mewtwo EX,XY125/211,Promo,XYP
-Mew EX,XY126/211,Promo,XYP
+Charizard-EX,XY121/211,Promo,XYP
+Blastoise-EX,XY122/211,Promo,XYP
+Venusaur-EX,XY123/211,Promo,XYP
+Pikachu-EX,XY124/211,Promo,XYP
+Mewtwo-EX,XY125/211,Promo,XYP
+Mew-EX,XY126/211,Promo,XYP
 Moltres,XY127/211,Promo,XYP
 White Kyurem,XY128/211,Promo,XYP
 Zygarde,XY129/211,Promo,XYP
 Tyranitar,XY130/211,Promo,XYP
 Pansear,XY131/211,Promo,XYP
 Gastly,XY132/211,Promo,XYP
-Ash Greninja EX,XY133/211,Promo,XYP
+Ash-Greninja-EX,XY133/211,Promo,XYP
 Empoleon BREAK,XY134/211,Promo,XYP
 Beheeyem BREAK,XY135/211,Promo,XYP
 Noctowl BREAK,XY136/211,Promo,XYP
@@ -19987,17 +19987,17 @@ Yanmega,XY144/211,Promo,XYP
 Volcanion,XY145/211,Promo,XYP
 Clawitzer,XY146/211,Promo,XYP
 Hoopa,XY147/211,Promo,XYP
-Shaymin EX,XY148/211,Promo,XYP
-Xerneas EX,XY149/211,Promo,XYP
-Yveltal EX,XY150/211,Promo,XYP
+Shaymin-EX,XY148/211,Promo,XYP
+Xerneas-EX,XY149/211,Promo,XYP
+Yveltal-EX,XY150/211,Promo,XYP
 Yveltal-EX,XY150a/211,Promo,XYP
-Zygarde EX,XY151/211,Promo,XYP
+Zygarde-EX,XY151/211,Promo,XYP
 Zygarde,XY152/211,Promo,XYP
-Ho Oh,XY153/211,Promo,XYP
+Ho-Oh,XY153/211,Promo,XYP
 Ho-Oh BREAK,XY154/211,Promo,XYP
 Wobbuffet BREAK,XY155/211,Promo,XYP
 Lugia,XY156/211,Promo,XYP
-Beedrill EX,XY157/211,Promo,XYP
+Beedrill-EX,XY157/211,Promo,XYP
 M Beedrill-EX,XY158/211,Promo,XYP
 Beedrill Spirit Link,XY159/211,Promo,XYP
 Black Kyurem,XY160/211,Promo,XYP
@@ -20010,10 +20010,10 @@ M Gengar-EX,XY166/211,Promo,XYP
 Garchomp-EX,XY167/211,Promo,XYP
 M Garchomp-EX,XY168/211,Promo,XYP
 Garchomp Spirit Link,XY169/211,Promo,XYP
-Salamence EX,XY170/211,Promo,XYP
+Salamence-EX,XY170/211,Promo,XYP
 M Salamence-EX,XY171/211,Promo,XYP
 Salamence Spirit Link,XY172/211,Promo,XYP
-Volcanion EX,XY173/211,Promo,XYP
+Volcanion-EX,XY173/211,Promo,XYP
 Pikachu-EX,XY174/211,Promo,XYP
 Magearna-EX,XY175/211,Promo,XYP
 Champions Festival,XY176/211,Promo,XYP
@@ -20055,8 +20055,8 @@ Gym Badge,XY208/211,Promo,XYP
 Gym Badge,XY209/211,Promo,XYP
 Gym Badge,XY210/211,Promo,XYP
 Lucario Spirit Link,XY211/211,Promo,XYP
-Venusaur EX,1/146,Rare Holo EX,XY
-M Venusaur EX,2/146,Rare Holo EX,XY
+Venusaur-EX,1/146,Rare Holo EX,XY
+M Venusaur-EX,2/146,Rare Holo EX,XY
 Weedle,3/146,Common,XY
 Kakuna,4/146,Uncommon,XY
 Beedrill,5/146,Rare,XY
@@ -20083,8 +20083,8 @@ Braixen,25/146,Uncommon,XY
 Delphox,26/146,Rare Holo,XY
 Fletchinder,27/146,Uncommon,XY
 Talonflame,28/146,Rare Holo,XY
-Blastoise EX,29/146,Rare Holo EX,XY
-M Blastoise EX,30/146,Rare Holo EX,XY
+Blastoise-EX,29/146,Rare Holo EX,XY
+M Blastoise-EX,30/146,Rare Holo EX,XY
 Shellder,31/146,Common,XY
 Cloyster,32/146,Rare,XY
 Staryu,33/146,Common,XY
@@ -20100,7 +20100,7 @@ Pikachu,42/146,Common,XY
 Raichu,43/146,Rare Holo,XY
 Voltorb,44/146,Common,XY
 Electrode,45/146,Uncommon,XY
-Emolga EX,46/146,Rare Holo EX,XY
+Emolga-EX,46/146,Rare Holo EX,XY
 Ekans,47/146,Common,XY
 Arbok,48/146,Rare,XY
 Spoink,49/146,Common,XY
@@ -20133,8 +20133,8 @@ Inkay,75/146,Common,XY
 Malamar,76/146,Rare,XY
 Malamar,77/146,Rare,XY
 Yveltal,78/146,Rare,XY
-Yveltal EX,79/146,Rare Holo EX,XY
-Skarmory EX,80/146,Rare Holo EX,XY
+Yveltal-EX,79/146,Rare Holo EX,XY
+Skarmory-EX,80/146,Rare Holo EX,XY
 Pawniard,81/146,Common,XY
 Bisharp,82/146,Rare,XY
 Honedge,83/146,Common,XY
@@ -20151,7 +20151,7 @@ Aromatisse,93/146,Rare Holo,XY
 Swirlix,94/146,Common,XY
 Slurpuff,95/146,Rare Holo,XY
 Xerneas,96/146,Rare,XY
-Xerneas EX,97/146,Rare Holo EX,XY
+Xerneas-EX,97/146,Rare Holo EX,XY
 Doduo,98/146,Common,XY
 Dodrio,99/146,Uncommon,XY
 Tauros,100/146,Rare,XY
@@ -20195,9 +20195,9 @@ Fighting Energy,137/146,Common,XY
 Darkness Energy,138/146,Common,XY
 Metal Energy,139/146,Common,XY
 Fairy Energy,140/146,Common,XY
-Venusaur EX,141/146,Rare Ultra,XY
-Blastoise EX,142/146,Rare Ultra,XY
-Emolga EX,143/146,Rare Ultra,XY
-Yveltal EX,144/146,Rare Ultra,XY
-Skarmory EX,145/146,Rare Ultra,XY
-Xerneas EX,146/146,Rare Ultra,XY
+Venusaur-EX,141/146,Rare Ultra,XY
+Blastoise-EX,142/146,Rare Ultra,XY
+Emolga-EX,143/146,Rare Ultra,XY
+Yveltal-EX,144/146,Rare Ultra,XY
+Skarmory-EX,145/146,Rare Ultra,XY
+Xerneas-EX,146/146,Rare Ultra,XY

@@ -1,6 +1,6 @@
 # Comparison `obb-v2` vs `obb-v3`
 
-The main detector in the docs is **obb-v3**.
+Historical dataset/geometry change. Production today is **obb-v5** — see [`../obb-v3-v5/README.md`](../obb-v3-v5/README.md).
 
 Plots: [`figures/v2/`](figures/v2/) and [`figures/v3/`](figures/v3/).  
 Older stretch-dataset comparison: [`../obb-v1-v2/README.md`](../obb-v1-v2/README.md).
@@ -106,7 +106,7 @@ Speed on RTX 5060 (val): v2 ~3.7 ms inference; v3 ~4.4 ms @800. Not a reason to 
 
 ## Conclusion
 
-**Use obb-v3.**
+**On that native dataset, use obb-v3 rather than v2.** Production after that is **obb-v5** ([v3 vs v5](../obb-v3-v5/README.md)).
 
 - Edge: mAP50-95 goes from ~0.98 (old v2 val) / ~0.93 (v2 on the new set) to **0.994**.
 - Current test: recall 1.0 and precision 0.996.

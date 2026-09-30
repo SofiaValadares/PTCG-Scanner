@@ -1,16 +1,16 @@
 # ROI detector — name / number / collection
 
-The cropper delivers the full card (63×88 mm, B&W). This stage finds the **text bands** with YOLOv8 OBB (`name`, `number`, `colection`). It does **not** read the characters.
+The cropper delivers the full card (63×88 mm). This stage finds the **text bands** with YOLOv8 OBB (`name`, `number`, `colection`). It does **not** read the characters.
 
 Notebook: [`notebooks/train_roi.ipynb`](../notebooks/train_roi.ipynb).
 
 Reading: [`ocr.md`](ocr.md).
 
-## Dataset (local, not in Git)
+## Dataset (Roboflow zip, not in Git)
 
-Export **YOLOv8 OBB** from Roboflow into `src/roi/data/` (`data.yaml`, `train/`, `valid/`, `test/`).
+In Roboflow, open [PTCG Scanner - ROI](https://universe.roboflow.com/pokemon-tcc/ptcg-scanner-roi), **Download Dataset → YOLOv8 Oriented Bounding Boxes**, and unzip into `data/roi/` (`data.yaml`, `train/`, `valid/`, `test/`).
 
-Images = cropper cards in B&W. Labels = four corners of the text band.
+Images = cropper cards. Labels = four corners of the text band. The counts below are from **v1**; a newer zip may differ.
 
 | Split | Images |
 |---|---|
@@ -20,8 +20,6 @@ Images = cropper cards in B&W. Labels = four corners of the text band.
 | **Total** | **293** cards · **292** name · **292** number · **190** colection |
 
 Class `colection` (Roboflow typo) is **missing on many cards** — only when the set name is printed. Do not rename it in `data.yaml`.
-
-Roboflow project: [Pokemon TCC OCR](https://universe.roboflow.com/pokemon-tcc/pokemon-tcc-ocr).
 
 ## Train / metrics
 

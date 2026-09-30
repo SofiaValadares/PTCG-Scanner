@@ -1,6 +1,6 @@
 # Comparison `obb-v1` vs `obb-v2`
 
-Historical report on the stretched-512 dataset. The current model in the main docs is **obb-v3** (see [`../obb-v2-v3/README.md`](../obb-v2-v3/README.md)).
+Historical report on the stretched-512 dataset. Production today is **obb-v5** (see [`../obb-v3-v5/README.md`](../obb-v3-v5/README.md)). The native-resolution step before that was **obb-v3** ([`../obb-v2-v3/README.md`](../obb-v2-v3/README.md)).
 
 Original plots: [`figures/v1/`](figures/v1/) and [`figures/v2/`](figures/v2/).
 
@@ -85,4 +85,4 @@ Speed on RTX 5060 (val, 640 px): v1 ~2.6 ms inference + 3.9 ms post; v2 ~2.0 ms 
 
 At that point the working detector was **obb-v2**: perfect recall on then-current val/test, slightly better precision, trained with denser pages and negatives. v1’s slightly higher test mAP50-95 (0.987 vs 0.978) is noise on 29 images.
 
-The later **obb-v3** (native resolution, no stretch) superseded both — see [obb-v2 vs v3](../obb-v2-v3/README.md).
+The later **obb-v3** (native resolution, no stretch) and then **obb-v5** (augmentation, 960 px) superseded both — see [obb-v2 vs v3](../obb-v2-v3/README.md) and [obb-v3 vs v5](../obb-v3-v5/README.md).

@@ -1,6 +1,6 @@
 # Cropper
 
-Perspective warp to 63×88 mm. Docs: [`docs/cropper.md`](../../docs/cropper.md)
+Perspective warp to 63×88 mm. Default detector: **obb-v5** (`imgsz=960`). Docs: [`docs/cropper.md`](../../docs/cropper.md)
 
 ```powershell
 $env:PYTHONPATH="src"

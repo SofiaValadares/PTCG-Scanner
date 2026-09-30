@@ -30,7 +30,7 @@ def find_weights_to_copy(explicit: Path | None = None) -> Path:
     if env:
         return Path(env).expanduser().resolve()
     bundled = PACKAGE_DIR / "weights"
-    for name in ("obb-v4.pt", "obb-v3.pt"):
+    for name in ("obb-v5.pt", "obb-v4.pt", "obb-v3.pt"):
         candidate = bundled / name
         if candidate.is_file():
             return candidate
@@ -39,11 +39,15 @@ def find_weights_to_copy(explicit: Path | None = None) -> Path:
         if pts:
             return pts[0]
     runs = REPO_ROOT / "src" / "detection" / "runs" / "obb"
-    for rel in ("obb-v4/weights/obb-v4.pt", "obb-v3/weights/obb-v3.pt"):
+    for rel in (
+        "obb-v5/weights/obb-v5.pt",
+        "obb-v4/weights/obb-v4.pt",
+        "obb-v3/weights/obb-v3.pt",
+    ):
         candidate = runs / rel
         if candidate.is_file():
             return candidate
-    return runs / "obb-v3" / "weights" / "obb-v3.pt"
+    return runs / "obb-v5" / "weights" / "obb-v5.pt"
 
 
 def export_cropper(dest: Path, weights: Path | None = None) -> Path:
@@ -55,7 +59,7 @@ def export_cropper(dest: Path, weights: Path | None = None) -> Path:
     if not src_weights.is_file():
         raise FileNotFoundError(
             f"Weights not found: {src_weights}\n"
-            "Train the detector or pass --weights path\\obb-v3.pt"
+            "Train the detector (obb-v5) or pass --weights path\\obb-v5.pt"
         )
 
     dest.mkdir(parents=True, exist_ok=True)

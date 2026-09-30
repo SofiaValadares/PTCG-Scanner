@@ -1,6 +1,6 @@
 """Rectified card crops from OBB (63 mm x 88 mm). Part of PTCG Scanner."""
 
-from .enhance import OCR_TEMPLATE, apply_frame, draw_ocr_template, enhance_card, inset_quad, to_bw
+from .enhance import OCR_TEMPLATE, apply_frame, draw_ocr_template, enhance_card, inset_quad
 from .rectify import (
     CARD_HEIGHT_MM,
     CARD_WIDTH_MM,
@@ -26,5 +26,4 @@ __all__ = [
     "inset_quad",
     "quads_from_obb_result",
     "rectify_card",
-    "to_bw",
 ]

@@ -1,0 +1,17 @@
+obb-v5 (YOLOv8n-OBB), fine-tune from obb-v3.pt, imgsz=960.
+
+Val (71 images / 477 cards, 6 empty):
+  Precision 0.9937  Recall 0.9948  F1 0.9943
+  mAP@0.50 0.9950  mAP@0.75 0.9950  mAP@0.50:0.95 0.9926
+  TP 477  FP 13  FN 0
+  ~7.1 ms/img (preprocess + inference + postprocess, RTX 5060)
+
+Test (35 images / 255 cards, 3 empty):
+  Precision 1.0000  Recall 0.9918  F1 0.9959
+  mAP@0.50 0.9950  mAP@0.75 0.9950  mAP@0.50:0.95 0.9916
+
+Last-epoch val losses: box 0.2885  cls 0.1428  DFL 1.5122  angle 0.0062
+Train: 55 / 80 epochs (early stop), ~18 min.
+
+Plots in this folder: results.png, BoxPR / BoxF1 / BoxP / BoxR, val_batch0 labels vs pred.
+No confusion-matrix figures (single class).

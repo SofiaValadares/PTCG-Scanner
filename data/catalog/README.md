@@ -1,14 +1,18 @@
-# Localized catalogs
+# Catalogs
 
-Same rows as [`../cards-list.csv`](../cards-list.csv). `Number` and `setId` stay English; `Name` (and set names in `sets.csv`) come from [TCGdex](https://api.tcgdex.net/v2/{lang}/cards) when that language has the card, otherwise the English name is kept.
+Each language folder has `cards.csv` (`Name`, `Number`, `Rarity`, `setId`) and `sets.csv` (`id`, `name`).
+
+`Number` and `setId` are the [PkmnCards](https://pkmncards.com/sets/) codes used by the pipeline. `Name` (and set names in `sets.csv`) follow that language when [TCGdex](https://api.tcgdex.net/v2/{lang}/cards) has the card; otherwise the English name is kept.
+
+The pipeline (`notebooks/pipeline.ipynb`) reads `data/catalog/{CATALOG_LANG}/`, default **`en`**. Switch `CATALOG_LANG` to `pt` (or another folder) to match against localized names.
 
 | Folder | Language |
 |---|---|
-| `en/` | English |
+| `en/` | English (evaluation catalog) |
 | `fr/` | French |
 | `es/` | Spanish |
 | `it/` | Italian |
-| `pt/` | Portuguese (Brazil, full TCG dump) |
+| `pt/` | Portuguese (Brazil) |
 | `pt-pt/` | Portuguese (Portugal) — empty in the API |
 | `de/` | German |
 | `nl/` | Dutch |
@@ -19,5 +23,3 @@ Same rows as [`../cards-list.csv`](../cards-list.csv). `Number` and `setId` stay
 | `zh-tw/` | Chinese (Traditional) |
 | `zh-cn/` | Chinese (Simplified) |
 | `id/` | Indonesian |
-
-Each folder has `cards.csv` and `sets.csv`.

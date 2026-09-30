@@ -8,12 +8,19 @@ __pycache__/
 # Roboflow datasets (download locally)
 dataset/
 src/detection/dataset/
-src/roi/data/train/
-src/roi/data/valid/
-src/roi/data/test/
+src/roi/data/
+data/detection/train/
+data/detection/valid/
+data/detection/test/
+data/roi/train/
+data/roi/valid/
+data/roi/test/
 src/ocr/data/train/
 src/ocr/data/valid/
 src/ocr/data/test/
+data/input/*
+!data/input/.gitkeep
+!data/input/README.md
 
 # Training / weights
 runs/
@@ -30,9 +37,9 @@ wandb/
 src/cropper/output/
 src/cropper/weights/*.pt
 
-# Local dumps (evaluation PDFs in data/pdf/ are versioned)
-data/images/
-data/cards-data/
+# Local dumps
+data/detection/
+data/roi/
 
 Thumbs.db
 Desktop.ini

@@ -12,9 +12,9 @@ import cv2
 import numpy as np
 
 try:
-    from .enhance import inset_quad, prepare_card, to_bw
+    from .enhance import inset_quad, prepare_card
 except ImportError:
-    from enhance import inset_quad, prepare_card, to_bw
+    from enhance import inset_quad, prepare_card
 
 CARD_WIDTH_MM = 63.0
 CARD_HEIGHT_MM = 88.0
@@ -301,7 +301,6 @@ def rectify_card(
 @dataclass
 class CroppedCard:
     image: np.ndarray
-    image_bw: np.ndarray
     conf: float
     quad: np.ndarray
     index: int
@@ -344,7 +343,6 @@ def crop_result(
         cropped.append(
             CroppedCard(
                 image=image_out,
-                image_bw=to_bw(image_out),
                 conf=conf,
                 quad=used,
                 index=i,

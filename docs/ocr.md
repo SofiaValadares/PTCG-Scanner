@@ -23,6 +23,6 @@ Tables: `src/ocr/runs/ocr_metrics.csv` and `ocr-roi-v1_vs_planilha.csv` (gitigno
 
 ## Pipeline metrics
 
-[`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb) does not retrain. After reading the evaluation PDFs it reports OCR field accuracy / CER and the end-to-end catalog funnel. ROI mAP on the strip test set is measured in `train_roi.ipynb` (and optionally again in the pipeline if `src/roi/data` is present).
+[`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb) does not retrain. After reading `data/input/` it reports OCR field accuracy / CER (when a sibling CSV exists) and the end-to-end catalog funnel. ROI mAP on the strip test set is measured in `train_roi.ipynb` (and optionally again in the pipeline if `data/roi` is present).
 
 Part of [PTCG Scanner](../README.md). License: [CC BY-NC 4.0](../LICENSE).

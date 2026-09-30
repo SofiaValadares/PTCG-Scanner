@@ -18,6 +18,7 @@ except ImportError:
 PACKAGE_DIR = Path(__file__).resolve().parent
 REPO_ROOT = PACKAGE_DIR.parent.parent
 _RUNS = REPO_ROOT / "src" / "detection" / "runs" / "obb"
+_V5_WEIGHTS = _RUNS / "obb-v5" / "weights" / "obb-v5.pt"
 _V4_WEIGHTS = _RUNS / "obb-v4" / "weights" / "obb-v4.pt"
 _V3_WEIGHTS = _RUNS / "obb-v3" / "weights" / "obb-v3.pt"
 DEFAULT_OUTPUT = PACKAGE_DIR / "output"
@@ -25,7 +26,10 @@ IMAGE_SUFFIXES = {".jpg", ".jpeg", ".png", ".webp", ".bmp", ".tif", ".tiff"}
 
 
 def imgsz_for_weights(weights: Path) -> int:
-    return 960 if "v4" in weights.name.lower() else 800
+    name = weights.name.lower()
+    if "v3" in name or "v2" in name or "v1" in name:
+        return 800
+    return 960
 
 
 def find_default_weights() -> Path:
@@ -34,7 +38,7 @@ def find_default_weights() -> Path:
     if env:
         return Path(env)
     bundled = PACKAGE_DIR / "weights"
-    for name in ("obb-v4.pt", "obb-v3.pt"):
+    for name in ("obb-v5.pt", "obb-v4.pt", "obb-v3.pt"):
         candidate = bundled / name
         if candidate.is_file():
             return candidate
@@ -42,8 +46,9 @@ def find_default_weights() -> Path:
         pts = sorted(bundled.glob("*.pt"))
         if pts:
             return pts[0]
-    if _V4_WEIGHTS.is_file():
-        return _V4_WEIGHTS
+    for candidate in (_V5_WEIGHTS, _V4_WEIGHTS):
+        if candidate.is_file():
+            return candidate
     return _V3_WEIGHTS
 
 
@@ -68,11 +73,8 @@ def save_crops(stem: str, crops, out_dir: Path) -> list[Path]:
     for card in crops:
         base = f"{stem}_card_{card.index:02d}_{card.conf:.2f}"
         color_path = out_dir / f"{base}.jpg"
-        bw_path = out_dir / f"{base}_bw.jpg"
         cv2.imwrite(str(color_path), card.image)
-        cv2.imwrite(str(bw_path), card.image_bw)
         saved.append(color_path)
-        saved.append(bw_path)
     return saved
 
 
@@ -99,6 +101,7 @@ def run(
                 "or train under src/detection/."
             )
         model = YOLO(str(weights))
+        print(f"OBB weights: {weights}  imgsz={imgsz}")
     saved: list[Path] = []
     for image_path in collect_images(source):
         results = model.predict(
@@ -131,7 +134,12 @@ def parse_args() -> argparse.Namespace:
         )
     )
     parser.add_argument("source", type=Path, help="Image file or folder")
-    parser.add_argument("--weights", type=Path, default=DEFAULT_WEIGHTS)
+    parser.add_argument(
+        "--weights",
+        type=Path,
+        default=DEFAULT_WEIGHTS,
+        help="YOLOv8 OBB checkpoint (default: obb-v5, then v4, then v3).",
+    )
     parser.add_argument("--out", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--conf", type=float, default=0.8)
     parser.add_argument("--imgsz", type=int, default=DEFAULT_IMGSZ)
