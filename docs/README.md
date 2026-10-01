@@ -5,7 +5,7 @@
 | [detection.md](detection.md) | YOLOv8 OBB card detector |
 | [cropper.md](cropper.md) | 63×88 mm rectification |
 | [roi.md](roi.md) | Text-band OBB (name / number / set) |
-| [ocr.md](ocr.md) | EasyOCR and engine comparison |
+| [ocr.md](ocr.md) | RapidOCR and engine comparison |
 | [../src/README.md](../src/README.md) | Detection, cropper, ROI, and OCR code |
 | [../output/README.md](../output/README.md) | Pipeline artifacts |
 | [experiments/obb-v3-v5](experiments/obb-v3-v5/README.md) | v3 → v5 (current production) |

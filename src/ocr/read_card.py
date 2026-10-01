@@ -201,7 +201,7 @@ def _split_number_digits(digits: str) -> tuple[str, str] | None:
 
 def clean_number(text: str) -> str:
     raw = (text or "").translate(_NUMBER_TRANSLATE)
-    raw = raw.replace(" ", "").replace("\\", "/").replace("⁄", "/")
+    raw = raw.replace(" ", "").replace("\\", "/").replace("⁄", "/").replace("-", "/")
     match = re.search(r"(\d{1,3})/(\d{2,3})", raw)
     if match:
         return _format_number(match.group(1), match.group(2))
@@ -219,9 +219,9 @@ def clean_name(text: str) -> str:
 
 
 def clean_collection(text: str) -> str:
-    """Fica o código da coleção: 3 a 7 letras ou dígitos, como MEW, OBF ou 151."""
+    """Fica o código da coleção: 2 a 7 letras ou dígitos, como S9, MEW, OBF ou 151."""
     code = re.sub(r"[^A-Za-z0-9]+", "", text or "")
-    if 3 <= len(code) <= 7:
+    if 2 <= len(code) <= 7:
         return code.upper()
     return ""
 
@@ -234,9 +234,39 @@ def _clean(field: str, text: str) -> str:
     return clean_name(text)
 
 
-def ocr_image(reader, image: np.ndarray, field: str = "name") -> tuple[str, float, np.ndarray]:
-    min_h = 80 if field == "collection" else 112
-    enhanced = enhance_strip(image, min_h=min_h)
+def create_reader():
+    """RapidOCR (Paddle ONNX) — winner of the train_ocr.ipynb engine comparison."""
+    from rapidocr import RapidOCR
+
+    return RapidOCR(params={"Global.log_level": "error"})
+
+
+def _rapid_raw(reader, gray: np.ndarray) -> tuple[str, float]:
+    view = cv2.cvtColor(gray, cv2.COLOR_GRAY2BGR) if gray.ndim == 2 else gray
+    try:
+        result = reader(view, use_det=False, use_cls=False)
+    except TypeError:
+        result = reader(view)
+    txts = [str(item).strip() for item in (getattr(result, "txts", None) or []) if str(item).strip()]
+    scores = [float(score) for score in (getattr(result, "scores", None) or [])]
+    if not txts and isinstance(result, (list, tuple)):
+        blob = result[0] if result and isinstance(result[0], list) else result
+        for item in blob or []:
+            if isinstance(item, (list, tuple)) and len(item) >= 2:
+                payload = item[1]
+                if isinstance(payload, (list, tuple)):
+                    txts.append(str(payload[0]).strip())
+                    if len(payload) > 1:
+                        scores.append(float(payload[1]))
+                else:
+                    txts.append(str(payload).strip())
+        txts = [part for part in txts if part]
+    text = " ".join(txts)
+    conf = float(np.mean(scores)) if scores else 0.0
+    return text, conf
+
+
+def _easy_ocr_image(reader, enhanced: np.ndarray, field: str) -> tuple[str, float, np.ndarray]:
     allow = _FIELD_ALLOW[field]
 
     def _run(view: np.ndarray) -> tuple[str, float]:
@@ -262,6 +292,15 @@ def ocr_image(reader, image: np.ndarray, field: str = "name") -> tuple[str, floa
                 best_text, best_conf, best_view = cand, cconf, view
         return best_text, max(best_conf, 0.0), best_view
     return "", max(conf, 0.0), enhanced
+
+
+def ocr_image(reader, image: np.ndarray, field: str = "name") -> tuple[str, float, np.ndarray]:
+    min_h = 80 if field == "collection" else 112
+    enhanced = enhance_strip(image, min_h=min_h)
+    if hasattr(reader, "readtext"):
+        return _easy_ocr_image(reader, enhanced, field)
+    raw, conf = _rapid_raw(reader, enhanced)
+    return _clean(field, raw), conf, enhanced
 
 
 def regions_from_obb(result, image: np.ndarray | None = None, conf_min: float = 0.25) -> dict[str, Region]:

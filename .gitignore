@@ -40,6 +40,9 @@ src/cropper/weights/*.pt
 # Local dumps
 data/detection/
 data/roi/
+data/identify/
+data/ocr/
+data/orc/
 
 Thumbs.db
 Desktop.ini

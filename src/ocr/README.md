@@ -1,8 +1,10 @@
 # OCR — reading the bands
 
-EasyOCR (and the engine comparison) on strips that the **ROI detector** already found.
+RapidOCR (Paddle ONNX) on strips whose boxes already exist. EasyOCR and Tesseract stay in the comparison notebook.
 
-Boxes and weights: [`../roi/`](../roi/). Ground-truth spreadsheet: `data/cards_read.csv`. Eval tables go to `runs/` (gitignored).
+- Pipeline reading: `read_card.py` (`create_reader()`, allowlists, cleaners, template fallback).
+- Engine ranking: [`notebooks/train_ocr.ipynb`](../../notebooks/train_ocr.ipynb) on [`data/ocr/`](../../data/ocr/) — each YOLO class name is the ground-truth string.
 
-Docs: [`docs/ocr.md`](../../docs/ocr.md)  
-Notebook: [`notebooks/train_ocr.ipynb`](../../notebooks/train_ocr.ipynb)
+Eval tables go to `runs/` (gitignored).
+
+Docs: [`docs/ocr.md`](../../docs/ocr.md)

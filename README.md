@@ -16,7 +16,7 @@ PTCG Scanner splits that into three models plus a catalog step, instead of one o
 
 1. **Detection** — is there a card here, and at what rotation? (YOLOv8 OBB, class `card`)
 2. **Crop** — warp that quadrilateral to a **63 mm × 88 mm** portrait image (the physical TCG size), in color.
-3. **OCR** — on the cropped card, find the **name**, **collector number**, and **set name** (when printed) and read them with EasyOCR (`en` + `pt`).
+3. **OCR** — on the cropped card, find the **name**, **collector number**, and **set name** (when printed) and read them with RapidOCR (Paddle ONNX).
 4. **Catalog** — score the reading against `data/catalog/{lang}/` (default `en`; PkmnCards `setId`s). For evaluation PDFs, cards are paired **in spreadsheet order**.
 
 English catalog names count as a hit for Portuguese prints (e.g. `N's Castle` ↔ `Castelo do N`).
@@ -31,7 +31,7 @@ set PDF or photo
     → YOLOv8 OBB (card boxes)
     → perspective warp 63×88 mm @ 300 DPI (744×1039 px)
     → YOLOv8 OBB on the crop (name / number / collection bands)
-    → EasyOCR on those bands
+    → RapidOCR on those bands
     → nearest row in data/catalog/{lang}/ (name, then number, then collection)
     → compare to the CSV next to the PDF (same order as the page)
 ```
@@ -54,7 +54,7 @@ PTCG Scanner/
 │   ├── pipeline.ipynb         photos → catalog (start here)
 │   ├── train_detector.ipynb   train the card OBB model
 │   ├── train_roi.ipynb        train the text-band OBB (name / number / set)
-│   ├── train_ocr.ipynb        compare EasyOCR / PaddleOCR / Tesseract
+│   ├── train_ocr.ipynb        compare EasyOCR / RapidOCR / Tesseract on data/ocr/
 │   └── crop_cards.ipynb       inspect 63×88 mm crops
 ├── src/
 │   ├── detection/             Ultralytics card-detector runs
@@ -111,7 +111,7 @@ python -m venv .venv
 
 The last line makes `python -m cropper` work from the repo root. If you skip it, set `$env:PYTHONPATH="src"` in the same PowerShell session.
 
-GPU is strongly recommended (YOLO + EasyOCR).
+GPU is strongly recommended (YOLO). RapidOCR runs on ONNX Runtime.
 
 ### 2. Weights
 
@@ -169,7 +169,7 @@ python -m cropper export C:\other-project\ptcg_cropper
 1. Unzip the Roboflow YOLOv8 OBB zips into `data/detection/` and `data/roi/`.
 2. [`notebooks/train_detector.ipynb`](notebooks/train_detector.ipynb) — production checkpoint is **obb-v5** (fine-tune from v3, color/geometry augmentation, `imgsz=960`). Val/test mAP@0.50 = 0.995; val mAP@0.50:0.95 = 0.993. Comparisons: [`docs/experiments/obb-v3-v5`](docs/experiments/obb-v3-v5/README.md) (current) · [`docs/experiments/obb-v2-v3`](docs/experiments/obb-v2-v3/README.md) (historical).
 3. [`notebooks/train_roi.ipynb`](notebooks/train_roi.ipynb) — trains the three-class ROI detector (**ocr-roi-v2**, HSV like card v5, per-class mAP). Until you train v2, the pipeline still loads v1.
-4. [`notebooks/train_ocr.ipynb`](notebooks/train_ocr.ipynb) — does **not** train a recognizer; it loads those boxes and compares EasyOCR, PaddleOCR, and Tesseract on the test sheet.
+4. [`notebooks/train_ocr.ipynb`](notebooks/train_ocr.ipynb) — does **not** train a recognizer. It crops the labeled boxes in `data/ocr/` (class name = ground-truth text) and ranks EasyOCR, RapidOCR/Paddle, and Tesseract.
 
 Label **printed card edges**, not binder plastic, or the crop (and then OCR) will include the sleeve.
 
@@ -179,7 +179,7 @@ Label **printed card edges**, not binder plastic, or the crop (and then OCR) wil
 
 - **OBB, not axis-aligned boxes**, because cards are rotated on the table and in photos.
 - **Full card crop**, not pre-cut text strips: OCR regions stay a template (or a second OBB) on a stable 63×88 mm image.
-- **Color crop** at 63×88 mm. EasyOCR converts each text strip to grayscale internally.
+- **Color crop** at 63×88 mm. OCR converts each text strip to grayscale internally.
 - **Catalog restricted to the file’s `setId`** (from a sibling CSV, if present), then number, then name.
 - **Order-based evaluation**, not greedy matching, when a ground-truth CSV follows the same order as the page.
 
