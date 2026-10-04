@@ -1,18 +1,22 @@
 # Pipeline output
 
-Written by [`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb). Use this folder to inspect **each stage**.
+Written by [`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb).
+
+## Identify eval (`EVAL_SOURCE = "identify"`)
 
 | Item | Contents |
 |---|---|
 | `pipeline_extract.csv` | OCR and catalog match (includes `roi_*_src`) |
-| `pipeline_eval.csv` | Spreadsheet check: ROI source, OCR field flags, CER, catalog hit |
+| `pipeline_eval.csv` | ROI source, OCR field flags, CER, catalog hit |
 | `pipeline_metrics.csv` | ROI / OCR / end-to-end rates |
 | `pipeline_acertos.png` / `pipeline_acertos_etapas.png` / `pipeline_erros.png` | Funnel, ROI coverage, OCR, catalog, errors |
-| `pdfs/<name>/00_original.*` | Copy of the input file |
-| `pdfs/<name>/01_pages.pdf` | Rasterized pages (or the photo) |
-| `pdfs/<name>/02_obb.pdf` | OBB detections |
-| `pdfs/<name>/03_crops.pdf` | 63×88 mm crops |
-| `pdfs/<name>/04_ocr.pdf` | ROIs and read text |
-| `pdfs/<name>/05_match.pdf` | Catalog match (OK / error vs spreadsheet when a CSV exists) |
+| `pipeline_errors.csv` | Catalog misses (lido × correto) |
+| `pdfs/01_obb.pdf` | OBB on each photo |
+| `pdfs/03_acertos.pdf` | Hits with ROI bands on the crop (green = name, blue = number, yellow = set) |
+| `pdfs/03_erros.pdf` | Misses: crop + ROI + LIDO × CORRETO |
 
-`01`–`04` are saved **when that file finishes**. `05_match` and the CSVs are written after evaluation.
+There is no separate ROI PDF. The text-band boxes are drawn on the hit/miss crops.
+
+## Input mode (`EVAL_SOURCE = "input"`, `SAVE_STAGES=True`)
+
+Per-file folders under `pdfs/<name>/` (`00_original` … `05_match`) are written as each file finishes. CSVs are written after evaluation.

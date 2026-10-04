@@ -34,6 +34,6 @@ The old 29-card spreadsheet (`src/ocr/data/cards_read.csv`) mixed ROI detection 
 
 ## Pipeline metrics
 
-[`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb) does not retrain. After reading `data/input/` it reports OCR field accuracy / CER (when a sibling CSV exists) and the end-to-end catalog funnel. ROI mAP on the strip test set is measured in `train_roi.ipynb`.
+[`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb) does not retrain. Default eval is [`data/identify/`](../data/identify/) (class name = `SET number name`): OBB IoU matching, then OCR field accuracy / CER and catalog hit. `EVAL_SOURCE = "input"` still uses sibling CSVs in `data/input/`.
 
 Part of [PTCG Scanner](../README.md). License: [CC BY-NC 4.0](../LICENSE).

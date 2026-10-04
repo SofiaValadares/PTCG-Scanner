@@ -72,7 +72,7 @@ PTCG Scanner/
 
 | Path | You use it for |
 |---|---|
-| [`notebooks/pipeline.ipynb`](notebooks/pipeline.ipynb) | Run the full system on `data/input/` |
+| [`notebooks/pipeline.ipynb`](notebooks/pipeline.ipynb) | Full pipeline on `data/identify/` (or `data/input/`) |
 | [`src/detection/`](src/detection/) | Card detector weights `runs/obb/obb-v5` |
 | [`src/cropper/`](src/cropper/) | `python -m cropper` after putting `src` on `PYTHONPATH` |
 | [`src/roi/`](src/roi/) | Strip detector weights `ocr-roi-v2.pt` (fallback v1) |
@@ -91,7 +91,7 @@ Notebooks work with the working directory at the **repo root** or inside **`note
 
 **Catalog.** `data/catalog/{lang}/` holds `cards.csv` (`Name`, `Number`, `Rarity`, `setId`, [PkmnCards](https://pkmncards.com/sets/) codes) and `sets.csv` (set id → display name). The pipeline defaults to `en`. Other folders overlay TCGdex names when that language has the card.
 
-**Input.** Drop photos (or PDFs) in `data/input/`. An optional CSV with the **same stem** is ground truth (`photo.jpg` ↔ `photo.csv`). When a CSV is present, cards are scored **in spreadsheet order** (1st detection ↔ 1st row).
+**Eval.** [`notebooks/pipeline.ipynb`](notebooks/pipeline.ipynb) defaults to `data/identify/` (class name = `SET number name`, boxes matched by IoU). `EVAL_SOURCE = "input"` uses photos in `data/input/` and an optional sibling CSV in **row order**.
 
 **Training (local).** Unzip the Roboflow YOLOv8 OBB export of [PTCG Scanner - Detection](https://universe.roboflow.com/pokemon-tcc/ptcg-scanner-detection) into `data/detection/`, and [PTCG Scanner - ROI](https://universe.roboflow.com/pokemon-tcc/ptcg-scanner-roi) into `data/roi/`. Details: [`docs/detection.md`](docs/detection.md), [`docs/roi.md`](docs/roi.md).
 
@@ -124,18 +124,15 @@ The cropper looks for **v5**, then v4, then v3, then `PTCG_CROPPER_WEIGHTS`. Inf
 
 ### 3. Full pipeline
 
-Put files in `data/input/`, open [`notebooks/pipeline.ipynb`](notebooks/pipeline.ipynb), and run all cells.
+Open [`notebooks/pipeline.ipynb`](notebooks/pipeline.ipynb) and run all cells (`EVAL_SOURCE = "identify"` by default). For ad-hoc photos, set `EVAL_SOURCE = "input"` and drop files in `data/input/`.
 
-It processes each photo or PDF, writes **per-file** stage dumps when that file finishes, then writes the global CSVs after the last file:
+Identify mode writes global CSVs plus three report PDFs. Per-file stage dumps (`pdfs/<name>/00`–`05`) are only written when `SAVE_STAGES` is on (`EVAL_SOURCE = "input"`).
 
 | Output | Meaning |
 |---|---|
-| `output/pdfs/<name>/00_original.*` | copy of the input |
-| `01_pages.pdf` | rasterized pages (or the photo) |
-| `02_obb.pdf` | card boxes, numbered in reading order |
-| `03_crops.pdf` | 63×88 mm crops |
-| `04_ocr.pdf` | bands + raw OCR text |
-| `05_match.pdf` | catalog match (OK / error vs spreadsheet when a CSV exists) |
+| `output/pdfs/01_obb.pdf` | card boxes on each photo |
+| `output/pdfs/03_acertos.pdf` | catalog hits, ROI bands on the crop |
+| `output/pdfs/03_erros.pdf` | catalog misses: crop + ROI + LIDO × CORRETO |
 | `output/pipeline_extract.csv` | OCR + catalog match |
 | `output/pipeline_eval.csv` | per-slot ROI source, OCR fields, catalog hit |
 | `output/pipeline_metrics.csv` | ROI / OCR / end-to-end summary |
