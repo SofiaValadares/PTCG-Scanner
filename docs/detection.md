@@ -2,11 +2,11 @@
 
 Finds each card and estimates box rotation. It does **not** segment pixels and does **not** read the Pokémon name. Rectified crops: [`cropper.md`](cropper.md).
 
-Train in [`notebooks/train_detector.ipynb`](../notebooks/train_detector.ipynb).
+Train in [`notebooks/train_detector.ipynb`](../notebooks/train_detector.ipynb). Official Ultralytics `.pt` files download to [`src/detection/weights/`](../src/detection/weights/README.md). Trained runs: `src/detection/runs/obb/` (gitignored).
 
-The cropper and pipeline use **obb-v5** (`imgsz=960`, `conf=0.8`).
+The **pipeline** (`notebooks/pipeline.ipynb`) and the cropper CLI use **obb-v6** (`imgsz=960`, `conf=0.8`). Fallback: bundled `obb-v5.pt`, then v4 / v3.
 
-Version swaps: [obb-v3 vs v5](experiments/obb-v3-v5/README.md) (current) · [obb-v2 vs v3](experiments/obb-v2-v3/README.md) · [obb-v1 vs v2](experiments/obb-v1-v2/README.md) (historical, stretched dataset).
+Architecture sweep (v6): [obb-v6](experiments/obb-v6/README.md) · Version swaps: [obb-v3 vs v5](experiments/obb-v3-v5/README.md) · [obb-v2 vs v3](experiments/obb-v2-v3/README.md) · [obb-v1 vs v2](experiments/obb-v1-v2/README.md) (historical).
 
 ## Dataset (Roboflow zip, not in Git)
 
@@ -27,6 +27,14 @@ Preprocess: EXIF auto-orient only. **No resize/stretch** and no export-time augm
 
 Label the **printed card edge**, not the binder sleeve. Otherwise OCR inherits pocket/neighbor.
 
+## Training (`obb-v6` sweep)
+
+`VERSION = "v6"`. One model per family (YOLOv26s, YOLOv12n-OBB from yaml, YOLOv8s, RT-DETR-L AABB, YOLOv11s), same v5 augmentation. Cap **300 epochs**, early stop `patience=40`. The notebook **shows val/test plots per family** (sections 4.1–4.5) and elects the winner only in section 5 (mAP50-95, then speed).
+
+Winner: **YOLOv26s-OBB** — val mAP50-95 **0.9938**, test **0.9939**, ~8 ms. Full table: [`experiments/obb-v6/README.md`](experiments/obb-v6/README.md).
+
+Weights: `src/detection/runs/obb/obb-v6/weights/obb-v6.pt`. Pretrained downloads: `src/detection/weights/yolo26s-obb.pt` (etc.).
+
 ## Training (`obb-v5`)
 
 In the notebook, `VERSION = "v5"`. Fine-tune from `obb-v3.pt`. Same edge recipe as the unused v4 line (`imgsz=960`, mosaic/erasing off, higher box/DFL/angle, AdamW) **plus** stronger HSV and pose augmentation.
@@ -44,7 +52,7 @@ In the notebook, `VERSION = "v5"`. Fine-tune from `obb-v3.pt`. Same edge recipe 
 
 Mosaic, mixup, copy-paste, random erasing, and perspective stay off: they warp or hide the card rectangle the cropper warps to 63×88 mm.
 
-Weights: `src/detection/runs/obb/obb-v5/weights/obb-v5.pt`. The cropper prefers `src/cropper/weights/obb-v5.pt` when that copy exists.
+Weights: `src/detection/runs/obb/obb-v5/weights/obb-v5.pt`. The cropper prefers **obb-v6** when that file exists.
 
 ## `obb-v5` results
 
@@ -86,4 +94,4 @@ model = YOLO("src/detection/runs/obb/obb-v5/weights/obb-v5.pt")
 results = model.predict("data/detection/test/images", conf=0.8, imgsz=960, save=True)
 ```
 
-`data/detection/{train,valid,test}/` and `src/detection/runs/` are gitignored. Plots for this write-up live under [`experiments/obb-v5/`](experiments/obb-v5/).
+`data/detection/{train,valid,test}/` and `src/detection/runs/` are gitignored. Official checkpoints: [`src/detection/weights/`](../src/detection/weights/README.md). Plots for v5: [`experiments/obb-v5/`](experiments/obb-v5/). Sweep v6: [`experiments/obb-v6/`](experiments/obb-v6/).

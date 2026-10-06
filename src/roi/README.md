@@ -1,6 +1,6 @@
 # ROI — text bands on the cropped card
 
-YOLOv8 OBB with three classes on the 63×88 mm crop: `name`, `number`, `colection`. Current train line: **ocr-roi-v2**.
+YOLOv8 OBB with three classes on the 63×88 mm crop: `name`, `number`, `colection`. Train sweep: **ocr-roi-v3**. Pipeline uses **ocr-roi-v3**.
 
 This folder is **only** the strip detector (weights). Dataset: [`data/roi/`](../../data/roi/). Reading the pixels is [`../ocr/`](../ocr/).
 

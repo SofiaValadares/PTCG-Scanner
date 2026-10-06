@@ -4,7 +4,7 @@ All pipeline stages live here so the repo root stays documentation, notebooks, a
 
 | Folder | Stage |
 |---|---|
-| [`detection/`](detection/) | YOLOv8 OBB **card** detector (training runs) |
+| [`detection/`](detection/) | Card detector (`weights/` official `.pt`, `runs/` experiments) |
 | [`cropper/`](cropper/) | Perspective warp to 63×88 mm |
 | [`roi/`](roi/) | YOLOv8 OBB **text-band** detector (weights) |
 | [`ocr/`](ocr/) | RapidOCR on those bands (`read_card.py`) |

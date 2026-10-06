@@ -1,6 +1,6 @@
 # Cropper
 
-Perspective warp to 63×88 mm. Default detector: **obb-v5** (`imgsz=960`). Docs: [`docs/cropper.md`](../../docs/cropper.md)
+Perspective warp to 63×88 mm. Default detector: **obb-v6** (`imgsz=960`). 90° landscape → portrait here; 180° printed-up is handled in [`notebooks/pipeline.ipynb`](../../notebooks/pipeline.ipynb). Docs: [`docs/cropper.md`](../../docs/cropper.md)
 
 ```powershell
 $env:PYTHONPATH="src"

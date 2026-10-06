@@ -1,6 +1,6 @@
 # Comparison `obb-v3` → `obb-v4` (recipe) → `obb-v5`
 
-The cropper and pipeline use **obb-v5**.
+The cropper and pipeline now use **obb-v6**. This page is the v3→v5 comparison.
 
 Plots for v5: [`../obb-v5/`](../obb-v5/).  
 v3 curves (historical): [`../obb-v3/`](../obb-v3/).  
@@ -71,7 +71,7 @@ v4 only reduced HSV/rotation to squeeze the edge. v3 was already at mAP50-95 ≈
 
 ## Conclusion
 
-**Use obb-v5** in the cropper (`imgsz=960`, `conf=0.8`).
+**Use obb-v6** in the cropper today (`imgsz=960`, `conf=0.8`). This write-up is why **v5** replaced v3; v6 is the later architecture sweep.
 
 - Detection quality stays at the YOLO reporting ceiling (mAP50 = mAP75 = 0.995).
 - Extra HSV/rotation did not open a gap between mAP50 and mAP75.

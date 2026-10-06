@@ -14,8 +14,8 @@ Photos of binders, tables, or set checklists are messy: cards sit at an angle, s
 
 PTCG Scanner splits that into three models plus a catalog step, instead of one opaque “read the card” network:
 
-1. **Detection** — is there a card here, and at what rotation? (YOLOv8 OBB, class `card`)
-2. **Crop** — warp that quadrilateral to a **63 mm × 88 mm** portrait image (the physical TCG size), in color.
+1. **Detection** — is there a card here, and at what rotation? (YOLO OBB, class `card`; pipeline **obb-v6**)
+2. **Crop** — warp that quadrilateral to a **63 mm × 88 mm** portrait image (the physical TCG size), in color. 90° is fixed here; **180°** is chosen in the pipeline with the ROI layout.
 3. **OCR** — on the cropped card, find the **name**, **collector number**, and **set name** (when printed) and read them with RapidOCR (Paddle ONNX).
 4. **Catalog** — score the reading against `data/catalog/{lang}/` (default `en`; PkmnCards `setId`s). For evaluation PDFs, cards are paired **in spreadsheet order**.
 
@@ -28,12 +28,12 @@ English catalog names count as a hit for Portuguese prints (e.g. `N's Castle` �
 ```
 set PDF or photo
     → rasterize pages (PyMuPDF, 200 DPI)
-    → YOLOv8 OBB (card boxes)
-    → perspective warp 63×88 mm @ 300 DPI (744×1039 px)
-    → YOLOv8 OBB on the crop (name / number / collection bands)
+    → YOLO OBB (card boxes; **obb-v6**)
+    → perspective warp 63×88 mm @ 300 DPI (744×1039 px; 90° landscape → portrait)
+    → ROI OBB on the crop at **0° and 180°** (keep printed-up: name above number)
     → RapidOCR on those bands
     → nearest row in data/catalog/{lang}/ (name, then number, then collection)
-    → compare to the CSV next to the PDF (same order as the page)
+    → compare to identify GT (OBB IoU) or the CSV next to the PDF
 ```
 
 Nothing in the full pipeline **trains** a model. Training lives in the two train notebooks. The cropper has no trainable weights of its own; it consumes the detector.
@@ -73,9 +73,9 @@ PTCG Scanner/
 | Path | You use it for |
 |---|---|
 | [`notebooks/pipeline.ipynb`](notebooks/pipeline.ipynb) | Full pipeline on `data/identify/` (or `data/input/`) |
-| [`src/detection/`](src/detection/) | Card detector weights `runs/obb/obb-v5` |
+| [`src/detection/`](src/detection/) | Card detector: `weights/` (official `.pt`) and `runs/obb/` |
 | [`src/cropper/`](src/cropper/) | `python -m cropper` after putting `src` on `PYTHONPATH` |
-| [`src/roi/`](src/roi/) | Strip detector weights `ocr-roi-v2.pt` (fallback v1) |
+| [`src/roi/`](src/roi/) | Strip detector: `ocr-roi-v2` in production; v3 is the architecture sweep |
 | [`src/ocr/`](src/ocr/) | `read_card.py` and the OCR test spreadsheet |
 | [`data/`](data/README.md) | Catalog, training datasets, and pipeline photos |
 | [`output/`](output/README.md) | Stage-by-stage PDFs to debug OBB vs crop vs OCR vs match |
@@ -117,10 +117,10 @@ GPU is strongly recommended (YOLO). RapidOCR runs on ONNX Runtime.
 
 After training (or after copying runs onto this machine):
 
-- Card detector: `src/detection/runs/obb/obb-v5/weights/obb-v5.pt` (cropper also copies this to `src/cropper/weights/`)
-- Text bands: `src/roi/runs/ocr-roi-v2/weights/ocr-roi-v2.pt` (fallback `ocr-roi-v1.pt`)
+- Card detector: `src/detection/runs/obb/obb-v6/weights/obb-v6.pt` (pipeline and cropper). Official YOLO downloads: `src/detection/weights/`. Fallback: `src/cropper/weights/obb-v5.pt`.
+- Text bands: `src/roi/runs/ocr-roi-v3/weights/ocr-roi-v3.pt` (pipeline; fallback v2, then v1). Official YOLO downloads: `src/detection/weights/`.
 
-The cropper looks for **v5**, then v4, then v3, then `PTCG_CROPPER_WEIGHTS`. Inference size is **960** for v5/v4 and **800** for v3.
+The cropper looks for **v6**, then v5, then v4, then v3, then `PTCG_CROPPER_WEIGHTS`. Inference size is **960** for v6/v5/v4 and **800** for v3.
 
 ### 3. Full pipeline
 
@@ -133,7 +133,7 @@ Identify mode writes global CSVs plus three report PDFs. Per-file stage dumps (`
 | `output/pdfs/01_obb.pdf` | card boxes on each photo |
 | `output/pdfs/03_acertos.pdf` | catalog hits, ROI bands on the crop |
 | `output/pdfs/03_erros.pdf` | catalog misses: crop + ROI + LIDO × CORRETO |
-| `output/pipeline_extract.csv` | OCR + catalog match |
+| `output/pipeline_extract.csv` | OCR + catalog match (`orient_deg` is 0 or 180) |
 | `output/pipeline_eval.csv` | per-slot ROI source, OCR fields, catalog hit |
 | `output/pipeline_metrics.csv` | ROI / OCR / end-to-end summary |
 | `output/pipeline_*.png` | funnel, ROI coverage, OCR, catalog plots |
@@ -164,8 +164,8 @@ python -m cropper export C:\other-project\ptcg_cropper
 ### 5. Train models
 
 1. Unzip the Roboflow YOLOv8 OBB zips into `data/detection/` and `data/roi/`.
-2. [`notebooks/train_detector.ipynb`](notebooks/train_detector.ipynb) — production checkpoint is **obb-v5** (fine-tune from v3, color/geometry augmentation, `imgsz=960`). Val/test mAP@0.50 = 0.995; val mAP@0.50:0.95 = 0.993. Comparisons: [`docs/experiments/obb-v3-v5`](docs/experiments/obb-v3-v5/README.md) (current) · [`docs/experiments/obb-v2-v3`](docs/experiments/obb-v2-v3/README.md) (historical).
-3. [`notebooks/train_roi.ipynb`](notebooks/train_roi.ipynb) — trains the three-class ROI detector (**ocr-roi-v2**, HSV like card v5, per-class mAP). Until you train v2, the pipeline still loads v1.
+2. [`notebooks/train_detector.ipynb`](notebooks/train_detector.ipynb) — **obb-v6** trains YOLOv26 / 12 / 8 / RT-DETR / 11 and keeps the best (YOLOv26s, val mAP50-95 ≈ 0.994). Plots for every family are in the notebook; write-up: [`docs/experiments/obb-v6`](docs/experiments/obb-v6/README.md). Pipeline and cropper use that winner. Earlier: [`docs/experiments/obb-v3-v5`](docs/experiments/obb-v3-v5/README.md).
+3. [`notebooks/train_roi.ipynb`](notebooks/train_roi.ipynb) — **ocr-roi-v3** trains YOLOv26 / 12 / 8 / 11 on the text bands (same v2 augmentation; per-class mAP). Each family has its own metrics/plots section; the winner is elected at the end. Pipeline still loads **ocr-roi-v2** until you copy it.
 4. [`notebooks/train_ocr.ipynb`](notebooks/train_ocr.ipynb) — does **not** train a recognizer. It crops the labeled boxes in `data/ocr/` (class name = ground-truth text) and ranks EasyOCR, RapidOCR/Paddle, and Tesseract.
 
 Label **printed card edges**, not binder plastic, or the crop (and then OCR) will include the sleeve.

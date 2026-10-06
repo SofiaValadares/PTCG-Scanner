@@ -23,6 +23,8 @@ data/input/*
 !data/input/README.md
 
 # Training / weights
+# Official Ultralytics checkpoints belong in src/detection/weights/ (gitignored by *.pt).
+# Do not leave yolo*.pt / rtdetr*.pt in the repo root or notebooks/.
 runs/
 src/detection/runs/
 src/roi/runs/

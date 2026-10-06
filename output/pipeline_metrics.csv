@@ -1,17 +1,17 @@
 stage,metric,value
-Cards,detected / GT (recall),0.9807249712313003
-Cards,precision (IoU match),0.9950379451255108
-Cards,F1 detection,0.9878296146044625
-Cards,extra detections (no GT),17.0
-ROI name,% detector box,0.8906789413118527
-ROI name,% template fallback,0.09004602991944764
-ROI number,% detector box,0.8535673187571922
-ROI number,% template fallback,0.12715765247410818
-ROI collection,% detector box,0.4982738780207135
-ROI collection,% template fallback,0.4824510932105869
-OCR name,accuracy,0.5871691599539701
-OCR name,mean CER,0.14613310859254913
-OCR number,accuracy,0.6582278481012658
-OCR number,mean CER,0.3248393747602608
-OCR collection,accuracy vs set name,0.04861910241657077
-End-to-end,catalog hit,0.8682393555811277
+Cards,detected / GT (recall),1.0
+Cards,precision (IoU match),1.0
+Cards,F1 detection,1.0
+Cards,extra detections (no GT),0.0
+ROI name,% detector box,0.9841772151898734
+ROI name,% template fallback,0.015822784810126583
+ROI number,% detector box,0.9651898734177216
+ROI number,% template fallback,0.03481012658227848
+ROI collection,% detector box,0.5422899884925202
+ROI collection,% template fallback,0.45771001150747986
+OCR name,accuracy,0.6516110471806674
+OCR name,mean CER,0.09102483506467468
+OCR number,accuracy,0.7033947065592635
+OCR number,mean CER,0.2680571538166475
+OCR collection,accuracy vs set name,0.056098964326812426
+End-to-end,catalog hit,0.9493670886075949

@@ -18,6 +18,7 @@ except ImportError:
 PACKAGE_DIR = Path(__file__).resolve().parent
 REPO_ROOT = PACKAGE_DIR.parent.parent
 _RUNS = REPO_ROOT / "src" / "detection" / "runs" / "obb"
+_V6_WEIGHTS = _RUNS / "obb-v6" / "weights" / "obb-v6.pt"
 _V5_WEIGHTS = _RUNS / "obb-v5" / "weights" / "obb-v5.pt"
 _V4_WEIGHTS = _RUNS / "obb-v4" / "weights" / "obb-v4.pt"
 _V3_WEIGHTS = _RUNS / "obb-v3" / "weights" / "obb-v3.pt"
@@ -33,22 +34,26 @@ def imgsz_for_weights(weights: Path) -> int:
 
 
 def find_default_weights() -> Path:
-    """Weights: env, package weights/, or detection/runs."""
+    """Weights: env, then v6, then older bundled/runs copies."""
     env = os.environ.get("PTCG_CROPPER_WEIGHTS") or os.environ.get("TCG_CROPPER_WEIGHTS")
     if env:
         return Path(env)
     bundled = PACKAGE_DIR / "weights"
-    for name in ("obb-v5.pt", "obb-v4.pt", "obb-v3.pt"):
+    for name, run_path in (
+        ("obb-v6.pt", _V6_WEIGHTS),
+        ("obb-v5.pt", _V5_WEIGHTS),
+        ("obb-v4.pt", _V4_WEIGHTS),
+        ("obb-v3.pt", _V3_WEIGHTS),
+    ):
         candidate = bundled / name
         if candidate.is_file():
             return candidate
+        if run_path.is_file():
+            return run_path
     if bundled.is_dir():
         pts = sorted(bundled.glob("*.pt"))
         if pts:
             return pts[0]
-    for candidate in (_V5_WEIGHTS, _V4_WEIGHTS):
-        if candidate.is_file():
-            return candidate
     return _V3_WEIGHTS
 
 
@@ -138,7 +143,7 @@ def parse_args() -> argparse.Namespace:
         "--weights",
         type=Path,
         default=DEFAULT_WEIGHTS,
-        help="YOLOv8 OBB checkpoint (default: obb-v5, then v4, then v3).",
+        help="YOLO OBB checkpoint (default: obb-v6, then v5, then v4, then v3).",
     )
     parser.add_argument("--out", type=Path, default=DEFAULT_OUTPUT)
     parser.add_argument("--conf", type=float, default=0.8)

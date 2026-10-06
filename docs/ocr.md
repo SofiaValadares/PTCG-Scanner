@@ -16,7 +16,9 @@ Illegible classes (`--`, `-----ex`, …) are reported separately and **do not** 
 
 ## How it reads (pipeline)
 
-OCR uses detector boxes; if `name`/`number` is missing it falls back to a fixed template. Missing `collection` stays empty (no OCR on a template collection band). Collector numbers accept `-` or `/` (`005-66` = `5/66`).
+[`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb) warps each card to 63×88 mm (the cropper already turns **90°** landscape into portrait). It then runs the ROI detector at **0° and 180°** and keeps the crop where the `name` band is above `number` (`orient_deg` in the extract CSV). RapidOCR runs **once**, on that crop.
+
+OCR uses detector boxes; if `name`/`number` is missing it falls back to a fixed template (which assumes printed-up layout). Missing `collection` stays empty (no OCR on a template collection band). Collector numbers accept `-` or `/` (`005-66` = `5/66`).
 
 ## Metrics (ranking)
 
@@ -34,6 +36,6 @@ The old 29-card spreadsheet (`src/ocr/data/cards_read.csv`) mixed ROI detection 
 
 ## Pipeline metrics
 
-[`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb) does not retrain. Default eval is [`data/identify/`](../data/identify/) (class name = `SET number name`): OBB IoU matching, then OCR field accuracy / CER and catalog hit. `EVAL_SOURCE = "input"` still uses sibling CSVs in `data/input/`.
+[`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb) does not retrain. After the 63×88 mm crop it orients **0°/180°** with the ROI layout, then RapidOCR. Default eval is [`data/identify/`](../data/identify/) (class name = `SET number name`): OBB IoU matching, then OCR field accuracy / CER and catalog hit. `EVAL_SOURCE = "input"` still uses sibling CSVs in `data/input/`.
 
 Part of [PTCG Scanner](../README.md). License: [CC BY-NC 4.0](../LICENSE).
