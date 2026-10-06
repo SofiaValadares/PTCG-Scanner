@@ -6,7 +6,7 @@ Official Ultralytics `.pt` files belong in [`src/detection/weights/`](../src/det
 
 | Notebook | Stage |
 |---|---|
-| [pipeline.ipynb](pipeline.ipynb) | Identify/input → detect (**obb-v6**) → 63×88 mm → ROI **ocr-roi-v3** at 0°/180° → RapidOCR → catalog |
+| [pipeline.ipynb](pipeline.ipynb) | Identify/input → detect (**obb-v6**) → 63×88 mm → ROI **ocr-roi-v3** at 0°/180° → RapidOCR (catalog langs) → catalog |
 | [train_detector.ipynb](train_detector.ipynb) | **obb-v6** sweep (YOLOv26 / 12 / 8 / RT-DETR / 11). Metrics+plots **per family** (4.x); winner only at the end |
 | [train_roi.ipynb](train_roi.ipynb) | **ocr-roi-v3** sweep (YOLOv26 / 12 / 8 / 11), 300 epochs or early stop. Same report layout as the detector |
 | [train_ocr.ipynb](train_ocr.ipynb) | Compare EasyOCR / RapidOCR / Tesseract on `data/ocr/` (class = printed text). Does **not** train |

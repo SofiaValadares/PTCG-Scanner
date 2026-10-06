@@ -12,11 +12,13 @@ Code: `src/ocr/read_card.py`.
 
 The evaluation warps each annotated quad (no ROI YOLO in the loop), infers the field type from the GT string only to pick allowlist/`_clean`, and scores three engines: EasyOCR, **RapidOCR (Paddle ONNX)**, and Tesseract. RapidOCR won (`exact_clean` 81% vs 54% / 30%) and is what `src/ocr/read_card.py` uses.
 
+Printed names exist in every language folder under [`data/catalog/`](../data/catalog/README.md): Latin (en, fr, es, it, pt, pt-pt, de, nl, pl, id), Japanese (`ja`), Chinese (`zh-cn`, `zh-tw`), Korean (`ko`), and Russian (`ru`). `clean_name` / catalog `fold` keep those scripts. RapidOCR PP-OCRv6 covers Latin + Chinese; a **Japan PP-OCRv4** rec runs on the name band when `ja/` exists (Hangul/Cyrillic use PP-OCRv5). The pipeline loads **all** catalog languages so a kana name matches `ja/` instead of a Latin card. Report PDFs use Yu Gothic / Meiryo so Japanese is not tofu.
+
 Illegible classes (`--`, `-----ex`, …) are reported separately and **do not** enter the ranking.
 
 ## How it reads (pipeline)
 
-[`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb) warps each card to 63×88 mm (the cropper already turns **90°** landscape into portrait). It then runs the ROI detector at **0° and 180°** and keeps the crop where the `name` band is above `number` (`orient_deg` in the extract CSV). RapidOCR runs **once**, on that crop.
+[`notebooks/pipeline.ipynb`](../notebooks/pipeline.ipynb) warps each card to 63×88 mm (the cropper already turns **90°** landscape into portrait). It then runs the ROI detector at **0° and 180°** and keeps the crop where the `name` band is above `number` (`orient_deg` in the extract CSV). RapidOCR runs on that crop (PP-OCRv6 for Latin/Japanese/Chinese; extra Hangul/Cyrillic rec on the **name** band when `ko/` or `ru/` exist in the catalog).
 
 OCR uses detector boxes; if `name`/`number` is missing it falls back to a fixed template (which assumes printed-up layout). Missing `collection` stays empty (no OCR on a template collection band). Collector numbers accept `-` or `/` (`005-66` = `5/66`).
 

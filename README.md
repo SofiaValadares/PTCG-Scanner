@@ -16,7 +16,7 @@ PTCG Scanner splits that into three models plus a catalog step, instead of one o
 
 1. **Detection** — is there a card here, and at what rotation? (YOLO OBB, class `card`; pipeline **obb-v6**)
 2. **Crop** — warp that quadrilateral to a **63 mm × 88 mm** portrait image (the physical TCG size), in color. 90° is fixed here; **180°** is chosen in the pipeline with the ROI layout.
-3. **OCR** — on the cropped card, find the **name**, **collector number**, and **set name** (when printed) and read them with RapidOCR (Paddle ONNX).
+3. **OCR** — on the cropped card, find the **name**, **collector number**, and **set name** (when printed) and read them with RapidOCR (Paddle ONNX), including Japanese, Chinese, Korean, and Russian prints.
 4. **Catalog** — score the reading against `data/catalog/{lang}/` (default `en`; PkmnCards `setId`s). For evaluation PDFs, cards are paired **in spreadsheet order**.
 
 English catalog names count as a hit for Portuguese prints (e.g. `N's Castle` ↔ `Castelo do N`).

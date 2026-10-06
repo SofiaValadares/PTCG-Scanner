@@ -3,7 +3,9 @@
 from __future__ import annotations
 
 import re
+import unicodedata
 from dataclasses import dataclass, field
+from pathlib import Path
 
 import cv2
 import numpy as np
@@ -18,10 +20,9 @@ FALLBACK_TEMPLATE = {
     "collection": (0.915, 0.995, 0.48, 0.92),
 }
 
-_NAME_ALLOW = (
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz"
-    "ÁÉÍÓÚáéíóúÃÕãõÂÊÔâêôÀàÇçÜü '-"
-)
+# EasyOCR only: empty means do not restrict the charset (CJK / Hangul / Cyrillic).
+_NAME_ALLOW = ""
+_NAME_PUNCT = set("'’`-·・ー.☆★&:")
 # Digits EasyOCR confuses with letters are mapped in clean_number.
 _NUMBER_ALLOW = "0123456789/OoQqDdIiLl|ZzSsGgBb"
 _NUMBER_TRANSLATE = str.maketrans(
@@ -142,11 +143,17 @@ def _strip_variants(gray: np.ndarray) -> list[np.ndarray]:
 
 
 def _readtext(reader, rgb: np.ndarray, allowlist: str):
+    with_allow = bool(allowlist)
     attempts = (
         {"detail": 1, "paragraph": False, "allowlist": allowlist, "mag_ratio": 1.8},
         {"detail": 1, "paragraph": False, "allowlist": allowlist},
         {"detail": 1, "paragraph": False},
     )
+    if not with_allow:
+        attempts = (
+            {"detail": 1, "paragraph": False, "mag_ratio": 1.8},
+            {"detail": 1, "paragraph": False},
+        )
     last_items = []
     last_error: Exception | None = None
     for kwargs in attempts:
@@ -211,11 +218,47 @@ def clean_number(text: str) -> str:
     return ""
 
 
+def _keep_name_char(ch: str) -> bool:
+    return ch.isalnum() or ch.isspace() or ch in _NAME_PUNCT
+
+
 def clean_name(text: str) -> str:
-    text = re.sub(r"^[^A-Za-zÁ-ú]+", "", text)
-    text = re.sub(r"[^A-Za-zÁ-ú0-9 '\-]+$", "", text)
-    text = re.sub(r"\s+", " ", text).strip(" -'")
-    return text
+    text = "".join(ch if _keep_name_char(ch) else " " for ch in (text or ""))
+    return re.sub(r"\s+", " ", text).strip(" -'`")
+
+
+def fold_text(text: str) -> str:
+    """Catalog key: Latin accents fold to ASCII; CJK / Hangul / Cyrillic stay."""
+    out: list[str] = []
+    for ch in text or "":
+        name = unicodedata.name(ch, "")
+        if ch.isascii() or name.startswith("LATIN"):
+            for part in unicodedata.normalize("NFKD", ch):
+                if not unicodedata.combining(part) and part.isalnum():
+                    out.append(part.casefold())
+            continue
+        if ch.isalnum() or ch in "ー":
+            out.append(ch.casefold())
+    return "".join(out)
+
+
+def catalog_language_codes(catalog_root: Path | None = None) -> list[str]:
+    """Language folders under `data/catalog/{lang}/` that contain cards.csv."""
+    root = catalog_root
+    if root is None:
+        here = Path(__file__).resolve()
+        for parent in [here.parent, *here.parents]:
+            candidate = parent / "data" / "catalog"
+            if candidate.is_dir():
+                root = candidate
+                break
+    if root is None or not Path(root).is_dir():
+        return ["en"]
+    return sorted(
+        path.name
+        for path in Path(root).iterdir()
+        if path.is_dir() and (path / "cards.csv").is_file()
+    )
 
 
 def clean_collection(text: str) -> str:
@@ -234,11 +277,153 @@ def _clean(field: str, text: str) -> str:
     return clean_name(text)
 
 
-def create_reader():
-    """RapidOCR (Paddle ONNX) — winner of the train_ocr.ipynb engine comparison."""
-    from rapidocr import RapidOCR
+def _script_counts(text: str) -> tuple[int, int, int, int]:
+    latin = cjk = hangul = cyrillic = 0
+    for ch in text or "":
+        code = ord(ch)
+        if 0xAC00 <= code <= 0xD7AF:
+            hangul += 1
+        elif 0x0400 <= code <= 0x04FF:
+            cyrillic += 1
+        elif (
+            0x3040 <= code <= 0x30FF
+            or 0x31F0 <= code <= 0x31FF
+            or 0x3400 <= code <= 0x4DBF
+            or 0x4E00 <= code <= 0x9FFF
+            or 0xF900 <= code <= 0xFAFF
+        ):
+            cjk += 1
+        elif ch.isalpha():
+            latin += 1
+    return latin, cjk, hangul, cyrillic
 
-    return RapidOCR(params={"Global.log_level": "error"})
+
+def script_family(text: str) -> str:
+    """Dominant letter script: latin, cjk, hangul, cyrillic, or none."""
+    latin, cjk, hangul, cyrillic = _script_counts(text)
+    best = max(latin, cjk, hangul, cyrillic)
+    if best == 0:
+        return "none"
+    if cjk == best:
+        return "cjk"
+    if hangul == best:
+        return "hangul"
+    if cyrillic == best:
+        return "cyrillic"
+    return "latin"
+
+
+def _kana_count(text: str) -> int:
+    return sum(1 for ch in text or "" if 0x3040 <= ord(ch) <= 0x30FF or ch == "ー")
+
+
+def _pick_name_reading(primary: tuple[str, float], extras: list[tuple[str, str, float]]) -> tuple[str, float]:
+    """Prefer a dedicated Japan rec when it reads more kana; Hangul/Cyrillic only if v6 read no letters."""
+    text, conf = primary
+    for kind, extra_text, extra_conf in extras:
+        if kind == "japan" and _kana_count(extra_text) > _kana_count(text):
+            text, conf = extra_text, extra_conf
+    latin, cjk, _, _ = _script_counts(text)
+    if latin + cjk >= 2:
+        return text, conf
+    for kind, extra_text, extra_conf in extras:
+        e_latin, e_cjk, e_hangul, e_cyr = _script_counts(extra_text)
+        if kind == "korean" and e_hangul >= 2 and e_hangul > e_latin + e_cjk:
+            return extra_text, extra_conf
+        if kind == "cyrillic" and e_cyr >= 2 and e_cyr > e_latin + e_cjk:
+            return extra_text, extra_conf
+    return text, conf
+
+
+class CardOCR:
+    """RapidOCR PP-OCRv6 (Latin + Japanese + Chinese) plus Hangul/Cyrillic rec when the catalog has those langs."""
+
+    def __init__(self, langs: list[str] | None = None):
+        from rapidocr import LangRec, ModelType, OCRVersion, RapidOCR
+
+        self.langs = list(langs or ["en"])
+        self._RapidOCR = RapidOCR
+        self._LangRec = LangRec
+        self._ModelType = ModelType
+        self._OCRVersion = OCRVersion
+        self._primary = RapidOCR(params={"Global.log_level": "error"})
+        self._korean = None
+        self._cyrillic = None
+        self._japan = None
+        self._failed: set[str] = set()
+        self._want_korean = "ko" in self.langs
+        self._want_cyrillic = "ru" in self.langs
+        import rapidocr as rapidocr_pkg
+
+        japan_onnx = Path(rapidocr_pkg.__file__).resolve().parent / "models" / "japan_PP-OCRv4_rec_mobile.onnx"
+        self._want_japan = "ja" in self.langs and japan_onnx.is_file()
+
+    def __call__(self, *args, **kwargs):
+        return self._primary(*args, **kwargs)
+
+    def _load_extra(self, kind: str):
+        if kind in self._failed:
+            return None
+        cached = {"korean": self._korean, "cyrillic": self._cyrillic, "japan": self._japan}[kind]
+        if cached is not None:
+            return cached
+        try:
+            if kind == "japan":
+                engine = self._RapidOCR(
+                    params={
+                        "Global.log_level": "error",
+                        "Rec.lang_type": self._LangRec.JAPAN,
+                        "Rec.ocr_version": self._OCRVersion.PPOCRV4,
+                        "Rec.model_type": self._ModelType.MOBILE,
+                    }
+                )
+                self._japan = engine
+                return engine
+            lang = self._LangRec.KOREAN if kind == "korean" else self._LangRec.CYRILLIC
+            engine = self._RapidOCR(
+                params={
+                    "Global.log_level": "error",
+                    "Rec.lang_type": lang,
+                    "Rec.ocr_version": self._OCRVersion.PPOCRV5,
+                    "Rec.model_type": self._ModelType.MOBILE,
+                }
+            )
+        except Exception:
+            self._failed.add(kind)
+            return None
+        if kind == "korean":
+            self._korean = engine
+        else:
+            self._cyrillic = engine
+        return engine
+
+    def read_field(self, gray: np.ndarray, field: str) -> tuple[str, float]:
+        text, conf = _rapid_raw(self._primary, gray)
+        if field != "name":
+            return text, conf
+        extras: list[tuple[str, str, float]] = []
+        for kind, needed in (
+            ("japan", self._want_japan),
+            ("korean", self._want_korean),
+            ("cyrillic", self._want_cyrillic),
+        ):
+            if not needed:
+                continue
+            engine = self._load_extra(kind)
+            if engine is None:
+                continue
+            try:
+                extra_text, extra_conf = _rapid_raw(engine, gray)
+            except Exception:
+                continue
+            extras.append((kind, extra_text, extra_conf))
+        return _pick_name_reading((text, conf), extras)
+
+
+def create_reader(catalog_root: Path | str | None = None):
+    """RapidOCR covering every script in `data/catalog/{lang}/`."""
+    langs = catalog_language_codes(Path(catalog_root) if catalog_root else None)
+    return CardOCR(langs)
 
 
 def _rapid_raw(reader, gray: np.ndarray) -> tuple[str, float]:
@@ -299,7 +484,10 @@ def ocr_image(reader, image: np.ndarray, field: str = "name") -> tuple[str, floa
     enhanced = enhance_strip(image, min_h=min_h)
     if hasattr(reader, "readtext"):
         return _easy_ocr_image(reader, enhanced, field)
-    raw, conf = _rapid_raw(reader, enhanced)
+    if hasattr(reader, "read_field"):
+        raw, conf = reader.read_field(enhanced, field)
+    else:
+        raw, conf = _rapid_raw(reader, enhanced)
     return _clean(field, raw), conf, enhanced
 
 
