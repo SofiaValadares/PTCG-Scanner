@@ -107,7 +107,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 1004_jpg.rf.516f9c3da761252fa68f8ecb0ac95b20.jpg#p00#2#6,1004_jpg.rf.516f9c3da761252fa68f8ecb0ac95b20.jpg,0,2,6,0.988,0,det,det,template,Medicham,098/192,,Medicham,98/192,RCL,Rebel Clash,Uncommon,1115.0
 1004_jpg.rf.516f9c3da761252fa68f8ecb0ac95b20.jpg#p00#4#7,1004_jpg.rf.516f9c3da761252fa68f8ecb0ac95b20.jpg,0,4,7,0.987,0,det,det,det,Hippopotas,105/182,DRI,Hippopotas,105/182,DRI,Destined Rivals,Common,1125.0
 1004_jpg.rf.516f9c3da761252fa68f8ecb0ac95b20.jpg#p00#6#8,1004_jpg.rf.516f9c3da761252fa68f8ecb0ac95b20.jpg,0,6,8,0.985,0,det,det,template,Urshifu Golpe Fluido,044/198,,Urshifu Golpe Fluido,44/198,CRE,Reinado Escalofriante,Rare Holo,1115.0
-1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg#p00#8#0,1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg,0,8,0,0.983,180,template,det,template,,,,Alakazam,1/130,B2,Base Set 2,Rare Holo,0.0
+1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg#p00#8#0,1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg,0,8,0,0.983,0,det,template,template,Weedle,,,Weedle,100/130,B2,Base Set 2,Common,1040.0
 1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg#p00#6#1,1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg,0,6,1,0.985,0,det,det,template,Wimpod,008/145,,Wimpod,8/145,GRI,Guardians Rising,Common,1115.0
 1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg#p00#0#2,1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg,0,0,2,0.99,0,det,det,det,Eternatus,069/94,PFLPT,Eternatus,69/94,PFL,Phantasmal Flames,Uncommon,1115.0
 1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg#p00#2#3,1005_jpg.rf.1e73d949a2dc47d750542e02fe96b316.jpg,0,2,3,0.987,0,det,det,template,Ponyta,023/236,,Ponyta,23/236,CEC,Cosmic Eclipse,Common,1115.0
@@ -1423,10 +1423,10 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 1150_jpg.rf.3f1b0441340aafde3d7be2fc4fe5bf31.jpg#p00#6#8,1150_jpg.rf.3f1b0441340aafde3d7be2fc4fe5bf31.jpg,0,6,8,0.984,0,det,det,det,ナミイルカ,228/190,5V4A,ナミイルカ,29/197,OBF,Obsidian Flames,Uncommon,1040.0
 2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#5#0,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,5,0,0.982,0,det,det,template,Ho-Oh GX,021/147,,Ho-Oh-GX,21/147,BUS,Burning Shadows,Rare Holo GX,1115.0
 2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#3#1,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,3,1,0.982,0,det,det,det,Hydrapple,188/182,,Hydrapple,188/182,DRI,Destined Rivals,Illustration Rare,1115.0
-2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#8#2,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,8,2,0.977,180,det,det,template,,,,Alakazam,1/130,B2,Base Set 2,Rare Holo,0.0
+2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#8#2,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,8,2,0.977,0,det,det,template,Aluna,277/269,,Aluna,277/264,FST,Golpe Fusão,Rare Rainbow,1090.0
 2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#4#3,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,4,3,0.982,0,det,det,template,Estádio de Turffield,170/192,,Estádio de Turffield,170/192,RCL,Rixa Rebelde,Uncommon,1115.0
 2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#2#4,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,2,4,0.983,0,det,det,det,Hypno,017/64,,Hypno,17/64,SFA,Shrouded Fable,Uncommon,1115.0
-2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#7#5,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,7,5,0.981,180,det,det,template,,,,Alakazam,1/130,B2,Base Set 2,Rare Holo,0.0
+2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#7#5,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,7,5,0.981,0,det,det,template,Sorbus,149/139,,Sorbus,149/189,ASR,Resplandor Astral,Uncommon,1090.0
 2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#1#6,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,1,6,0.984,0,det,det,template,Sliggoo,095/145,,Sliggoo,95/145,GRI,Guardians Rising,Uncommon,1115.0
 2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#6#7,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,6,7,0.982,0,det,det,template,GenesectGX,224/214,,Genesect-GX,224/214,LOT,Lost Thunder,Rare Rainbow,1115.0
 2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg#p00#0#8,2001_jpg.rf.c8025c26a9331f2460cd97d43d7aafcc.jpg,0,0,8,0.984,0,det,det,det,Croagunk,114/193,213,Croagunk,114/193,PAL,Paldea Evolved,Common,1115.0
@@ -1562,7 +1562,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2023_jpg.rf.fa18a4e6df10e27280d547d2d2b64c45.jpg#p00#3#2,2023_jpg.rf.fa18a4e6df10e27280d547d2d2b64c45.jpg,0,3,2,0.958,180,det,det,template,Ralts,,,Ralts,59/113,LTR,Legendary Treasures,Common,1040.0
 2023_jpg.rf.fa18a4e6df10e27280d547d2d2b64c45.jpg#p00#4#3,2023_jpg.rf.fa18a4e6df10e27280d547d2d2b64c45.jpg,0,4,3,0.941,0,template,det,det,1O2,146/159,,Hop,133/159,CRZ,Crown Zenith,Rare Holo,925.0
 2023_jpg.rf.fa18a4e6df10e27280d547d2d2b64c45.jpg#p00#1#4,2023_jpg.rf.fa18a4e6df10e27280d547d2d2b64c45.jpg,0,1,4,0.974,180,det,det,det,Liderança do Explorador,227/162,19N,Liderança do Explorador,147/162,TEF,Forças Temporais,Uncommon,1065.0
-2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg#p00#6#0,2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg,0,6,0,0.982,180,template,det,template,,,,Alakazam,1/130,B2,Base Set 2,Rare Holo,0.0
+2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg#p00#6#0,2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg,0,6,0,0.982,0,det,template,template,Staryu,,,Staryu,95/130,B2,Base Set 2,Common,1040.0
 2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg#p00#0#1,2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg,0,0,1,0.991,0,det,det,det,Fomantis,003/102,DRIM,Fomantis,14/163,BST,Battle Styles,Common,1040.0
 2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg#p00#2#2,2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg,0,2,2,0.986,0,det,det,det,Bisharp,065/86,,Bisharp,65/86,BLK,Black Bolt,Uncommon,1115.0
 2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg#p00#1#3,2024_jpg.rf.9bda467779f9616b235d67142bcf4c68.jpg,0,1,3,0.988,0,det,det,template,Machadinha de Gelo,165/214,,Machadinha de Gelo,165/214,UNB,Elos Inquebráveis,Uncommon,1115.0
@@ -1933,7 +1933,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg#p00#2#2,2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg,0,2,2,0.983,0,det,det,det,Mega Gardevoir eX,019/272,ASR,Mega Gardevoir ex,60/132,MEG,Mega Evolution,Double Rare,1040.0
 2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg#p00#4#3,2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg,0,4,3,0.98,0,det,det,det,Squirtle,070/110,,Squirtle,95/110,LC,Legendary Collection,Common,1065.0
 2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg#p00#1#4,2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg,0,1,4,0.985,0,det,det,det,Uxie,076/191,S93,Uxie,78/191,SSP,Surging Sparks,Common,1080.0
-2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg#p00#3#5,2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg,0,3,5,0.981,0,det,det,template,,,,Alakazam,1/130,B2,Base Set 2,Rare Holo,0.0
+2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg#p00#3#5,2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg,0,3,5,0.981,180,det,det,det,Giacomo,,CAR,Giacomo,182/193,PAL,Paldea Evolved,Uncommon,1040.0
 2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg#p00#6#6,2081_jpg.rf.d9460030dc90d5ee989a75c0ed09c1c9.jpg,0,6,6,0.974,0,det,det,template,Mienfoo,,,Mienfoo,86/149,BCR,Boundaries Crossed,Common,1040.0
 2082_jpg.rf.acdac8563803de63494823381d4f43f6.jpg#p00#7#0,2082_jpg.rf.acdac8563803de63494823381d4f43f6.jpg,0,7,0,0.981,0,det,det,det,Aron,,TWMP,Aron,78/124,DRX,Dragons Exalted,Common,1040.0
 2082_jpg.rf.acdac8563803de63494823381d4f43f6.jpg#p00#0#1,2082_jpg.rf.acdac8563803de63494823381d4f43f6.jpg,0,0,1,0.99,0,det,det,det,Arcanine,059/165,MEWR,Arcanine,59/165,MEW,151,Uncommon,1115.0
@@ -2018,7 +2018,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2094_jpg.rf.3630cbb153b576581110e8642cee4ad3.jpg#p00#6#8,2094_jpg.rf.3630cbb153b576581110e8642cee4ad3.jpg,0,6,8,0.981,0,det,det,template,Decidueye de Hisui ASTRO,084/189,,Decidueye de Hisui V-ASTRO,84/189,ASR,Resplandor Astral,Rare Holo VSTAR,1075.0
 2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg#p00#6#0,2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg,0,6,0,0.984,0,det,det,det,Uxie,,,Uxie,36/101,PLB,Plasma Blast,Rare,1040.0
 2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg#p00#5#1,2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg,0,5,1,0.985,0,det,det,template,Klefki,,,Klefki,59/88,POR,Perfect Order,Common,1040.0
-2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg#p00#8#2,2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg,0,8,2,0.983,180,det,det,template,u k,,,Muk,13/62,FO,Fossil,Rare Holo,1000.0
+2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg#p00#8#2,2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg,0,8,2,0.983,0,det,det,template,Arezu,789/965,,Arezu,153/196,LOR,Lost Origin,Uncommon,1040.0
 2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg#p00#2#3,2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg,0,2,3,0.986,0,det,det,template,Oranguru,114/156,,Oranguru,114/156,UPR,Ultra Prism,Uncommon,1115.0
 2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg#p00#4#4,2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg,0,4,4,0.985,0,det,det,template,Blissey,,,Blissey,82/108,DEX,Dark Explorers,Rare Holo,1040.0
 2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg#p00#7#5,2095_jpg.rf.34502e00455debe17b2d31ad494a3ccf.jpg,0,7,5,0.983,0,det,det,det,Croagunk,772/703,PALN,Croagunk,64/149,BCR,Boundaries Crossed,Common,1040.0
@@ -2308,7 +2308,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2142_jpg.rf.32387cf11e439dc0361540128471e404.jpg#p00#0#4,2142_jpg.rf.32387cf11e439dc0361540128471e404.jpg,0,0,4,0.99,0,det,det,template,Team Magma Conspirator,,,Team Magma Conspirator,82/95,MA,Team Magma vs Team Aqua,Uncommon,1040.0
 2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg#p00#1#0,2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg,0,1,0,0.976,0,det,det,template,Cubone,,,Cubone,70/130,B2,Base Set 2,Common,1040.0
 2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg#p00#4#1,2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg,0,4,1,0.967,180,template,det,template,ENERGY,,,R Energy,95/109,TR,Team Rocket Returns,Uncommon,1000.0
-2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg#p00#2#2,2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg,0,2,2,0.976,180,det,template,template,s,,,s,51/105,N4,闇、そして光へ...,Uncommon,1040.0
+2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg#p00#2#2,2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg,0,2,2,0.976,0,det,template,det,Cynthia,,,Cynthia,SV82/94,HIFSV,Hidden Fates Shiny Vault,Rare Ultra,1040.0
 2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg#p00#3#3,2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg,0,3,3,0.969,0,det,det,det,Croconaw,640/193,,Croconaw,44/123,MT,Mysterious Treasures,Uncommon,1040.0
 2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg#p00#0#4,2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg,0,0,4,0.982,180,det,det,template,Tympole,022/101,,Tympole,22/101,NVI,Noble Victories,Common,1115.0
 2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg#p00#5#5,2143_jpg.rf.51b0ed3e5137f1bb52b29c984304a7eb.jpg,0,5,5,0.899,180,det,det,template,Combusken,016/106,,Combusken,16/100,CG,Crystal Guardians,Rare,1090.0
@@ -2468,7 +2468,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg#p00#0#1,2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg,0,0,1,0.989,0,det,det,det,Koraidon,247/198,,Koraidon ex,247/198,SVI,Scarlet & Violet,Special Illustration Rare,1075.0
 2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg#p00#5#2,2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg,0,5,2,0.985,0,det,det,det,Cyclizar,,SYPA,Cyclizar,70/91,PAF,Paldean Fates,Rare,1040.0
 2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg#p00#3#3,2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg,0,3,3,0.986,0,det,det,det,Hop's Trevenant,096/217,ASCON,Hop's Trevenant,96/217,ASC,Ascended Heroes,Rare,1115.0
-2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg#p00#4#4,2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg,0,4,4,0.985,180,det,det,template,You,,,Kofu,138/142,SCR,Stellar Crown,Uncommon,900.0
+2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg#p00#4#4,2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg,0,4,4,0.985,0,det,det,det,Ortega,219/197,OBF,Ortega,219/197,OBF,Obsidian Flames,Ultra Rare,1125.0
 2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg#p00#7#5,2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg,0,7,5,0.984,0,det,det,template,Dunsparce,101/146,,Dunsparce,101/146,XY,XY,Uncommon,1115.0
 2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg#p00#6#6,2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg,0,6,6,0.984,0,det,det,template,Gliscorw.53,,,Gliscor,47/119,PHF,Phantom Forces,Rare,1000.0
 2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg#p00#2#7,2171_jpg.rf.fcad1267258c133a5b0f6ea3b8321f50.jpg,0,2,7,0.986,0,det,det,template,Giratina.59,,,Giratina,BW74/101,BWP,BW Black Star Promos,Promo,1000.0
@@ -2907,7 +2907,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2241_jpg.rf.ad754bdfcbe75d32889a05d9c693e8c5.jpg#p00#0#2,2241_jpg.rf.ad754bdfcbe75d32889a05d9c693e8c5.jpg,0,0,2,0.987,0,det,det,det,ミライドン,044/105,,ミライドン,44/191,SSP,Surging Sparks,Common,1090.0
 2241_jpg.rf.ad754bdfcbe75d32889a05d9c693e8c5.jpg#p00#3#3,2241_jpg.rf.ad754bdfcbe75d32889a05d9c693e8c5.jpg,0,3,3,0.981,0,det,det,det,コマタナ,056/78,,コマタナ,80/197,OBF,Obsidian Flames,Common,1040.0
 2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg#p00#0#0,2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg,0,0,0,0.988,0,det,det,det,オーガボンいどのかんス,117/101,,オーガポン いどのめんex,117/167,TWM,Twilight Masquerade,Uncommon,745.6521606445312
-2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg#p00#2#1,2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg,0,2,1,0.987,180,det,det,template,24,,,N,BW100/101,BWP,BW Black Star Promos,Promo,900.0
+2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg#p00#2#1,2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg,0,2,1,0.987,0,det,det,det,オーリム博士の気迫,091/66,,リーリエ,91/214,LOT,Lost Thunder,Rare,357.69232177734375
 2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg#p00#3#2,2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg,0,3,2,0.986,0,det,det,det,キャンブファイヤー,092/100,39,チャンジー,92/105,N4,闇、そして光へ...,Rare,478.5714416503906
 2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg#p00#5#3,2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg,0,5,3,0.984,0,det,det,det,ヒスイジュナイバー,039/67,5107,ルナアーラ,39/236,CEC,Cosmic Eclipse,Common,335.71429443359375
 2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg#p00#1#4,2242_jpg.rf.04e75648359db6bb8bd6bee453d94f37.jpg,0,1,4,0.987,0,det,det,det,ブテラV,106/100,M1,プテラ,76/181,TEU,Team Up,Rare Holo,900.0
@@ -2973,7 +2973,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2253_jpg.rf.5d2806c797254179189ae79b81820073.jpg#p00#1#4,2253_jpg.rf.5d2806c797254179189ae79b81820073.jpg,0,1,4,0.985,0,det,det,det,リーリエのしんじゅ,093/100,,リーリエのしんじゅ,93/159,JTG,Journey Together,Common,1090.0
 2253_jpg.rf.5d2806c797254179189ae79b81820073.jpg#p00#5#5,2253_jpg.rf.5d2806c797254179189ae79b81820073.jpg,0,5,5,0.977,0,det,det,det,ポリゴン2,049/66,,ポリゴン2,74/214,UNB,Unbroken Bonds,Rare,1040.0
 2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg#p00#0#0,2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg,0,0,0,0.984,0,det,det,det,ダイオウドウ,042/64,5OCS,ミライドン,44/191,SSP,Surging Sparks,Common,378.6363525390625
-2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg#p00#3#1,2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg,0,3,1,0.982,180,det,det,template,8第0,,,ポケギア3.0,92/236,UNM,Unified Minds,Common,222.22222900390625
+2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg#p00#3#1,2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg,0,3,1,0.982,0,det,det,det,バルデアの学生,346/190,,パルデア ウパー,67/197,OBF,Obsidian Flames,Common,428.5714416503906
 2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg#p00#1#2,2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg,0,1,2,0.982,0,det,det,det,トム,039/63,5V90,ロトム,37/191,SSP,Surging Sparks,Double Rare,1015.0
 2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg#p00#4#3,2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg,0,4,3,0.978,0,det,det,det,Noバチュル,028/100,,Nのバチュル,28/159,JTG,Journey Together,Common,1050.0
 2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg#p00#2#4,2254_jpg.rf.323fa8723a119ebd92af25bea8aa5687.jpg,0,2,4,0.982,0,det,det,det,森の封印右,092/96,02,ウタンのみ,92/142,SCR,Stellar Crown,Uncommon,250.0
@@ -3075,7 +3075,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2270_jpg.rf.d4924022ad1688880ed9b179514f1108.jpg#p00#2#2,2270_jpg.rf.d4924022ad1688880ed9b179514f1108.jpg,0,2,2,0.979,0,det,det,det,チU,088/62,53,ハウ,88/131,FLI,Forbidden Light,Uncommon,950.0
 2270_jpg.rf.d4924022ad1688880ed9b179514f1108.jpg#p00#4#3,2270_jpg.rf.d4924022ad1688880ed9b179514f1108.jpg,0,4,3,0.976,0,det,det,det,なその化岩,061/67,,なぞの化石,84/236,CEC,Cosmic Eclipse,Uncommon,900.0
 2270_jpg.rf.d4924022ad1688880ed9b179514f1108.jpg#p00#0#4,2270_jpg.rf.d4924022ad1688880ed9b179514f1108.jpg,0,0,4,0.983,0,det,det,det,シロナのミロカロス,029/63,1V90,ミロカロス,30/167,TWM,Twilight Masquerade,Common,895.0
-2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg#p00#7#0,2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg,0,7,0,0.981,180,det,det,template,,,,Alakazam,1/130,B2,Base Set 2,Rare Holo,0.0
+2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg#p00#7#0,2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg,0,7,0,0.981,0,det,det,det,ハト,094/73,,カキ,94/214,UNB,Unbroken Bonds,Uncommon,950.0
 2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg#p00#2#1,2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg,0,2,1,0.984,0,det,det,det,キャンブファイヤー,092/100,,チャンジー,92/105,N4,闇、そして光へ...,Rare,478.5714416503906
 2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg#p00#0#2,2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg,0,0,2,0.989,0,det,det,det,ヨルノズク,128/167,W80,ヨルノズク,77/142,SCR,Stellar Crown,Common,1040.0
 2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg#p00#6#3,2271_jpg.rf.08a2bc14c627f5d5ad17f4c5e35fcd7c.jpg,0,6,3,0.982,0,det,det,det,スリーバー,039/78,,スターミー,34/64,N3,めざめる伝説,Uncommon,900.0
@@ -3163,7 +3163,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2284_jpg.rf.1a580882c400a40279cc02edc43e4a47.jpg#p00#3#3,2284_jpg.rf.1a580882c400a40279cc02edc43e4a47.jpg,0,3,3,0.971,180,det,det,det,マリルリ,004/72,,マリルリ,63/214,LOT,Lost Thunder,Rare Holo,1040.0
 2284_jpg.rf.1a580882c400a40279cc02edc43e4a47.jpg#p00#1#4,2284_jpg.rf.1a580882c400a40279cc02edc43e4a47.jpg,0,1,4,0.976,180,det,det,det,タマンチュラ,007/78,,デンチュラ,23/236,UNM,Unified Minds,Common,900.0
 2284_jpg.rf.1a580882c400a40279cc02edc43e4a47.jpg#p00#4#5,2284_jpg.rf.1a580882c400a40279cc02edc43e4a47.jpg,0,4,5,0.97,180,det,det,det,ノノクラゲ,204/19,33,メノクラゲ,45/181,TEU,Team Up,Rare,1000.0
-2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg#p00#6#0,2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg,0,6,0,0.985,180,det,det,template,,,,Alakazam,1/130,B2,Base Set 2,Rare Holo,0.0
+2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg#p00#6#0,2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg,0,6,0,0.985,0,det,det,det,ともだちてちょう,069/78,,ともだちてちょう,91/236,UNM,Unified Minds,Rare,1040.0
 2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg#p00#2#1,2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg,0,2,1,0.986,0,det,det,det,ドラミドロ,061/98,,ドラミドロ,34/236,CEC,Cosmic Eclipse,Uncommon,1040.0
 2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg#p00#3#2,2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg,0,3,2,0.986,0,det,det,det,イシツブデ,074/165,M20,イーブイ,74/236,CEC,Cosmic Eclipse,Common,494.4444580078125
 2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg#p00#7#3,2285_jpg.rf.e367f9d82a00bc2cfbda634e65dcb287.jpg,0,7,3,0.984,0,det,det,det,マイナン,066/62,SY30,マイナン,36/168,CES,Celestial Storm,Common,1040.0
@@ -3208,7 +3208,7 @@ uid,image,page,slot,order,det_conf,orient_deg,roi_name_src,roi_number_src,roi_co
 2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg#p00#3#3,2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg,0,3,3,0.985,0,det,det,det,ゲンガー,035/62,W36,ゲンガー,33/214,UNB,Unbroken Bonds,Common,1055.0
 2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg#p00#2#4,2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg,0,2,4,0.985,0,det,det,det,ゴース,033/62,5V3D,ゴース,31/214,UNB,Unbroken Bonds,Rare,1055.0
 2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg#p00#0#5,2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg,0,0,5,0.99,0,det,det,det,バドレックス,011/68,,ヤドン&コダックGX,11/236,UNM,Unified Minds,Rare,450.0
-2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg#p00#5#6,2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg,0,5,6,0.985,180,det,det,template,04,,,N,BW100/101,BWP,BW Black Star Promos,Promo,900.0
+2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg#p00#5#6,2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg,0,5,6,0.985,0,det,det,det,夕,171/187,,幼虫,73/105,N4,闇、そして光へ...,Common,900.0
 2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg#p00#4#7,2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg,0,4,7,0.985,0,det,det,det,ヒンバス,029/101,5V6,ヒンバス,29/167,TWM,Twilight Masquerade,Double Rare,1090.0
 2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg#p00#6#8,2290_jpg.rf.8a7deb5e875213bee515886e2b7b6da4.jpg,0,6,8,0.984,0,det,det,det,マルマイン,239/190,,マルマイン,37/181,TEU,Team Up,Rare,1040.0
 2291_jpg.rf.2b8c80baca20cb6027b24e3cfd13564b.jpg#p00#1#0,2291_jpg.rf.2b8c80baca20cb6027b24e3cfd13564b.jpg,0,1,0,0.975,180,det,det,det,とスイジュナイバー,379/67,MD,ジュナイパー,10/236,CEC,Cosmic Eclipse,Uncommon,666.6666870117188
