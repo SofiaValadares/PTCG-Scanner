@@ -23,7 +23,7 @@ Class `colection` (Roboflow typo) is **missing on many cards** — only when the
 
 ## Training (`ocr-roi-v3` sweep)
 
-`VERSION = "v3"`. One OBB model per family (YOLOv26s, YOLOv12n from yaml, YOLOv8s, YOLOv11s), same v2 augmentation. Official checkpoints: [`src/detection/weights/`](../src/detection/weights/README.md). RT-DETR is skipped (no OBB). Cap **300 epochs**, early stop `patience=40`. Sections **4.1–4.4** show **per-class** metrics and plots for every family; section **5** picks the winner (val mAP50-95, then speed). Ranking table: [`experiments/ocr-roi-v3`](experiments/ocr-roi-v3/README.md) (empty until the notebook finishes).
+`VERSION = "v3"`. One OBB model per family (YOLOv26s, YOLOv12n from yaml, YOLOv8s, YOLOv11s), same v2 augmentation. Official checkpoints: [`src/detection/weights/`](../src/detection/weights/README.md). RT-DETR is skipped (no OBB). Cap **300 epochs**, early stop `patience=40`. Section **5** picks the winner (val mAP50-95, then speed); section **6** shows **per-class** metrics and plots **only for that winner**. Ranking table: [`experiments/ocr-roi-v3`](experiments/ocr-roi-v3/README.md) (empty until the notebook finishes).
 
 The **pipeline** uses **ocr-roi-v3**. On each crop it calls this detector **twice** (0° and 180°) and keeps printed-up layout before OCR — see [`ocr.md`](ocr.md).
 

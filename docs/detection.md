@@ -29,7 +29,7 @@ Label the **printed card edge**, not the binder sleeve. Otherwise OCR inherits p
 
 ## Training (`obb-v6` sweep)
 
-`VERSION = "v6"`. One model per family (YOLOv26s, YOLOv12n-OBB from yaml, YOLOv8s, RT-DETR-L AABB, YOLOv11s), same v5 augmentation. Cap **300 epochs**, early stop `patience=40`. The notebook **shows val/test plots per family** (sections 4.1–4.5) and elects the winner only in section 5 (mAP50-95, then speed).
+`VERSION = "v6"`. One model per family (YOLOv26s, YOLOv12n-OBB from yaml, YOLOv8s, RT-DETR-L AABB, YOLOv11s), same v5 augmentation. Cap **300 epochs**, early stop `patience=40`. The notebook elects the winner in section 5 (mAP50-95, then speed) and shows val/test plots **only for that winner** (section 6).
 
 Winner: **YOLOv26s-OBB** — val mAP50-95 **0.9938**, test **0.9939**, ~8 ms. Full table: [`experiments/obb-v6/README.md`](experiments/obb-v6/README.md).
 

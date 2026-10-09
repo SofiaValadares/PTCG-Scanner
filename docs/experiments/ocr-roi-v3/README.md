@@ -15,9 +15,10 @@ The **pipeline** uses **ocr-roi-v3**. After the 63×88 mm crop it runs this ROI 
 | Section | What it does |
 |---|---|
 | 3 | Train all families (`plots=False`). Writes `ranking.csv` **without** electing a winner |
-| 4.1–4.4 | One family each: globais + **per-class** (`name` / `number` / `colection`), curves, confusion counts, val photos in `<id>/report/` |
+| 4 | How metrics are read (no per-family plots) |
 | 5 | Elect winner → `ocr-roi-v3.pt` |
-| 6 | Test-set preview with the winner |
+| 6 | Graphs **only for the winner**: globais + per-class (`name` / `number` / `colection`), curves, val photos |
+| 7 | Test-set preview with the winner |
 
 ## Ranking
 

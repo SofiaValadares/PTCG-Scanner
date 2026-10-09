@@ -26,7 +26,7 @@ Test (winner): P 1.000 · R 1.000 · F1 1.000 · mAP50 0.995 · mAP50-95 **0.993
 
 RT-DETR has **no official OBB** in Ultralytics; it was trained on axis-aligned boxes from the same photos. Do not drop it into the cropper as-is.
 
-The notebook **does not elect the winner in the train cell**. Sections **4.1–4.5** each show that family’s val/test tables, `results.png`, PR/F1 curves, and `val_batch*` photos (`…/obb-v6/<id>/report/`). Section **5** writes the `←` column and copies `obb-v6.pt`.
+The notebook **does not elect the winner in the train cell**. Section **5** writes the `←` column and copies `obb-v6.pt`. Section **6** shows `results.png`, PR/F1 curves, and `val_batch*` photos **only for the winner** (`…/obb-v6/<id>/report/`). The other families stay in the ranking table.
 
 ## What this sweep was for
 

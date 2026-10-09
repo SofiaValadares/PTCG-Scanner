@@ -3,15 +3,15 @@ Cards,detected / GT (recall),1.0
 Cards,precision (IoU match),1.0
 Cards,F1 detection,1.0
 Cards,extra detections (no GT),0.0
-ROI name,% detector box,0.9847525891829689
-ROI name,% template fallback,0.01524741081703107
-ROI number,% detector box,0.964614499424626
-ROI number,% template fallback,0.03538550057537399
-ROI collection,% detector box,0.5445914844649021
-ROI collection,% template fallback,0.4554085155350978
-OCR name,accuracy,0.6539125431530495
-OCR name,mean CER,0.3601596383766932
-OCR number,accuracy,0.7051208285385501
-OCR number,mean CER,0.2657077100115075
-OCR collection,accuracy vs set name,0.056098964326812426
-End-to-end,catalog hit,0.9531070195627158
+ROI name,% detector box,0.9686421173762946
+ROI name,% template fallback,0.03135788262370541
+ROI number,% detector box,0.9574223245109321
+ROI number,% template fallback,0.04257767548906789
+ROI collection,% detector box,0.5356731875719217
+ROI collection,% template fallback,0.4643268124280783
+OCR name,accuracy,0.6487341772151899
+OCR name,mean CER,0.3600652966552672
+OCR number,accuracy,0.7120253164556962
+OCR number,mean CER,0.2638952819332566
+OCR collection,accuracy vs set name,0.05092059838895282
+End-to-end,catalog hit,0.9536823935558113
